@@ -9,7 +9,7 @@
         "7a45b4eb-9df4-4074-8b6a-231011fb5a54"
     ],
     "filterType": "GMObject",
-    "folderName": "hazrads",
+    "folderName": "hazards",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -1,6 +1,6 @@
 /// @desc idleMode(sprite)
 /// @arg sprite 
-if (argument[0] == walk_b || argument[0] == fall_b){
+if (argument[0] == walk_b || argument[0] == fall_b || argument[0] == crouch_b || argument[0] == slide_b){
     sprite_index = idle_b; 
     image_speed = 1;   
 }
