@@ -13,6 +13,7 @@ depth = -1;
 is_jumping = false;
 jumpspeed = 8;
 hascontrol = true;
+sliding = false;
 //Fire Variables
 fireMode = false;
 
