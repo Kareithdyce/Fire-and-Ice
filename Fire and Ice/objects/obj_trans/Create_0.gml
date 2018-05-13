@@ -2,6 +2,8 @@
 w = display_get_gui_width();
 h = display_get_gui_height();
 h_half = h * .5;
+newX = 0;
+newY = 0;
 
 enum TRANS_MODE{
 	OFF,

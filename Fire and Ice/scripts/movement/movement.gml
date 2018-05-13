@@ -2,13 +2,13 @@
 
 //Horizontial Movement
 move = key_left + key_right;
-if (move == 0)  
+if (move == 0 && vspd == 0)  
 {
 	idleMode(sprite_index);  
 }
-if (move != 0)
+if (move != 0 && vspd == 0)
 {
-	walkMode(sprite_index);
+	walkMode(sprite_index );
     dirc = move;
 }
 if (move = -1) {
@@ -35,6 +35,7 @@ if (key_jump_release && vspd < 0) {
 }
 
 if (number_of_jumps > 0 && key_jump) {
+	jumpMode(sprite_index);
     vspd = key_jump * -jumpspeed;
     number_of_jumps--;
     is_jumping = true;

@@ -11,6 +11,7 @@ if(mode != TRANS_MODE.OFF){
 			
 			case TRANS_MODE.INTRO:
 				mode = TRANS_MODE.OFF;
+				obj_player.hascontrol = true;
 				break;
 		
 			case TRANS_MODE.NEXT:
