@@ -2,6 +2,7 @@
 image_speed = 1;
 image_index = 0;
 hspd = 0;
+true_color = image_blend;
 vspd = 0;
 movespeed = 3;
 dirc = 1;

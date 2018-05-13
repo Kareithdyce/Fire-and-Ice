@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "a20e8f99-2347-485f-8c95-d7aae8f0627c",
+            "Value": {
+                "id": "58589881-c16a-4d78-b0da-fd4b2db9ac07",
+                "resourcePath": "objects\\obj_shadow\\obj_shadow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a58811f3-f31f-40d9-99d2-af10d0853407",
             "Value": {
                 "id": "4f103277-3b45-4a05-a15a-569b07fd6a71",

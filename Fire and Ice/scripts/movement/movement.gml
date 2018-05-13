@@ -1,24 +1,19 @@
 ///Handles movement for the player
-
 //Horizontial Movement
 move = key_left + key_right;
-if (move == 0 && vspd == 0 && !key_crouch)  
-{
-	idleMode(sprite_index);  
-}
-if (move != 0 && vspd == 0 && !key_crouch)
-{
-	walkMode(sprite_index);
-    dirc = move;
-}
-
-
-if (move = -1) {
-    image_xscale = -1;
+if (vspd == 0 && !key_crouch){
+	if(move == 0){
+		idleMode(sprite_index);
+	}
+	else{
+		walkMode(sprite_index);
+		dirc = move;
+	}
 }
 
-if (move = 1) {
-    image_xscale = 1;
+
+if (move != 0) {
+    image_xscale = move;
 }   
 hspd = move * movespeed;
 
@@ -45,14 +40,13 @@ if (number_of_jumps > 0 && key_jump) {
 
 //Crouching and sliding
 
-if(key_crouch && move == 0 && vspd == 0){
-	crouchMode(sprite_index);
+if(key_crouch && vspd == 0){
+	//if(key_action){
+		crouchMode(sprite_index);
+	//hspd = 0;
+	//}else{}
 }
 
-if(key_crouch && move != 0 && vspd == 0){
-	//slideMode(sprite_index);
-	crouchMode(sprite_index);
-}
 
 
 //Collisions
