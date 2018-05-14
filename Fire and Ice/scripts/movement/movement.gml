@@ -43,7 +43,7 @@ if(move != 0){
 
 	//Crouching and sliding
 
-	if(key_crouch && vspd == 0){
+	if((key_crouch || crouching ) && vspd == 0){
 		if(key_action){
 			crouchMode(sprite_index);
 			sliding = true;
