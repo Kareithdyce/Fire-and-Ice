@@ -4,6 +4,12 @@ if(hascontrol){
 	getInput();
 	movement();
 }
+if(sprite_index == crouch_b){
+	crouching = true;	
+}
+else{
+	crouching = false;	
+}
 
 if(vspd > 0){
 	fallMode(sprite_index);

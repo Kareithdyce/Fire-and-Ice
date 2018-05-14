@@ -21,7 +21,7 @@ if(move != 0){
 	hspd = move * movespeed;
 
 	//Vertical Movement
-	if(!key_crouch){
+	if(!crouching){
 		if (place_meeting(x, y + 1, obj_walls)){
 		    number_of_jumps = jumps_max;
 		    is_jumping = false;
