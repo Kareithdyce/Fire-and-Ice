@@ -2,6 +2,7 @@
 //Horizontial Movement
 if(!sliding){
 move = key_left + key_right;
+crouching  = (key_crouch || sprite_index == crouch_b);
 if(move != 0){
 	dirc = move;
 	image_xscale = dirc;
@@ -9,10 +10,12 @@ if(move != 0){
 	if (vspd == 0 && !key_crouch){
 		if(move == 0){
 			idleMode(sprite_index);
-		}
+			}
 		else{
 			walkMode(sprite_index);
-			
+			}
+		if(sprite_index != crouch_b){
+			 crouching = false;
 		}
 	}
 
@@ -43,12 +46,12 @@ if(move != 0){
 
 	//Crouching and sliding
 
-	if((key_crouch || crouching ) && vspd == 0){
+	if(crouching && vspd == 0){
 		if(key_action){
 			crouchMode(sprite_index);
 			sliding = true;
 			alarm[0] = room_speed * .25;
-			hspd = 4 * dirc;
+			hspd = 6 * dirc;
 		}
 		else{
 			crouchMode(sprite_index);
@@ -64,9 +67,10 @@ if !(place_meeting(x, y + 1, obj_walls)){
 
 
 //Collisions
+
 if(sprite_index != crouch_b){
 	horizontal_collision();
 	x += hspd;
-}	
 	vertical_collision();
 	y += vspd;
+}

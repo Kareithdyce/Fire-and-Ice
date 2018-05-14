@@ -14,7 +14,6 @@ is_jumping = false;
 jumpspeed = 8;
 hascontrol = true;
 sliding = false;
-crouching = false;
 //Fire Variables
 fireMode = false;
 
