@@ -4,10 +4,9 @@ h = display_get_gui_height();
 h_half = h * .5;
 newX = 0;
 newY = 0;
-
+travel = false;
 enum TRANS_MODE{
 	OFF,
-	NEXT,
 	GOTO,
 	RESTART,
 	INTRO
