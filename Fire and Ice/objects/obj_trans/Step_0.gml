@@ -4,23 +4,22 @@ if(mode != TRANS_MODE.OFF){
 		percent = max(0, percent - max((percent/10), 0.005));
 	}
 	else{
-		percent = min(2, percent + max(((2 - percent)/10),0.005));
+		percent = min(1.2, percent + max(((1.2 - percent)/10),0.005));
 	}
-	if(percent == 2) || (percent == 0){
+	if(percent == 1.2) || (percent == 0){
 		switch(mode){
 			
 			case TRANS_MODE.INTRO:
 				mode = TRANS_MODE.OFF;
 				obj_player.hascontrol = true;
-				if(travel){
-					room_goto(target);
-					travel = false;
-				}
 				break;
 		
 			case TRANS_MODE.GOTO:
 				mode = TRANS_MODE.INTRO;
-				travel = true;
+				obj_player.sprite_index = idle_b;
+				obj_player.x = newX;
+				obj_player.y = newY;
+				room_goto(target);
 				break;
 		
 			case TRANS_MODE.RESTART:

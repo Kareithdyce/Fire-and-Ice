@@ -1,6 +1,6 @@
 
 {
-    "name": "rm_demo3a",
+    "name": "rm_demo2a",
     "id": "88b4356c-0e21-4a25-9886-cd8ece864434",
     "creationCodeFile": "",
     "inheritCode": false,
