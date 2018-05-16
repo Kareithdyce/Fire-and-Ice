@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "86373730-1d55-406c-94bf-dbd844f373fb",
+            "Value": {
+                "id": "33b9ac6c-5581-42ac-aaa4-12a37131b91e",
+                "resourcePath": "objects\\idk\\idk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8760eaf7-91bd-4845-afc1-8d0b14440b78",
             "Value": {
                 "id": "a0400b6d-1e11-4311-b556-5e222dbd4f47",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "a6cdb0f7-0654-46c4-95d4-acaf70ede9c9",
+            "Value": {
+                "id": "45c3e04c-9de6-4893-ac1f-02c028c70341",
+                "resourcePath": "sprites\\hurt_b2\\hurt_b2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a7342934-81f3-42bd-8757-dc0dd13295ba",
             "Value": {
                 "id": "0396ef9e-ff0e-4030-892f-142043d7a9bc",
@@ -348,6 +364,14 @@
                 "id": "2222097e-4a91-45b3-b33c-e55a0f64bd03",
                 "resourcePath": "views\\a8356825-dc5c-46f0-abf5-21ccc0013ec2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a93f74ea-8bca-45ad-ba40-eb3da697987d",
+            "Value": {
+                "id": "031bcffb-f2a7-4387-9139-806e1d1c5708",
+                "resourcePath": "sprites\\hurt_b1\\hurt_b1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -431,6 +455,14 @@
             }
         },
         {
+            "Key": "bd3101ae-3e95-42e4-95cc-0a82c04f653f",
+            "Value": {
+                "id": "a9c2bcf5-b5b6-43fa-b812-fa24f2a5c43a",
+                "resourcePath": "objects\\obj_spikes\\obj_spikes.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bd5ad52e-efc7-4570-9238-2a13eed50092",
             "Value": {
                 "id": "fff86f26-5f24-4e0a-b32b-729e6c6fbb1a",
@@ -498,7 +530,7 @@
             "Key": "d79db699-c0a4-44a3-a4ae-8e5cd94a18ea",
             "Value": {
                 "id": "0cbf42ad-7aa6-4125-b24d-ea86d990c0c1",
-                "resourcePath": "sprites\\tileSetDemo\\tileSetDemo.yy",
+                "resourcePath": "sprites\\spikes\\spikes.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -589,10 +621,10 @@
         "8d54509f-4a40-47c0-b757-86d9a9517021",
         "9e687db6-5f5e-4be2-a80d-dcce56bcccbb",
         "9b326ca5-a68b-4064-b7db-16fffdec6dab",
-        "edb19b49-5a7d-441e-bb50-900bb372b9da",
         "be461bc3-1cd7-414a-aa77-5c2915dec6bb",
         "b80bf1bf-8691-4224-bfbb-260b009e75d1",
         "3d7d16de-d93d-40b4-8ae9-facd17074f56",
+        "edb19b49-5a7d-441e-bb50-900bb372b9da",
         "c5d718a5-e374-4de2-a12a-2e0a974185b3"
     ],
     "tutorial": ""

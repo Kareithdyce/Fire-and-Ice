@@ -8,3 +8,6 @@ else{
 	hascontrol = true;
 	image_blend = true_color;
 }
+if(!instance_exists(idk)){
+	instance_create_depth(x,y,-1001,idk);
+}

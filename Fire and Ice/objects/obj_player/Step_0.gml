@@ -4,7 +4,14 @@ if(hascontrol){
 	getInput();
 	movement();
 }
-
+if(invincible){
+	image_alpha = blink % 2;
+	blink++;
+}
+else if(blink != 0){
+	blink = 0;
+	image_alpha = 1;
+}
 if(vspd > 0){
 	fallMode(sprite_index);
 }

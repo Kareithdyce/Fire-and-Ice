@@ -1,6 +1,7 @@
 	///@description Creation
 image_speed = 1;
 image_index = 0;
+blink = 0;
 hspd = 0;
 true_color = image_blend;
 vspd = 0;
@@ -12,9 +13,13 @@ jumps_max = 1;
 depth = -1;
 is_jumping = false;
 jumpspeed = 8;
+has_sword = false;
 hascontrol = true;
 sliding = false;
+hit = false;
+invincible = false;
 //Fire Variables
+
 fireMode = false;
 
 //Ice Variables
