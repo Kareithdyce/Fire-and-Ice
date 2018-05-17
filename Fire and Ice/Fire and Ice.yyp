@@ -98,7 +98,7 @@
             "Key": "2e816759-6dcb-4a62-8a77-09dcd0034b07",
             "Value": {
                 "id": "5c31f318-99b3-459a-af0a-59ed248e189e",
-                "resourcePath": "sprites\\spr_reward\\spr_reward.yy",
+                "resourcePath": "sprites\\spr_heatlh\\spr_heatlh.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -124,6 +124,14 @@
                 "id": "2e07f15d-2925-40db-b1dc-667fe1562e27",
                 "resourcePath": "scripts\\crouchMode\\crouchMode.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3f96ea4f-d3f0-465a-96f9-2dfb51672549",
+            "Value": {
+                "id": "6b1893fd-2780-4d19-988b-185234338899",
+                "resourcePath": "views\\3f96ea4f-d3f0-465a-96f9-2dfb51672549.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -314,7 +322,7 @@
             "Key": "a186f098-e586-485d-93e2-3410544a78de",
             "Value": {
                 "id": "6d3e911b-6f04-4151-b256-2f7c2256a6f7",
-                "resourcePath": "objects\\obj_reward\\obj_reward.yy",
+                "resourcePath": "objects\\obj_health\\obj_health.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "cfba6c20-caec-4a65-bfe6-4fd9ecb69bcd",
+            "Value": {
+                "id": "d2d3f88b-b49f-4574-816d-bf0c9a2ce501",
+                "resourcePath": "objects\\obj_healthbar\\obj_healthbar.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d79db699-c0a4-44a3-a4ae-8e5cd94a18ea",
             "Value": {
                 "id": "0cbf42ad-7aa6-4125-b24d-ea86d990c0c1",
@@ -578,7 +594,7 @@
             "Key": "ed654f2d-3a14-4959-b41a-d9bb2bbfac78",
             "Value": {
                 "id": "641af28f-0791-47c2-9d49-b2a5d3b1302e",
-                "resourcePath": "sprites\\spr_lava2\\spr_lava2.yy",
+                "resourcePath": "sprites\\spr_healthbar\\spr_healthbar.yy",
                 "resourceType": "GMSprite"
             }
         },

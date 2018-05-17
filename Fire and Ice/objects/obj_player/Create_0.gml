@@ -1,4 +1,10 @@
 	///@description Creation
+
+//demo
+demo = true;
+//Turn this off after clearing the last intro room
+
+//Basic
 image_speed = 1;
 image_index = 0;
 blink = 0;
@@ -8,11 +14,19 @@ vspd = 0;
 movespeed = 3;
 dirc = 1;
 grav = 0.3;
+depth = -1;
+
+//Jumping
 number_of_jumps = 0;
 jumps_max = 1;
-depth = -1;
 is_jumping = false;
 jumpspeed = 8;
+
+//Health
+maxHealth = 100;
+currentHealth = maxHealth;
+
+//
 has_sword = false;
 hascontrol = true;
 sliding = false;
@@ -32,4 +46,3 @@ wall_jump = false;
 
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);
-

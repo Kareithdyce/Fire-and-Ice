@@ -2,6 +2,7 @@
 // You can write your code in this editor
 with(obj_player){
 	if(!hit && !invincible){
+		currentHealth -= 10;
 		hit = true;
 		invincible = true;
 		if(has_sword){

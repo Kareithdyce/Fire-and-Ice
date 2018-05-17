@@ -4,6 +4,9 @@ if(hascontrol){
 	getInput();
 	movement();
 }
+if(currentHealth > maxHealth || (currentHealth < maxHealth / 4 && demo)){
+	currentHealth = maxHealth;
+}
 if(invincible){
 	image_alpha = blink % 2;
 	blink++;
