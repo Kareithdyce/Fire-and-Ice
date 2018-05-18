@@ -343,14 +343,6 @@
             }
         },
         {
-            "Key": "a6cdb0f7-0654-46c4-95d4-acaf70ede9c9",
-            "Value": {
-                "id": "45c3e04c-9de6-4893-ac1f-02c028c70341",
-                "resourcePath": "sprites\\hurt_b2\\hurt_b2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a7342934-81f3-42bd-8757-dc0dd13295ba",
             "Value": {
                 "id": "0396ef9e-ff0e-4030-892f-142043d7a9bc",
