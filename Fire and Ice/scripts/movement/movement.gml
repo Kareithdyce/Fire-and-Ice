@@ -75,6 +75,9 @@ if !(place_meeting(x, y + 1, obj_walls)){
 if(sprite_index != crouch_b){
 	horizontal_collision();
 	x += hspd;
-	vertical_collision();
-	y += vspd;
 }
+/*if(place_meeting(x,y+2,obj_falling)){
+	vspd = obj_falling.vspd;
+}*/
+vertical_collision();
+	y += vspd;
