@@ -47,7 +47,7 @@ if(!hit){
 
 		//Crouching and sliding
 
-		if(crouching && vspd == 0){
+		if(crouching && (vspd == 0 || vplat)){
 			if(key_action){
 				crouchMode(sprite_index);
 				sliding = true;
@@ -71,7 +71,7 @@ if !(place_meeting(x, y + 1, obj_walls)){
 
 
 //Collisions
-if(place_meeting(x,y+2,obj_falling) && !key_jump){
+if(place_meeting(x,y+1,obj_falling) && !key_jump && !obj_falling.falling){
 	vspd = obj_falling.vspd;
 	vplat = true;
 }
