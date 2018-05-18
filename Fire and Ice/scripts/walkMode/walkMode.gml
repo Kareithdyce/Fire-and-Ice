@@ -6,6 +6,6 @@ if (argument[0] == idle_b || argument[0] == fall_b || argument[0] == crouch_b ||
 	}
 	else{
 		sprite_index = walk_b; 
-	    image_speed = .6;   
+	    image_speed = 1;   
 	}
 }
