@@ -144,7 +144,7 @@
     ],
     "origin": 7,
     "originLocked": true,
-    "playbackSpeed": 7,
+    "playbackSpeed": 10,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
