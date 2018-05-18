@@ -8,7 +8,7 @@ if(!hit){
 		dirc = move;
 		image_xscale = dirc;
 	}
-		if (vspd == 0 && !key_crouch){
+		if ((vspd == 0 || vplat) && !key_crouch){
 			if(move == 0){
 				idleMode(sprite_index);
 				}
@@ -71,13 +71,16 @@ if !(place_meeting(x, y + 1, obj_walls)){
 
 
 //Collisions
-
-if(sprite_index != crouch_b){
-	horizontal_collision();
-	x += hspd;
-}
-/*if(place_meeting(x,y+2,obj_falling)){
+if(place_meeting(x,y+2,obj_falling) && !key_jump){
 	vspd = obj_falling.vspd;
-}*/
-vertical_collision();
-	y += vspd;
+	vplat = true;
+}
+else{		
+	horizontal_collision();
+	vplat = false;
+	vertical_collision();
+}
+if(sprite_index != crouch_b){
+	x += hspd;
+}	
+y += vspd;

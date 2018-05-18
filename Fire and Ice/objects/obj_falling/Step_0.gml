@@ -1,6 +1,6 @@
 /// @description Handles Collisions
 // You can write your code in this editor
-/*
+
 if(!falling){
 	delta += pi/32;
 	 vspd = (cos(delta)/4);
@@ -8,7 +8,7 @@ if(!falling){
 else{
 	vspd = 0;
 }
-*/
+
 y += vspd;
 
 

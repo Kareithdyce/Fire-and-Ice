@@ -15,7 +15,7 @@ else if(blink != 0){
 	blink = 0;
 	image_alpha = 1;
 }
-if(vspd > 0){
+if(vspd > 0 && !vplat){
 	fallMode(sprite_index);
 }
 if(place_meeting(x,y,obj_shadow)){

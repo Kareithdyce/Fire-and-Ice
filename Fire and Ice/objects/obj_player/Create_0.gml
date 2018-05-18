@@ -16,6 +16,10 @@ dirc = 1;
 grav = 0.3;
 depth = -1;
 
+//Platforms
+vplat = false;
+hplat = false;
+
 //Jumping
 number_of_jumps = 0;
 jumps_max = 1;
