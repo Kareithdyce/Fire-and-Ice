@@ -42,7 +42,5 @@ iceMode = false;
 //Wall Jump
 can_wall_jump = true;
 wall_jump = false;
-
-
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);

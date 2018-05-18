@@ -1,14 +1,19 @@
 /// @description Handles falling and deletion
 // You can write your code in this editor
 if(place_meeting(x, y, obj_player)){
-	falling = true;
+	obj_falling.falling = true;
 }
 
 if(instance_exists(obj_falling)){
-	if(falling){
+	if(obj_falling.falling){
 		with(obj_falling){
-			if(!place_meeting(x,y+1,obj_walls)){
-				y+= 5;
+			if(!place_meeting(x,y+2,obj_walls)){
+				if(!reset){
+				y = ystart;
+				reset = true;
+				}
+				y+= 1/4;
+				
 			}
 		}
 	}
