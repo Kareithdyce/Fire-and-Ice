@@ -1,6 +1,6 @@
 /// @description Movement
 // You can write your code in this editor
-grounded = place_meeting(x,y+1,obj_walls);
+grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
 if(hascontrol){
 	getInput();
 	movement();
