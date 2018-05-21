@@ -3,7 +3,9 @@
 if(hascontrol){
 	getInput();
 	movement();
+	grounded = place_meeting(x,y+1,obj_walls);
 }
+
 if(currentHealth > maxHealth || (currentHealth < maxHealth / 4 && demo)){
 	currentHealth = maxHealth;
 }

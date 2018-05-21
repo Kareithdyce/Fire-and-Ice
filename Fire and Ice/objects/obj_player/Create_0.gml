@@ -14,6 +14,8 @@ vspd = 0;
 movespeed = 3;
 dirc = 1;
 grav = 0.3;
+grounded = true;
+stuck = false;
 depth = -1;
 
 //Platforms
@@ -42,7 +44,8 @@ fireMode = false;
 
 //Ice Variables
 iceMode = false;
-
+vTouch = false;
+hTouch = false;
 //Wall Jump
 can_wall_jump = true;
 wall_jump = false;

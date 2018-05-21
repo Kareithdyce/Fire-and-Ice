@@ -26,7 +26,7 @@ if(!hit){
 
 		//Vertical Movement
 		if(!crouching){
-			if (place_meeting(x, y + 1, obj_walls)){
+			if (grounded){
 			    number_of_jumps = jumps_max;
 			    is_jumping = false;
 				vspd = 0;	
@@ -65,22 +65,24 @@ else{
 	hspd = 0;
 }
 //Applies Gravity
-if !(place_meeting(x, y + 1, obj_walls)){
+if !(grounded){
 		vspd += grav;
 }
 
 
 //Collisions
-if(place_meeting(x,y+1,obj_falling) && !key_jump && !obj_falling.falling){
-	vspd = obj_falling.vspd;
+if(place_meeting(x,y+2,obj_falling) && !key_jump && !obj_falling.falling){
 	vplat = true;
+	y += obj_falling.vspd;
+	vspd = 0;
 }
 else{		
-	horizontal_collision();
 	vplat = false;
-	vertical_collision();
 }
-if(sprite_index != crouch_b){
-	x += hspd;
-}	
+vTouch = vertical_collision();
 y += vspd;
+hTouch = horizontal_collision();
+if(sprite_index != crouch_b){
+		x += hspd;
+}	
+	

@@ -15,4 +15,4 @@ if(!instance_exists(idk)){
 }
 
 
-currentHealth -= 15;
+//currentHealth -= 15;
