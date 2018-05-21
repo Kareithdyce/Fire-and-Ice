@@ -8,7 +8,7 @@ if(!hit){
 		dirc = move;
 		image_xscale = dirc;
 	}
-		if ((vspd == 0 || vplat) && !key_crouch){
+		if ((grounded) && !key_crouch){
 			if(move == 0){
 				idleMode(sprite_index);
 				}
@@ -47,16 +47,16 @@ if(!hit){
 
 		//Crouching and sliding
 
-		if(crouching && (vspd == 0 || vplat)){
+		if(crouching && grounded){
 			if(key_action){
 				crouchMode(sprite_index);
 				sliding = true;
 				alarm[0] = room_speed * .25;
-				hspd = 6 * dirc;
+				hspd = 6  * dirc;
 			}
 			else{
 				crouchMode(sprite_index);
-				hspd = 0;
+				//hspd = 0;
 			}
 		}
 	}
@@ -82,7 +82,8 @@ else{
 vTouch = vertical_collision();
 y += vspd;
 hTouch = horizontal_collision();
+	
 if(sprite_index != crouch_b){
-		x += hspd;
+	x += hspd;
 }	
 	

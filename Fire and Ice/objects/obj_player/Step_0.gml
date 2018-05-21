@@ -1,9 +1,9 @@
 /// @description Movement
 // You can write your code in this editor
+grounded = place_meeting(x,y+1,obj_walls);
 if(hascontrol){
 	getInput();
 	movement();
-	grounded = place_meeting(x,y+1,obj_walls);
 }
 
 if(currentHealth > maxHealth || (currentHealth < maxHealth / 4 && demo)){
