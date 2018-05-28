@@ -11,7 +11,6 @@ if(mode != TRANS_MODE.OFF){
 			
 			case TRANS_MODE.INTRO:
 				mode = TRANS_MODE.OFF;
-				obj_player.hascontrol = true;
 				break;
 		
 			case TRANS_MODE.GOTO:
@@ -19,6 +18,7 @@ if(mode != TRANS_MODE.OFF){
 				obj_player.sprite_index = idle_b;
 				obj_player.x = newX;
 				obj_player.y = newY;
+				obj_player.alarm[3] = room_speed/4;
 				room_goto(target);
 				break;
 		

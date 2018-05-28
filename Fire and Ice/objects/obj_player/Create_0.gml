@@ -5,8 +5,9 @@ demo = true;
 //Turn this off after clearing the last intro room
 
 //Basic
-image_speed = 1;
+image_speed = 1.5;
 image_index = 0;
+pause = false;
 blink = 0;
 hspd = 0;
 true_color = image_blend;
@@ -21,7 +22,6 @@ depth = -1;
 //Platforms
 vplat = false;
 hplat = false;
-
 //Jumping
 number_of_jumps = 0;
 jumps_max = 1;

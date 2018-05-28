@@ -1,11 +1,11 @@
 /// @description Movement
 // You can write your code in this editor
+if(!pause){
 grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
 if(hascontrol){
-	getInput();
-	movement();
+	getInput();	
 }
-
+	movement();
 if(currentHealth > maxHealth || (currentHealth < maxHealth / 4 && demo)){
 	currentHealth = maxHealth;
 }
@@ -26,4 +26,5 @@ if(place_meeting(x,y,obj_shadow)){
 }else{
 	image_blend = true_color;
 	depth = -1;
+}
 }

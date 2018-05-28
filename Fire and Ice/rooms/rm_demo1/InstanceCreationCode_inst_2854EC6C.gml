@@ -1,3 +1,3 @@
 target = rm_demo2b;
-setX = 67;
+setX = 113;
 setY = 287;

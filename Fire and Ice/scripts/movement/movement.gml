@@ -71,10 +71,13 @@ if !(grounded){
 
 
 //Collisions
-if(place_meeting(x,y+2,obj_falling) && !key_jump && !obj_falling.falling){
+if(place_meeting(x,y+2, obj_falling) && !key_jump && !obj_falling.falling){
 	vplat = true;
-	y += obj_falling.vspd;
+	y += obj_falling.vspd;	
 	vspd = 0;
+	if(!place_meeting(x,y+1, obj_falling)){
+		y+= 1;
+	}
 }
 else{		
 	vplat = false;
