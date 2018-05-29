@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "f68cdf09-f0ae-4486-be43-8971012b24d0",
+            "Value": {
+                "id": "8dfa0040-c8b9-45a0-9d4d-6916a372b527",
+                "resourcePath": "objects\\StatusUp\\StatusUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fd7d1ed4-ecbd-44fb-92bc-7c3599e2a931",
             "Value": {
                 "id": "c88f3956-6f1f-4ae8-93fe-c9b3d8cb9642",
