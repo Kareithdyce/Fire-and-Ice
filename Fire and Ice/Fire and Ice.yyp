@@ -677,6 +677,14 @@
                 "resourcePath": "views\\fd7d1ed4-ecbd-44fb-92bc-7c3599e2a931.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fe1835b6-f756-4907-a5d3-74a29ef35ae3",
+            "Value": {
+                "id": "9186ccce-6683-4dd3-94ac-069957d5c71c",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
+            }
         }
     ],
     "script_order": [
