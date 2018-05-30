@@ -20,3 +20,25 @@ y = clamp(y,view_h_half,room_height - view_h_half);
 
 //update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
+
+//Forest Scrolling
+
+if(!is_undefined((forestlayer5))){
+	layer_x(forestlayer5, x/8);
+}
+
+if(!is_undefined((forestlayer6))){
+	layer_x(forestlayer6, x/8);
+}
+
+if(!is_undefined((forestlayer7))){
+	layer_x(forestlayer7, x/2);
+}
+
+if(!is_undefined((forestlayer8))){
+	layer_x(forestlayer8, x/2);
+}
+
+if(!is_undefined((forestlayer9))){
+	layer_x(forestlayer9, x);
+}
