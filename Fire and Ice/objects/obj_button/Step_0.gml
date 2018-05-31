@@ -12,7 +12,7 @@ if(instance_exists(obj_falling)){
 				y = ystart;
 				reset = true;
 				}
-				y+= 1/4;
+				
 				
 			}
 		}

@@ -6,7 +6,7 @@ if(!falling){
 	 vspd = (cos(delta)/4);
 }
 else{
-	vspd = 0;
+	vspd += obj_player.grav;
 }
 
 y += vspd;
