@@ -8,7 +8,7 @@ if(!falling){
 else{
 	vspd += obj_player.grav;
 }
-
+vertical_collision();
 y += vspd;
 
 

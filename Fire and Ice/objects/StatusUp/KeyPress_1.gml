@@ -5,7 +5,9 @@ with(health_crystal){
 	
 	if(sprite_exists(screenShot)){
 		    sprite_delete(screenShot);
-			instance_destroy(kill);
+			if(instance_exists(kill)){
+				instance_destroy(kill);
+			}
 	}
 }
     instance_activate_all();

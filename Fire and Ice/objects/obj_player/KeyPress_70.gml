@@ -7,6 +7,7 @@
 if(!instance_exists(idk)){
 	instance_create_depth(x,y,-1001,idk);
 }
-*/
 
+*/
+healthUp[2] = !healthUp[2];
 //currentHealth -= 15;

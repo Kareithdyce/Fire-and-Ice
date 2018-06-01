@@ -31,7 +31,11 @@ jumpspeed = 8;
 //Health
 maxHealth = 100;
 currentHealth = maxHealth;
-
+var i = 0;
+repeat(6){
+	healthUp[i] = false;
+	i++;
+}
 //
 has_sword = false;
 hascontrol = true;
