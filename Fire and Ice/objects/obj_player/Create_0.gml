@@ -2,11 +2,14 @@
 
 //demo
 demo = true;
+
+debug = 0;
 //Turn this off after clearing the last intro room
 
 //Basic
-image_speed = 1.5;
+image_speed = 1;
 image_index = 0;
+form = 0;
 pause = false;
 blink = 0;
 hspd = 0;

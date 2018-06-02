@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_set_valign(fa_top);
 draw_set_color(c_red);
-draw_text(x,y-80,obj_player.healthUp[2]);
+draw_text(x,y-80,obj_player.debug);
 //draw_text(x,y-60,obj_player.hTouch);
 //draw_text(x,y-40,obj_player.grounded);
 draw_set_color(c_yellow);

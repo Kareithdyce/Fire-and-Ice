@@ -3,7 +3,7 @@
 if(!hit){
 	if(!sliding){
 	move = key_left + key_right;
-	crouching  = (key_crouch || sprite_index == crouch_b);
+	crouching  = (key_crouch || (sprite_index == crouch_b || sprite_index == crouch_bs));
 	if(move != 0){
 		dirc = move;
 		image_xscale = dirc;
@@ -15,7 +15,7 @@ if(!hit){
 			else{
 				walkMode(sprite_index);
 				}
-			if(sprite_index != crouch_b){
+			if(sprite_index != crouch_b && sprite_index != crouch_bs){
 				 crouching = false;
 			}
 		}
@@ -86,7 +86,7 @@ y += vspd;
 hTouch = horizontal_collision();
 }
 	
-if(sprite_index != crouch_b){
+if(sprite_index != crouch_b && sprite_index != crouch_bs){
 	x += hspd;
 }	
 	

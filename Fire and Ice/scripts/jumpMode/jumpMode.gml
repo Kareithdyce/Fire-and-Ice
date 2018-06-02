@@ -13,3 +13,17 @@ else if(argument[0] == jump_b1 || argument[0] == jump_b2 || argument[0] == fall_
 		image_speed = .5;
 	//}
 }
+
+if ((argument[0] == idle_bs || argument[0] == walk_bs) || (argument[0] == fall_bs && jumps_max == 1)){
+    sprite_index = jump_bs1;
+	image_index = 0;
+	image_speed = .5;
+}
+else if(argument[0] == jump_bs1 || argument[0] == jump_bs2 || argument[0] == fall_bs){
+	//if(max_jumps > 1){
+		sprite_index = jump_bs2;
+		image_index = 0;
+		image_speed = .5;
+	//}
+}
+

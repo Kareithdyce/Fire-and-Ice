@@ -27,4 +27,5 @@ if(place_meeting(x,y,obj_shadow)){
 	image_blend = true_color;
 	depth = -1;
 }
+
 }
