@@ -71,17 +71,18 @@ if(pAttack3 && image_index >= 5){
 	hascontrol = true;
 }
 //Debug
-if(debug = true){
 var tempY = instance_place(x,y+1, obj_walls);
 if(tempY != noone){
 	diffY = (y-tempY.y)+1;
-	if(diffY >= 1.5){
-	y+= .1;	
+	if(diffY >= 1.5 && !vplat){
+	y-= .1;	
+	//image_blend = c_red;
 	}
 }
 else{
 	diffY = -1;
 }
+if(debug){
 var tempX = instance_place(x+1,y, obj_walls);
 if(tempX != noone){
 	diffX = (tempX.x - x) + 6;

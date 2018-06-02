@@ -17,7 +17,7 @@ draw_rectangle_colour(bbox_left,bbox_top,bbox_right,bbox_bottom,c_red,c_red,c_re
 */
 
 draw_set_alpha(1);
-draw_set_color(c_yellow);
+draw_set_color(c_fuchsia);
 draw_text(x,y-100, diffY);
 draw_set_color(c_blue);
 draw_text(x+50 ,y-100, diffX);
