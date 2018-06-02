@@ -1,3 +1,4 @@
+/// @desc hurtMode()
 switch(form){
 	case 0:
 	sprite_index = hurt_b;

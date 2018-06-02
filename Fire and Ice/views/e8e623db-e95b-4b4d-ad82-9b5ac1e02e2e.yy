@@ -9,7 +9,8 @@
         "3d7d16de-d93d-40b4-8ae9-facd17074f56",
         "edb19b49-5a7d-441e-bb50-900bb372b9da",
         "c5d718a5-e374-4de2-a12a-2e0a974185b3",
-        "4fc73267-632b-42c8-80b4-c517e069f871"
+        "4fc73267-632b-42c8-80b4-c517e069f871",
+        "7aa563fb-e793-42f7-a150-bf93e0b3b306"
     ],
     "filterType": "GMScript",
     "folderName": "MovementModes",

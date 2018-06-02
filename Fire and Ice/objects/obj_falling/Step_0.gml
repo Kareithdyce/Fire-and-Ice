@@ -17,7 +17,9 @@ with(obj_player){
 	touch = (temp != noone);
 		
 	if(touch && obj_falling.falling){
-		y = temp.y;
-		x = temp.x+16;
+		if(!atk){
+			y = temp.y;
+			x = temp.x+16;
+		}
 	}	
 }

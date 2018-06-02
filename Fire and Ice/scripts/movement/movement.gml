@@ -59,6 +59,10 @@ if(!hit){
 				//hspd = 0;
 			}
 		}
+		else if(key_action && hascontrol){
+			actionMode(sprite_index);
+		}
+			
 	}
 }
 else{

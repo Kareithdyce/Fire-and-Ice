@@ -2,12 +2,12 @@
 // You can write your code in this editor
 //global.game_stop = true;
 	//image_blend = true_color;
+debug = !debug;
 /*
 if(!instance_exists(idk)){
 	instance_create_depth(x,y,-1001,idk);
 }
 */
-			
 //currentHealth -= 15;
 
 //jumps_max++;

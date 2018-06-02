@@ -4,6 +4,8 @@
 demo = true;
 
 debug = 0;
+diffX = -1;
+diffY = -1;
 //Turn this off after clearing the last intro room
 
 //Basic
@@ -39,18 +41,26 @@ repeat(6){
 	healthUp[i] = false;
 	i++;
 }
-//
+//Attacks
 has_sword = false;
+pAttack1 = false;
+pAttack2 = false;
+pAttack3 = false;
+atk = pAttack1 || pAttack2 || pAttack3;
+
+
+
 hascontrol = true;
 sliding = false;
 hit = false;
 invincible = false;
 //Fire Variables
-
-fireMode = false;
+//form 2 is fire
 
 //Ice Variables
-iceMode = false;
+//form 3 is ice
+
+
 vTouch = false;
 hTouch = false;
 //Wall Jump

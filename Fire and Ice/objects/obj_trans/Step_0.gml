@@ -15,7 +15,9 @@ if(mode != TRANS_MODE.OFF){
 		
 			case TRANS_MODE.GOTO:
 				mode = TRANS_MODE.INTRO;
-				obj_player.sprite_index = idle_b;
+				with(obj_player){
+					idleForm();
+				}
 				obj_player.x = newX;
 				obj_player.y = newY;
 				obj_player.alarm[3] = room_speed/4;
