@@ -1,5 +1,8 @@
 	///@description Creation
 
+#macro SAVEFILE "save.ini"
+
+
 //demo
 demo = true;
 
@@ -37,10 +40,23 @@ jumpspeed = 8;
 maxHealth = 100;
 currentHealth = maxHealth;
 var i = 0;
-repeat(6){
+NumHealthUps = 6;
+repeat(NumHealthUps){
 	healthUp[i] = false;
 	i++;
 }
+
+//Mana
+maxMana = 0;
+currentMana = maxMana;
+var i = 0;
+NumManaUps = 0;
+repeat(NumManaUps){
+	manaUp[i] = false;
+	i++;
+}
+
+
 //Attacks
 has_sword = false;
 pAttack1 = false;
