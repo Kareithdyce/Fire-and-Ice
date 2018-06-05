@@ -31,6 +31,9 @@ if(place_meeting(x,y,obj_shadow)){
 
 }
 
+if(atk && !instance_exists(obj_sword_hitbox)){
+	instance_create_depth(x, y, -2, obj_sword_hitbox);
+}
 
 if(pAttack1){
 	if(image_index != 0 && image_index < image_number && !key_action){

@@ -11,7 +11,8 @@ if(!instance_exists(idk)){
 */
 //currentHealth -= 15;
 
-//jumps_max++;
+jumps_max++;
+
 if(form == 1){
 	form = 0;
 	sprite_index = idle_b;

@@ -33,7 +33,7 @@ repeat(obj_player.NumHealthUps){
 //ini_write_real("Mana","NumPowerups", obj_player.NumManaUps);
 var i = 0;
 repeat(obj_player.NumManaUps){
-	ini_write_real("Mana",string(i) , obj_player.manaUp[i]);
+	ini_write_real("Mana",string(i), obj_player.manaUp[i]);
 	i++;
 }
 

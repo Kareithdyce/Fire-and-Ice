@@ -71,8 +71,20 @@ else{
 //Applies Gravity
 if !(grounded){
 		vspd += grav;
+		if(vspd > gravMax){
+			vspd = gravMax;
+		}
+		
 }
-
+if(atk){
+	if(pAttack3 && image_index == 2){
+		hspd = dirc*movespeed*4;
+	}
+	else{
+		hspd = 0;
+	}
+	vspd = 0;
+}
 
 //Collisions
 if(place_meeting(x,y+2, obj_falling) && !key_jump && !obj_falling.falling){

@@ -23,6 +23,7 @@ vspd = 0;
 movespeed = 3;
 dirc = 1;
 grav = 0.3;
+gravMax = 10;
 grounded = true;
 stuck = false;
 depth = -1;
