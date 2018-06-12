@@ -1,7 +1,7 @@
 /// @description Handles damage
 // You can write your code in this editor
 with(obj_player){
-	if(!hit && !invincible){
+	if(!hit && !invincible && !dead){
 		currentHealth -= 10;
 		hit = true;
 		invincible = true;
@@ -9,5 +9,5 @@ with(obj_player){
 	}
 }
 image_blend = c_purple;
-depth = -10001;
+//depth = -10001;
 		

@@ -25,7 +25,8 @@ dirc = 1;
 grav = 0.3;
 gravMax = 10;
 grounded = true;
-stuck = false;
+//stuck = false;
+dead = false;
 depth = -1;
 
 //Platforms
@@ -64,6 +65,7 @@ pAttack1 = false;
 pAttack2 = false;
 pAttack3 = false;
 atk = pAttack1 || pAttack2 || pAttack3;
+atkpower = 5;
 
 
 

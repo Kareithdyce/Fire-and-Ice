@@ -1,35 +1,50 @@
 /// @description Movement
 // You can write your code in this editor
-atk = pAttack1 || pAttack2 || pAttack3;
-if(!pause){
-grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
-if(hascontrol){
-	getInput();	
-}
+if(!pause && !dead){
+	atk = pAttack1 || pAttack2 || pAttack3;
+	grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
+	if(hascontrol){
+		getInput();	
+	}
 	movement();
-if(currentHealth > maxHealth || (currentHealth < maxHealth / 4 && demo)){
-	currentHealth = maxHealth;
-}
-if(invincible){
-	image_alpha = blink % 2;
-	blink++;
-}
-else if(blink != 0){
-	blink = 0;
-	image_alpha = 1;
-}
-if(vspd > 0 && !vplat){
-	fallMode(sprite_index);
-}
-if(place_meeting(x,y,obj_shadow)){
-	image_blend = c_black;
-	depth = -101;
-}else{
-	image_blend = true_color;
-	depth = -1;
+	
+	if(currentHealth > maxHealth) {  
+		currentHealth = maxHealth;
+	}
+	
+	//Temporary hopefully
+	if(currentHealth <= 0 && demo){
+		currentHealth = 1;
+	}else if (currentHealth <= 0) {
+		sprite_index = death_bs;
+		dead = true;
+	}
+	
+	if(invincible){
+		image_alpha = blink % 2;
+		blink++;
+	}
+	
+	else if(blink != 0){
+		blink = 0;
+		image_alpha = 1;
+	}
+	
+	if(vspd > 0 && !vplat){
+		fallMode(sprite_index);
+	}
+	
+	if(place_meeting(x,y,obj_shadow)){
+		image_blend = c_black;
+		depth = -101;
+	}
+	else{
+		image_blend = true_color;
+		depth = -1;
+	}
 }
 
-}
+//Attacking
 
 if(atk && !instance_exists(obj_sword_hitbox)){
 	instance_create_depth(x, y, -2, obj_sword_hitbox);
@@ -66,14 +81,16 @@ if(pAttack2){
 }
 
 
-
-
 if(pAttack3 && image_index >= 5){
 	idleForm();
 	pAttack3 = false;
 	hascontrol = true;
 }
-//Debug
+
+
+
+
+//Prevents player from being to low.
 var tempY = instance_place(x,y+1, obj_walls);
 if(tempY != noone){
 	diffY = (y-tempY.y)+1;
@@ -95,6 +112,9 @@ else{
 }
 }
 
+if(form != 0){
+	demo = false;
+}
 
 /*
 if(sprite_index == sword_draw_bs && image_index >= 3){
@@ -110,3 +130,10 @@ if(sprite_index == sword_sheath_bs && image_index >= 3){
 }
 
 */
+if(dead){
+	image_alpha = 1;
+}
+
+if(dead && image_index >= image_number-1){
+	image_speed = 0;
+}

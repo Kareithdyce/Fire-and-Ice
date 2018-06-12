@@ -4,4 +4,4 @@ event_inherited();
 movespeed = 3;
 dirc = 1;
 player_seen = false;
-sight = 40;
+sight = 200;

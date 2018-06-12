@@ -1,4 +1,6 @@
 /// @description Hurt
 // You can write your code in this editor
-idleForm();
-hit = false;
+if(!dead){
+	idleForm();
+	hit = false;
+}

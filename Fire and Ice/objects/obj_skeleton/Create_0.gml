@@ -6,3 +6,4 @@ atk = 5;
 awake = false;
 revive = false;
 can_be_hurt = false;
+enemy = "skeleton";

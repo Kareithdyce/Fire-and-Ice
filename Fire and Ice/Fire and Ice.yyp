@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "ac5d5a9a-0226-4e7e-b959-ca69f6bb0793",
+            "Value": {
+                "id": "776a51eb-b1fa-4473-918c-90513848971d",
+                "resourcePath": "views\\ac5d5a9a-0226-4e7e-b959-ca69f6bb0793.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "af5e0928-fc75-43b9-a9fa-6ee7294cb50a",
             "Value": {
                 "id": "9c2df8f8-0d83-49f5-b493-d9b7735c0f05",
@@ -795,6 +803,14 @@
             "Value": {
                 "id": "eb55e3de-8d7c-4092-a213-dd60847e75ed",
                 "resourcePath": "scripts\\idleForm\\idleForm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b147aed4-273e-45f7-b734-f7a7629b59a5",
+            "Value": {
+                "id": "c9cabfb0-2d27-4428-9ca1-fe6bf2d64705",
+                "resourcePath": "scripts\\enemy_hurt\\enemy_hurt.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -923,6 +939,14 @@
             "Value": {
                 "id": "0dbbe940-77a4-4b2c-aa87-b7dee3c6ea66",
                 "resourcePath": "scripts\\idleMode\\idleMode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c0ae6700-9023-4be9-ba48-274714243db9",
+            "Value": {
+                "id": "01506317-af7b-4bf0-8074-437d66d134eb",
+                "resourcePath": "scripts\\enemy_dead\\enemy_dead.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1230,7 +1254,9 @@
         "df13ab08-ec41-4364-b40e-c6e3676aa02e",
         "b10d898f-dabd-458a-ba4c-96e627763d4f",
         "2379ca74-81d1-43d0-af2c-a877314f10f7",
-        "5de96c74-df85-46f7-b11d-efb71bfc6a70"
+        "5de96c74-df85-46f7-b11d-efb71bfc6a70",
+        "b147aed4-273e-45f7-b734-f7a7629b59a5",
+        "c0ae6700-9023-4be9-ba48-274714243db9"
     ],
     "tutorial": ""
 }

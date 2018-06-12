@@ -12,5 +12,6 @@ switch(form){
 	break;
 
 }
+
 alarm[1] = room_speed * .5;
 alarm[2] = room_speed * 1.5;
