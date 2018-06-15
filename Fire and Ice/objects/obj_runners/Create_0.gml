@@ -3,4 +3,4 @@
 event_inherited();
 movespeed = 3;
 sight = 200;
-range = 10;
+range = 20;

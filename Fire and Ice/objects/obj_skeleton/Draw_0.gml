@@ -3,9 +3,9 @@
 draw_self();
 /*
 draw_set_color(c_blue);
-draw_text(x,y, !hit);
+draw_text(x,y, (abs(xDist)));
 draw_set_color(c_yellow);
-draw_text(x,y-20, !attacking);
+draw_text(x,y-20, range);
 draw_set_color(c_red);
-draw_text(x,y-40, awake);
-*/
+draw_text(x,y-40, abs(xDist) <= range);
+*/			

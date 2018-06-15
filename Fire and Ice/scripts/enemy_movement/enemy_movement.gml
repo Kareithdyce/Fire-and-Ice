@@ -7,7 +7,7 @@ if(!hit){
 //Collisions
 vertical_collision();
 y += vspd;
-horizontal_collision();
+horizontal_collision(true);
 x += hspd;
 
 	

@@ -1,9 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
+if(!dead){
 xDist = x-obj_player.x;
 yDist = y-obj_player.y;
-if(!dead){
+
 	if(!player_seen){
 		
 		if((abs(xDist) <= sight) && (abs(yDist) <= sight/3)){
@@ -23,13 +24,14 @@ if(!dead){
 		}
 		
 		else if(abs(xDist) <= range){
-			if(sign(dirc) == sign(xDist)){
+			if(sign(dirc) == sign(xDist) && (abs(yDist) <= sight/4)){
 				enemy_atk(enemy);
 			}
 		}
-		else{
+		else if(!horizontal_collision(true)){
 			enemy_run(enemy);
 		}
-	}
 	dirc = sign(xDist);
+	}
+	
 }

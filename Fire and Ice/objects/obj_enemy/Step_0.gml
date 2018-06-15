@@ -17,3 +17,10 @@ if(tempY != noone){
 	//image_blend = c_red;
 	}
 }
+/*
+if(attacking && !hit){
+	depth = -1
+}
+else{
+	depth = 0;
+}*/
