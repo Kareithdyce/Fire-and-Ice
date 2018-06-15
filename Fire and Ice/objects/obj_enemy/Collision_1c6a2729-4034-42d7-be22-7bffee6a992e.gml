@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(!invincible && !dead){
 	if(enemy == "skeleton"){
-		if(awake){
+		if(!revive){
 			hit = true;
 			enemy_hurt(enemy);
 		}

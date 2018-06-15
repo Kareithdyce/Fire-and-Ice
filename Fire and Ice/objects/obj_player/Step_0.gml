@@ -81,7 +81,8 @@ if(pAttack2){
 }
 
 
-if(pAttack3 && image_index >= 5){
+if(pAttack3 && image_index >= image_number){
+	atkpower = normpower;
 	idleForm();
 	pAttack3 = false;
 	hascontrol = true;
@@ -99,6 +100,7 @@ if(tempY != noone){
 	//image_blend = c_red;
 	}
 }
+/*
 else{
 	diffY = -1;
 }
@@ -111,7 +113,7 @@ else{
 	diffX = -1;
 }
 }
-
+*/
 if(form != 0){
 	demo = false;
 }

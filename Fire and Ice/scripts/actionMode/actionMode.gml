@@ -22,6 +22,8 @@ if(argument[0] == sword1_bs){
 if(argument[0] == sword2_bs){
 	image_index = 0;
 	key_action = false;
+	normpower = atkpower;
+	atkpower += round(atkpower/2);
 	hascontrol = false;
 	pAttack3 = true;
 	sprite_index = sword3_bs;
