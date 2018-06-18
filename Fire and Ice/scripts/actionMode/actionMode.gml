@@ -1,6 +1,6 @@
 /// @desc actionMode(sprite)
 /// @arg sprite
-if(argument[0] == idle_bs){
+if(argument[0] == idle_bs || argument[0] == walk_bs){
 	image_index = 0;
 	key_action = false;
 	hascontrol = false;

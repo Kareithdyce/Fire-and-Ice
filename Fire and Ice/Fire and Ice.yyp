@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "310c1b56-41d2-4603-9790-6be18d28ef4e",
+            "Value": {
+                "id": "c11b2caf-77ce-45fc-9a95-af61eadab68d",
+                "resourcePath": "sprites\\spr_breakable_wall\\spr_breakable_wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "31f91a46-f4cd-4b6a-976d-6eba55ec70dd",
             "Value": {
                 "id": "4beaaad5-1dee-440d-9aa5-9a27b9e9afd5",
@@ -211,6 +219,14 @@
             "Value": {
                 "id": "f257a406-41df-492c-a078-5c3afc9425f1",
                 "resourcePath": "objects\\obj_sword_hitbox\\obj_sword_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "35e230eb-1339-4502-a143-664acc7e1fca",
+            "Value": {
+                "id": "ae36a682-e1f4-4cf2-acd1-16f6100c0c31",
+                "resourcePath": "objects\\obj_breakable_wall\\obj_breakable_wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -292,6 +308,14 @@
                 "id": "ca90468b-cc7e-49ec-b602-861ec1cea40c",
                 "resourcePath": "sprites\\fall_b\\fall_b.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "49a7f335-550e-424c-a301-017556775a7f",
+            "Value": {
+                "id": "36eecf90-d34d-4fac-a9c1-87d1824eb41e",
+                "resourcePath": "objects\\obj_awaker\\obj_awaker.yy",
+                "resourceType": "GMObject"
             }
         },
         {

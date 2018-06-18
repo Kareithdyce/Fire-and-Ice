@@ -1,7 +1,12 @@
 /// @description Handles falling and deletion
 // You can write your code in this editor
 if(place_meeting(x, y, obj_player)){
-	obj_falling.falling = true;
+	if(instance_exists(obj_falling)){
+		obj_falling.falling = true;
+	}
+	if(instance_exists(obj_skeleton)){
+		obj_skeleton.awake = true;
+	}
 }
 
 if(instance_exists(obj_falling)){

@@ -99,7 +99,7 @@ else{
 	vplat = false;
 vTouch = vertical_collision();
 y += vspd;
-hTouch = horizontal_collision();
+hTouch = horizontal_collision(false,true);
 }
 	
 if(sprite_index != crouch_b && sprite_index != crouch_bs){

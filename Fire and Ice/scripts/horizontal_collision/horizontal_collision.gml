@@ -9,7 +9,19 @@ if(place_meeting(x + hspd, y, obj_walls)) {
 if(argument_count >= 1){
 	if(argument[0]){
 		if(place_meeting(x + hspd, y, obj_player)) {
-		    while (!place_meeting(x + sign(hspd), y, obj_player)) {
+		    while (!place_meeting(x + (10*sign(hspd)), y, obj_player)) {
+		        x += sign(hspd);
+		    }
+		    hspd = 0;
+			return true;
+		}
+	}
+}
+if(argument_count >= 2){
+	if(argument[1] && !sliding){
+		var enemy = instance_place(x + hspd, y, obj_enemy);
+		if(enemy != noone && enemy.sprite_index != spr_skeleton && !enemy.dead){
+		    while (enemy == noone){
 		        x += sign(hspd);
 		    }
 		    hspd = 0;

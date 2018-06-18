@@ -3,6 +3,8 @@
 event_inherited();
 if(image_index >= image_number-1 && sprite_index == spr_skeleton_attack){
 		attacking = false;
+		invincible = false;
+	
 }
 if(!dead){
 	if(sprite_index == spr_skeleton_walk){
