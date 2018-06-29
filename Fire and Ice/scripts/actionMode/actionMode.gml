@@ -1,6 +1,7 @@
 /// @desc actionMode(sprite)
 /// @arg sprite
 if(argument[0] == idle_bs || argument[0] == walk_bs){
+	image_speed = 1.5;
 	image_index = 0;
 	key_action = false;
 	hascontrol = false;

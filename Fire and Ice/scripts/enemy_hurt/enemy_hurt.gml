@@ -8,7 +8,7 @@ if(!invincible){
 			hit = false;
 			invincible = true;
 			player_seen = true;
-			alarm[0] = room_speed * .6;
+			alarm[0] = room_speed * .4;
 		}
 	}
 	hspd = obj_player.dirc*hitspeed; 

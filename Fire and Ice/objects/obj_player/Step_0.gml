@@ -54,11 +54,19 @@ if(pAttack1){
 	if(image_index != 0 && image_index < image_number && !key_action){
 		getInput();
 	}
-	else if(key_action && image_index >= image_number-2){
-		actionMode(sprite_index);
-		pAttack1 = false;
+	if(image_index >= image_number-4){
+		if(move != 0 && image_index >= image_number-3){
+			idleForm();
+			walkMode(sprite_index);
+			hascontrol = true;
+			pAttack1 = false;
+		}
+		else if(key_action){
+			actionMode(sprite_index);
+			pAttack1 = false;
+		}
 	}
-	else if (image_index >= image_number){
+	if (image_index >= image_number-1 && pAttack1){
 		idleForm();
 		pAttack1 = false;
 		hascontrol = true;
@@ -69,11 +77,19 @@ if(pAttack2){
 	if(image_index != 0 && image_index < image_number && !key_action){
 		getInput();
 	}
-	else if(key_action && image_index >= image_number-2){
-		actionMode(sprite_index);
-		pAttack2 = false;
+	if(image_index >= image_number-4){
+		if(move != 0 && image_index >= image_number-3){
+			idleForm();
+			walkMode(sprite_index);
+			hascontrol = true;
+			pAttack2 = false;
+		}
+		else if(key_action){
+			actionMode(sprite_index);
+			pAttack2 = false;
+		}
 	}
-	else if (image_index >= image_number){
+	if (image_index >= image_number-1 && pAttack2){
 		idleForm();
 		pAttack2 = false;
 		hascontrol = true;
@@ -81,7 +97,7 @@ if(pAttack2){
 }
 
 
-if(pAttack3 && image_index >= image_number){
+if(pAttack3 && image_index >= image_number-1){
 	atkpower = normpower;
 	idleForm();
 	pAttack3 = false;
