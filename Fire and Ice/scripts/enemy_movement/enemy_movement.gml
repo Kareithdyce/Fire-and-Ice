@@ -1,6 +1,6 @@
 ///Handles movement for the player
 //Horizontial Movement
-if(!hit){
+if(!hit && !attacking){
 	hspd = dirc * movespeed;
 	vspd += grav;
 }	

@@ -4,6 +4,10 @@ event_inherited();
 if(!dead){
 xDist = x-obj_player.x;
 yDist = y-obj_player.y;
+if(image_index >= image_number-1 && attacking){
+	attacking = false;
+	//invincible = false;	
+}
 
 	if(!player_seen){
 		
@@ -24,7 +28,8 @@ yDist = y-obj_player.y;
 		}
 		
 		else if(abs(xDist) <= range){
-			if(sign(dirc) == sign(xDist) && (abs(yDist) <= sight/4)){
+			if(sign(dirc) == sign(xDist) && (abs(yDist) <= sight/4) && !invincible){
+				hspd = 0;
 				enemy_atk(enemy);
 			}
 		}

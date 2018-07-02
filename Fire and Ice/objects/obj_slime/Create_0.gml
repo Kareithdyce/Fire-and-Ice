@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited();
-movespeed = 3;
-sight = 200;
-range = 20;
-attacking = false;
+hp = 20;
+atk = 5;
+enemy = "slime";
+movespeed = -3.1;
+range = 23;
+dirc = 1;

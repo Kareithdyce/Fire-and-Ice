@@ -7,5 +7,11 @@ if(argument[0] == "skeleton"){
 		attacking = true;
 		}
 }
+if(argument[0] == "slime"){
+	sprite_index = spr_slime_attack;
+	image_index = 0;
+	image_speed = 1;
+	attacking = true;
+}
 
 	

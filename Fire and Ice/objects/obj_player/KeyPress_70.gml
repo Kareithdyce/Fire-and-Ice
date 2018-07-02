@@ -12,7 +12,7 @@ if(!instance_exists(idk)){
 //currentHealth -= 50;
 
 jumps_max++;
-
+/*
 if(form == 1){
 	form = 0;
 }
@@ -20,3 +20,4 @@ else {
 	form = 1;
 }
 idleForm();
+*/

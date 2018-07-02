@@ -46,7 +46,7 @@ if(!pause && !dead){
 
 //Attacking
 
-if(atk && !instance_exists(obj_sword_hitbox)){
+if(atk && !instance_exists(obj_sword_hitbox) && !((pAttack1 || pAttack2) && image_index >= image_number-4)){
 	instance_create_depth(x, y, -2, obj_sword_hitbox);
 }
 
@@ -97,13 +97,18 @@ if(pAttack2){
 }
 
 
-if(pAttack3 && image_index >= image_number-1){
-	atkpower = normpower;
-	idleForm();
-	pAttack3 = false;
-	hascontrol = true;
+if(pAttack3) {
+	knockback = knockback3;
+	if(image_index >= image_number-1){
+		atkpower = normpower;
+		idleForm();
+		pAttack3 = false;
+		hascontrol = true;
+	}
 }
-
+else{
+	knockback = 0;
+}
 
 
 

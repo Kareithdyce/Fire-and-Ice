@@ -1,4 +1,4 @@
-/// @description Insert description here
+// @description Insert description here
 // You can write your code in this editor
 enemy = "";
 hp = 20;
@@ -14,4 +14,4 @@ grav = .3;
 player_seen = false;
 dirc = 1;
 attacking = false;
-depth = 0;
+ depth = 0;

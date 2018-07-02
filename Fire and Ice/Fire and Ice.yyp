@@ -450,7 +450,7 @@
             "Key": "61a8edf6-53b5-4731-9236-e1a778898930",
             "Value": {
                 "id": "05833bff-16c2-4f14-a96e-a064a451af6f",
-                "resourcePath": "sprites\\spr_slime_die\\spr_slime_die.yy",
+                "resourcePath": "sprites\\spr_slime_dead\\spr_slime_dead.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1330,7 +1330,7 @@
             "Key": "fe190dd7-4e87-491d-abb4-cf0eca98dbc8",
             "Value": {
                 "id": "67a3b75f-afc1-41e0-b804-ff0e8a9056f6",
-                "resourcePath": "sprites\\spr_slime_hurt\\spr_slime_hurt.yy",
+                "resourcePath": "sprites\\spr_slime_hit\\spr_slime_hit.yy",
                 "resourceType": "GMSprite"
             }
         },
