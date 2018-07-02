@@ -6,7 +6,6 @@ if(!invincible){
 			sprite_index = spr_skeleton_hit;
 			image_speed = 1;
 			image_index = 0;
-			hit = false;
 			player_seen = true;
 			alarm[0] = room_speed/3;
 		}
@@ -16,7 +15,6 @@ if(!invincible){
 		hp -= obj_player.atkpower;
 		image_speed = 1;
 		image_index = 0;
-		hit = false;
 		invincible = true;
 		player_seen = true;
 		alarm[0] = room_speed*.4;

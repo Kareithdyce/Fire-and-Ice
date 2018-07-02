@@ -1,6 +1,7 @@
 /// @description I-frames
 // You can write your code in this editor
 if(!dead){
+	hit = false;
 	switch(enemy){
 		case "skeleton":
 			sprite_index = spr_skeleton_idle;
@@ -12,5 +13,5 @@ if(!dead){
 	attacking = false;
 	dirc = obj_player.dirc;
 	invincible = false;
-	
+		
 }
