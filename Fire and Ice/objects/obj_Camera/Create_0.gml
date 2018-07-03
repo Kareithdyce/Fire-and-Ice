@@ -6,11 +6,20 @@ view_h_half = camera_get_view_height(cam)* .5;
 xTo = xstart;
 yTo = ystart;
 current_room = room;
+
+shake_length = 0;
+shake_magnitude = 0;
+shake_remain = 0;
+buff = 10;
+
+
+
 if(instance_exists(follow)){
 	x = follow.x;
 	y = follow.y;
 	instance_create_depth(x-20,y-view_h_half,-1001, obj_healthbar);
 }
+
 //setup for layers
 forestlayer1 = undefined;
 forestlayer2 = undefined;

@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "928cb284-0edd-48af-9c45-505bd2501f17",
+            "Value": {
+                "id": "14f98903-6ed9-4edc-8d0d-8534bc8f88d9",
+                "resourcePath": "scripts\\ScreenShake\\ScreenShake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "92ec6e5c-3a6c-4549-bd3d-f6dd173af556",
             "Value": {
                 "id": "7eb57a11-bfbc-48b1-b67d-01aff9f0732a",
@@ -1388,7 +1396,8 @@
         "818b2fec-23ce-4826-bbb8-634f808e2c24",
         "803e2cfd-2b34-4db7-9c77-da9ace0cbea2",
         "97ac7a03-2216-4227-9d35-95d242a47149",
-        "d8dce65d-e387-4ea9-af1b-1a2c368f1932"
+        "d8dce65d-e387-4ea9-af1b-1a2c368f1932",
+        "928cb284-0edd-48af-9c45-505bd2501f17"
     ],
     "tutorial": ""
 }

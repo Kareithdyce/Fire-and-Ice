@@ -96,7 +96,7 @@ if(place_meeting(x,y+2, obj_falling) && !key_jump && !obj_falling.falling){
 	}
 }
 else{		
-	vplat = false;
+vplat = false;
 vTouch = vertical_collision();
 y += vspd;
 hTouch = horizontal_collision();
