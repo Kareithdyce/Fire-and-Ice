@@ -14,3 +14,16 @@ switch(form){
 	break;
 
 }
+if(vspd > 0 ){
+	fallMode(sprite_index);
+}
+
+else if(vspd < 0 ){
+	jumpMode(sprite_index);
+}
+else if(crouching){
+	crouchMode(sprite_index);
+}
+else if(move!= 0){
+	walkMode(sprite_index);
+}

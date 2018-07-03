@@ -17,16 +17,4 @@ if(argument_count >= 1){
 		}
 	}
 }
-if(argument_count >= 2){
-	if(argument[1] && !sliding){
-		var enemy = instance_place(x + hspd, y, obj_enemy);
-		if(enemy != noone && enemy.sprite_index != spr_skeleton && !enemy.dead){
-		    while (enemy == noone){
-		        x += sign(hspd);
-		    }
-		    hspd = 0;
-			return true;
-		}
-	}
-}
 return false;

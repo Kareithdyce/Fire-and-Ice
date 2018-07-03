@@ -1,7 +1,7 @@
 /// @description Movement
 // You can write your code in this editor
 if(!pause && !dead){
-	atk = pAttack1 || pAttack2 || pAttack3;
+	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
 	grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
 	if(hascontrol){
 		getInput();	
@@ -110,7 +110,11 @@ else{
 	knockback = 0;
 }
 
-
+if(aerial && image_index >= image_number-1){
+	idleForm();
+	aerial = false;
+	hascontrol = true;	
+}
 
 //Prevents player from being to low.
 var tempY = instance_place(x,y+1, obj_walls);

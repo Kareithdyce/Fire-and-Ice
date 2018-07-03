@@ -68,6 +68,12 @@ atk = pAttack1 || pAttack2 || pAttack3;
 atkpower = 5;
 knockback = 0;
 knockback3 = 10;
+
+//Aerials
+aerial = false;
+fHit = true;
+
+//can_smash = false;
 	
 
 

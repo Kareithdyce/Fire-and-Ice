@@ -76,7 +76,7 @@ if !(grounded){
 		}
 		
 }
-if(atk){
+if(atk && !aerial){
 	if(pAttack3 && image_index == 2){
 		hspd = dirc*movespeed*4;
 	}
@@ -99,7 +99,7 @@ else{
 	vplat = false;
 vTouch = vertical_collision();
 y += vspd;
-hTouch = horizontal_collision(false,true);
+hTouch = horizontal_collision();
 }
 	
 if(sprite_index != crouch_b && sprite_index != crouch_bs){

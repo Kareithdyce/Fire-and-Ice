@@ -30,6 +30,24 @@ if(argument[0] == sword2_bs){
 	sprite_index = sword3_bs;
 	image_index = 0;
 }
+
+if(argument[0] == jump_bs1 || argument[0] == jump_bs2 ||  argument[0] == fall_bs){
+	key_action = false;
+	hascontrol = false;
+	aerial  = true;
+	if(fHit){
+		image_speed = 1.2;
+		sprite_index = sword_air1_bs;
+	}else{
+		image_speed = 1;
+		sprite_index = sword_air2_bs;
+	}
+	fHit = !fHit;
+	image_index = 0;
+}
+
+
+
 /*
 if(argument[0] == idle_bs2){
 	hascontrol = false;

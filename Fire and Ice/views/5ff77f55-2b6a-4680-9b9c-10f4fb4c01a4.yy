@@ -10,7 +10,10 @@
         "0fc4803d-eac0-493f-8cc2-77689bc4ef7c",
         "9a927d9a-f776-40e3-8328-28319945be92",
         "b764be00-3784-4e37-a6bc-57125e16935e",
-        "ee82c3e7-eb4f-444f-a587-b313ef002ce8"
+        "ee82c3e7-eb4f-444f-a587-b313ef002ce8",
+        "5851a33a-7c20-4e55-88fd-051e7569af2e",
+        "1b6ba868-f6b0-4793-9f14-62f775d76900",
+        "d0f84d15-c1df-4083-ac18-60977318a84c"
     ],
     "filterType": "GMSprite",
     "folderName": "Sword Drawn",
