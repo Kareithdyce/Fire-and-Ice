@@ -503,6 +503,14 @@
             }
         },
         {
+            "Key": "672bea0a-97e0-4b06-a43e-56fe114f1074",
+            "Value": {
+                "id": "a9554eb4-2b24-41b1-9c8e-9bc0e198a3e9",
+                "resourcePath": "scripts\\smashMode\\smashMode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "693993a5-34a6-422d-a3e7-a70006307d48",
             "Value": {
                 "id": "59197c31-8386-48fe-85ad-20d5b5038f89",
@@ -1295,6 +1303,14 @@
             }
         },
         {
+            "Key": "f3a99e52-a56c-4936-a5df-a9d2403a0fec",
+            "Value": {
+                "id": "153b56d8-ad01-49ac-acad-5181b98ce619",
+                "resourcePath": "sprites\\sword_air3_bs2\\sword_air3_bs2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f54572dd-a07e-4e63-a5cb-19bafc4080a5",
             "Value": {
                 "id": "59431fcf-575f-48f9-818a-ae2df91ae04d",
@@ -1384,6 +1400,7 @@
         "b80bf1bf-8691-4224-bfbb-260b009e75d1",
         "3d7d16de-d93d-40b4-8ae9-facd17074f56",
         "edb19b49-5a7d-441e-bb50-900bb372b9da",
+        "672bea0a-97e0-4b06-a43e-56fe114f1074",
         "c5d718a5-e374-4de2-a12a-2e0a974185b3",
         "4fc73267-632b-42c8-80b4-c517e069f871",
         "7aa563fb-e793-42f7-a150-bf93e0b3b306",

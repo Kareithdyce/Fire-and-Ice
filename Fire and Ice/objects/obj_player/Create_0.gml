@@ -64,7 +64,7 @@ has_sword = false;
 pAttack1 = false;
 pAttack2 = false;
 pAttack3 = false;
-atk = pAttack1 || pAttack2 || pAttack3;
+atk = false;
 atkpower = 5;
 knockback = 0;
 knockback3 = 10;
@@ -72,8 +72,8 @@ knockback3 = 10;
 //Aerials
 aerial = false;
 fHit = true;
-
-//can_smash = false;
+can_smash = true;
+is_smashing = false;
 	
 
 

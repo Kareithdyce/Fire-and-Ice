@@ -8,6 +8,6 @@ with(obj_player){
 		hurtMode();
 	}
 }
-image_blend = c_purple;
+//image_blend = c_purple;
 //depth = -10001;
 		

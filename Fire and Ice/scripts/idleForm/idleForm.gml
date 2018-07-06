@@ -14,12 +14,17 @@ switch(form){
 	break;
 
 }
-if(vspd > 0 ){
+if(vspd > 0){
 	fallMode(sprite_index);
 }
 
 else if(vspd < 0 ){
 	jumpMode(sprite_index);
+}
+else if(is_smashing && sprite_index != sword_air3_bs2){
+	sprite_index = sword_air3_bs2;
+	image_speed = 1;
+	image_index = 0;
 }
 else if(crouching){
 	crouchMode(sprite_index);

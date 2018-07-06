@@ -76,6 +76,32 @@ if !(grounded){
 		}
 		
 }
+//Aerial Smash
+if(is_smashing && sprite_index != sword_air3_bs2){
+	hspd = 0;
+	if(image_index >= image_number-1){
+		image_index = 2;
+	}
+	vspd = gravMax;
+	if(grounded){
+	vspd = 0;
+	//Make sure that the character is not crouching at the end of the attack.
+	key_crouch = false;
+	idleForm();
+	}
+}
+if(sprite_index == sword_air3_bs2){
+	if(image_index >= image_number-1){
+	hascontrol = true;
+	is_smashing = false;
+	atkpower = normpower;
+	idleForm();
+	}
+}
+
+
+//Attacking Movement
+
 if(atk && !aerial){
 	if(pAttack3 && image_index == 2){
 		hspd = dirc*movespeed*4;

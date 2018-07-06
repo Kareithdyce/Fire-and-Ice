@@ -1,5 +1,10 @@
 /// @desc actionMode(sprite)
 /// @arg sprite
+
+if(can_smash && key_crouch && key_action && !grounded){
+	smashMode(sprite_index);
+}
+else{
 if(argument[0] == idle_bs || argument[0] == walk_bs){
 	image_speed = 1.5;
 	image_index = 0;
@@ -45,7 +50,7 @@ if(argument[0] == jump_bs1 || argument[0] == jump_bs2 ||  argument[0] == fall_bs
 	fHit = !fHit;
 	image_index = 0;
 }
-
+}
 
 
 /*
