@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "46a45a1b-be0f-489f-adaa-6d881ec4976c",
+            "Value": {
+                "id": "4a412f46-2fac-48ae-92ef-ea6fe1454902",
+                "resourcePath": "sprites\\spr_breakable_wall1\\spr_breakable_wall1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "47c9c299-90bd-4ec0-97ff-b37fca7618b0",
             "Value": {
                 "id": "ca90468b-cc7e-49ec-b602-861ec1cea40c",
@@ -539,6 +547,14 @@
             "Value": {
                 "id": "fd09e247-9797-4390-9db2-1c687cd3d186",
                 "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "75de418a-731d-4cc4-9391-81f70833292d",
+            "Value": {
+                "id": "048b21c2-82df-4d34-88e5-af402576ba25",
+                "resourcePath": "objects\\obj_breaking_wall\\obj_breaking_wall.yy",
                 "resourceType": "GMObject"
             }
         },
