@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1515971e-da52-4839-b57e-50714da04bea",
+            "Value": {
+                "id": "5a28b5c3-6033-4694-bb47-6aceb6fdb5f1",
+                "resourcePath": "scripts\\keep_walking\\keep_walking.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "185811b1-4710-4603-b03d-68ae5e58b5b0",
             "Value": {
                 "id": "1d249f74-3872-4fd4-ba0a-9f717c22efcb",
@@ -332,6 +340,14 @@
                 "id": "ca90468b-cc7e-49ec-b602-861ec1cea40c",
                 "resourcePath": "sprites\\fall_b\\fall_b.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4940eb9c-a815-47d0-9f58-d8b203aae516",
+            "Value": {
+                "id": "a7d55ed3-cc2d-4a44-b83d-10609651c081",
+                "resourcePath": "scripts\\walk_cycle\\walk_cycle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1430,6 +1446,8 @@
         "803e2cfd-2b34-4db7-9c77-da9ace0cbea2",
         "97ac7a03-2216-4227-9d35-95d242a47149",
         "d8dce65d-e387-4ea9-af1b-1a2c368f1932",
+        "1515971e-da52-4839-b57e-50714da04bea",
+        "4940eb9c-a815-47d0-9f58-d8b203aae516",
         "928cb284-0edd-48af-9c45-505bd2501f17"
     ],
     "tutorial": ""

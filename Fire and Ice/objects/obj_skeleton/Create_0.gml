@@ -7,6 +7,6 @@ awake = false;
 revive = true;
 enemy = "skeleton";
 movespeed = 0;
-awakespeed = -3.5;
+run_speed = -3.5;
 range = 20;
 dirc = 1;

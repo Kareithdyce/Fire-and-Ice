@@ -1,4 +1,4 @@
-///@description hi
+///@description hit
 if(obj_player.is_smashing){
 	if(!invincible && !dead){
 		if(enemy == "skeleton"){

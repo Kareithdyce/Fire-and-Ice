@@ -4,6 +4,6 @@ event_inherited();
 hp = 20;
 atk = 5;
 enemy = "slime";
-movespeed = -3.1;
+run_speed = -3.1;
 range = 23;
 dirc = 1;

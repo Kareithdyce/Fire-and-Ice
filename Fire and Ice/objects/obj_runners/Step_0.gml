@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description All behavior for runner type enemies.
 // You can write your code in this editor
 event_inherited();
 if(!dead){
@@ -11,14 +11,14 @@ if(image_index >= image_number-1 && attacking){
 
 	if(!player_seen){
 		
-		if((abs(xDist) <= sight) && (abs(yDist) <= sight/3)){
+		if((abs(xDist) <= sight) && (abs(yDist) <= sight/4)){
 			if(sign(dirc) == sign(xDist)){
 				player_seen = true;
 				dirc = sign(xDist);
 			}
 		}
 		else{
-			enemy_idle(enemy);
+			walk_cycle();
 		}
 	}
 	
@@ -33,9 +33,10 @@ if(image_index >= image_number-1 && attacking){
 				enemy_atk(enemy);
 			}
 		}
-		else if(!horizontal_collision(true)){
+		else if(!horizontal_collision()){
 			enemy_run(enemy);
-		}
+			movespeed = run_speed;
+		}	
 	dirc = sign(xDist);
 	}
 	

@@ -9,7 +9,9 @@
         "818b2fec-23ce-4826-bbb8-634f808e2c24",
         "803e2cfd-2b34-4db7-9c77-da9ace0cbea2",
         "97ac7a03-2216-4227-9d35-95d242a47149",
-        "d8dce65d-e387-4ea9-af1b-1a2c368f1932"
+        "d8dce65d-e387-4ea9-af1b-1a2c368f1932",
+        "1515971e-da52-4839-b57e-50714da04bea",
+        "4940eb9c-a815-47d0-9f58-d8b203aae516"
     ],
     "filterType": "GMScript",
     "folderName": "Enemy",

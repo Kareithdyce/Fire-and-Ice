@@ -6,12 +6,7 @@ if(hp <= 0 && !dead){
 }
 
 if(!dead && dirc != 0){
-	if(enemy == "skeleton"){
-		image_xscale = -dirc;
-	}
-	else{
-		image_xscale = dirc;
-	}
+	image_xscale = dirc;
 	enemy_movement();
 }
 var tempY = instance_place(x,y+1, obj_walls);
