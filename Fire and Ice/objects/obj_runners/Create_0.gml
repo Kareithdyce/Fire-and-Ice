@@ -11,3 +11,6 @@ walk_speed = 2;
 run_speed = 0;
 mover = 0;
 is_waiting = false;
+attack_speed = 0;
+active = true;
+cool_down = .75

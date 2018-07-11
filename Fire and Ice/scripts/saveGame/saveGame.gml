@@ -18,7 +18,9 @@ ini_write_real("Player", "Form", obj_player.form);
 
 
 //Abilities
-//ini_write_real("Abilities", "WallJump", obj_player.wall_jump);
+ini_write_real("Abilities", "WallJump", obj_player.can_wall_jump);
+ini_write_real("Abilities", "AttackPower", obj_player.atkpower);
+ini_write_real("Abilities", "SmashAttack", obj_player.can_smash);
 
 //HealthUps
 //ini_write_real("Health","NumPowerups", obj_player.NumHealthUps);

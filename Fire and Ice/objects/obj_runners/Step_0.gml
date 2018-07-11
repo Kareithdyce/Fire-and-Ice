@@ -1,14 +1,20 @@
 /// @description All behavior for runner type enemies.
 // You can write your code in this editor
 event_inherited();
-if(!dead){
+if(!dead && active){
 xDist = x-obj_player.x;
 yDist = y-obj_player.y;
 if(image_index >= image_number-1 && attacking){
-	attacking = false;
-	//invincible = false;	
+	image_xscale = dirc;
+	image_yscale = 1;
+	depth = 0;
+	enemy_idle(enemy)
+	alarm[2] = room_speed * cool_down;
+	attacking = false;	
+	active = false;
+	movespeed = 0;
 }
-
+else{
 	if(!player_seen){
 		
 		if((abs(xDist) <= sight) && (abs(yDist) <= sight/4)){
@@ -29,7 +35,7 @@ if(image_index >= image_number-1 && attacking){
 		
 		else if(abs(xDist) <= range){
 			if(sign(dirc) == sign(xDist) && (abs(yDist) <= sight/4) && !invincible){
-				hspd = 0;
+				hspd = attack_speed * -dirc;
 				enemy_atk(enemy);
 			}
 		}
@@ -39,5 +45,5 @@ if(image_index >= image_number-1 && attacking){
 		}	
 	dirc = sign(xDist);
 	}
-	
+}	
 }

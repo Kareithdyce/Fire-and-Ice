@@ -9,8 +9,10 @@ if(file_exists(SAVEFILE)){
 	obj_player.jumps_max = ini_read_real("Player","MaxJumps",1);
 	obj_player.form = ini_read_real("Player","Form", 0);
 	obj_player.maxHealth = ini_read_real("Player", "MaxHealth", 100);
-	obj_player.maxMana = ini_read_real("Player", "MaxMana", 0);
-	
+	obj_player.maxMana = ini_read_real("Player", "MaxMana", 0);	
+	obj_player.atkpower = ini_read_real("Abilities", "AttackPower", 5);
+	obj_player.can_smash = ini_read_real("Abilities", "SmashAttack", false);
+	obj_player.can_wall_jump = ini_read_real("Abilities", "WallJump", false);
 	var i = 0;
 	repeat(obj_player.NumHealthUps){
 		obj_player.healthUp[i] = ini_read_real("Health", string(i), 0);

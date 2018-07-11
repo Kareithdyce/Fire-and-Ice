@@ -12,6 +12,7 @@ if(argument[0] == "slime"){
 	image_index = 0;
 	image_speed = 1;
 	attacking = true;
+	//attack_speed = 0;
 }
 
 	
