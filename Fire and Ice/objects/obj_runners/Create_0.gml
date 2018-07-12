@@ -2,8 +2,9 @@
 // You can write your code in this editor
 event_inherited();
 movespeed = 3;
-sight = 200;
-range = 20;
+xSight = 150;
+ySight = 100;
+attack_range = 20;
 attacking = false;
 wait_time = 2;
 move_radius = 32*6;

@@ -15,6 +15,7 @@ if(!dead){
 			sprite_index = spr_skeleton_idle;
 			image_speed = 1;
 			revive = false;
+			player_seen = false;
 		}
 
 	}
