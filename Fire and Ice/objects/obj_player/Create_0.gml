@@ -72,7 +72,7 @@ knockback3 = 10;
 //Aerials
 aerial = false;
 fHit = true;
-can_smash = true;
+can_smash = false;
 is_smashing = false;
 	
 
@@ -91,7 +91,7 @@ invincible = false;
 vTouch = false;
 hTouch = false;
 //Wall Jump
-can_wall_jump = true;
+can_wall_jump = false;
 wall_jump = false;
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);

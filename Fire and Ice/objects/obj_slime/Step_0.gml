@@ -6,23 +6,18 @@ if(dead && image_index >= image_number -1){
 }
 
 if(attacking){
-	vspd += grav;
 	if(image_index <= 3){
 		image_xscale *= sizeMod;
 		image_yscale *= sizeMod;
+		hspd = -dirc * attack_speed/4;
 		depth = -2;
-	}
-	else if(image_index < 3 && image_index > 4 ){
-		hspd = -dirc * attack_speed;
-		image_xscale *= sizeMod;
-		image_yscale *= sizeMod;
-		
 	}
 	else{
 		image_xscale /= sizeMod;
 		image_yscale /= sizeMod;
 		hspd = -dirc * attack_speed;
 	}
+	vspd += grav;
 	enemy_movement();
 }
 

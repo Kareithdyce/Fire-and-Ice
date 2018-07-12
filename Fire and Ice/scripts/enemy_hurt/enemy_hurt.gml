@@ -20,7 +20,7 @@ if(!invincible){
 		alarm[0] = room_speed*.4;
 	}
 	hspd = obj_player.dirc*(hitspeed + obj_player.knockback); 
-	horizontal_collision(true);
+	horizontal_collision();
 	x+= hspd;
 	hspd = 0;
 }

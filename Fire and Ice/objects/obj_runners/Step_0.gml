@@ -17,7 +17,7 @@ if(image_index >= image_number-1 && attacking){
 else{
 	if(!player_seen){
 		
-		if((abs(xDist) <= sight) && (abs(yDist) <= sight/4)){
+		if(false){
 			if(sign(dirc) == sign(xDist)){
 				player_seen = true;
 				dirc = sign(xDist);

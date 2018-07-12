@@ -13,4 +13,6 @@ mover = 0;
 is_waiting = false;
 attack_speed = 0;
 active = true;
-cool_down = .75
+cool_down = .75;
+xDist = 0;
+yDist = 0;

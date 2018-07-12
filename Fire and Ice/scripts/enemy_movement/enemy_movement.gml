@@ -2,8 +2,8 @@
 //Horizontial Movement
 if(!hit && !attacking){
 	hspd = dirc * movespeed;
-	vspd += grav;
-}	
+}
+vspd += grav;
 //Collisions
 vertical_collision();
 y += vspd;
