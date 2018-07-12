@@ -27,8 +27,13 @@ if(!dead){
 		movespeed = 0;
 	}
 }else{
-	if(image_index >= image_number-1 && sprite_index == spr_skeleton_dead){
+	if(image_index >= image_number-1 && dead){
 		image_speed = 0;
+		instance_destroy(self);
 	}
 	
+}
+if(dead && !vertical_collision()){
+	hspd += grav;
+	vertical_collision();
 }

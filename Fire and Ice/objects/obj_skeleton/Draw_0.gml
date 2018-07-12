@@ -7,7 +7,7 @@ event_inherited();
 
 draw_set_color(c_blue);
 //draw_text(x,y, hp);
-//draw_text(x,y-20, invincible);
+draw_text(x,y-20, xDist);
 /*
 draw_set_color(c_yellow);
 draw_text(x,y-20, dirc);

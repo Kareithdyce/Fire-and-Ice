@@ -11,6 +11,7 @@ vspd = 0;
 movespeed = 0;
 hitspeed = 15;
 grav = .3;
+gravMax = 7;
 player_seen = false;
 dirc = 1;
 attacking = false;

@@ -17,7 +17,7 @@ if(attacking){
 		image_yscale /= sizeMod;
 		hspd = -dirc * attack_speed;
 	}
-	vspd += grav;
-	enemy_movement();
+	//vspd += grav;
+	//enemy_movement();
 }
 

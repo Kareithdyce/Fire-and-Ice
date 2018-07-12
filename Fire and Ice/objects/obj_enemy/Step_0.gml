@@ -5,7 +5,7 @@ if(hp <= 0 && !dead){
 	enemy_dead(enemy);
 }
 
-if(!dead && dirc != 0 && !attacking){
+if(!dead && dirc != 0){
 	image_xscale = dirc;
 	enemy_movement();
 }
