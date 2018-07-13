@@ -10,7 +10,7 @@ if(vspd > gravMax){
 //Collisions
 vertical_collision();
 y += vspd;
-horizontal_collision();
-x += hspd;
-
-	
+if(!keep_walking()){
+	horizontal_collision();
+	x += hspd;
+}
