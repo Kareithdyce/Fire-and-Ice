@@ -3,7 +3,7 @@ if(!is_waiting){
 	mover += walk_speed;
 	dirc = sign(mover);
 	movespeed = -abs(walk_speed);
-if(abs(mover) >= abs(move_radius) || keep_walking() || horizontal_collision()){
+if(abs(mover) >= abs(move_radius) || keep_walking() || horizontal_collision_enemy()){
 	walk_speed *= -1;
 	movespeed  = 0;
 	mover = 0;

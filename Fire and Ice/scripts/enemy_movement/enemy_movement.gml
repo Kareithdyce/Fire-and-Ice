@@ -11,6 +11,6 @@ if(vspd > gravMax){
 vertical_collision();
 y += vspd;
 if(!keep_walking()){
-	horizontal_collision();
+	horizontal_collision_enemy();
 	x += hspd;
 }
