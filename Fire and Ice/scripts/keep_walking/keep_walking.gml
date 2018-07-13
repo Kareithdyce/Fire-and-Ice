@@ -1,1 +1,1 @@
-return !place_meeting(x+hspd-(sprite_width), y+1, obj_walls);
+return !place_meeting(x+sign(hspd)-(sprite_width), y+1, obj_walls);
