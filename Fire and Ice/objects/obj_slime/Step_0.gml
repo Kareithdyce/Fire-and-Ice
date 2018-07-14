@@ -6,8 +6,8 @@ if(dead && image_index >= image_number -1){
 }
 
 if(attacking){
-	if(!triggred){
-		triggred = true;
+	if(!triggered){
+		triggered = true;
 		instance_create_depth(x, y, depth, obj_slime_hitbox);
 	}
 	if(image_index <= 3){
@@ -25,5 +25,5 @@ if(attacking){
 	//enemy_movement();
 }
 else{
-	triggred = false;
+	triggered = false;
 }

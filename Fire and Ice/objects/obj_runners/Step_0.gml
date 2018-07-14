@@ -16,7 +16,7 @@ if(image_index >= image_number-1 && attacking){
 }
 else{
 	if(!player_seen){
-		if((abs(xDist) <= xSight) && (yDist < ySight/4 && yDist > -1) && (sign(dirc) == sign(xDist)) && !horizontal_collision()){
+		if((abs(xDist) <= xSight) && (yDist < ySight && yDist > sight_range) && (sign(dirc) == sign(xDist)) && !horizontal_collision()){
 				player_seen = true;
 				dirc = sign(xDist);
 		}
@@ -26,11 +26,11 @@ else{
 	}
 	
 	else if(!hit && !attacking){
-		if(abs(xDist) >= xSight* 1.5 || (yDist >= ySight/4 || yDist <= -1) || horizontal_collision()){
+		if(abs(xDist) >= xSight* 1.5 || (yDist >= ySight || yDist <= sight_range) || horizontal_collision()){
 			player_seen = false;
 		}
 		
-		else if((abs(xDist) <= attack_range) && (yDist < ySight/4 && yDist > -1) && !invincible){
+		else if((abs(xDist) <= attack_range) && (yDist < ySight && yDist > sight_range) && !invincible){
 				hspd = attack_speed * -dirc;
 				enemy_atk(enemy);
 		}

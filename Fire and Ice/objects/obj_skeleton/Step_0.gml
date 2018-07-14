@@ -4,6 +4,16 @@ if(!revive){
 	event_inherited();
 }
 if(!dead){
+	if(attacking){
+		if(!triggered && image_index >= 7){
+			triggered = true;
+			instance_create_depth(x,y,depth,obj_skeleton_hitbox);
+		}
+	}
+	else{
+		triggered = false;	
+	}
+	
 	if(awake){
 		if(sprite_index == spr_skeleton){
 			sprite_index = spr_skeleton_dead; 

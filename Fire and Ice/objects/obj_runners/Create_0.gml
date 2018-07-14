@@ -3,7 +3,8 @@
 event_inherited();
 movespeed = 3;
 xSight = 150;
-ySight = 100;
+ySight = 25;
+sight_range = -3;
 attack_range = 20;
 attacking = false;
 wait_time = 2;
