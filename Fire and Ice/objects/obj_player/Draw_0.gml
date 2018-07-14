@@ -20,9 +20,10 @@ if(atk){
 draw_rectangle_colour(bbox_left,bbox_top,bbox_right,bbox_bottom,c_red,c_red,c_red,c_red,false);
 draw_set_alpha(1);
 
-draw_set_color(c_fuchsia);
-draw_text(x,y-100, atkpower);
+
 draw_set_color(c_blue);
 draw_text(x+50 ,y-100, hit);
 }
 */
+draw_set_color(c_fuchsia);
+//draw_text(x,y-100, sliding);

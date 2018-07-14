@@ -8,7 +8,7 @@ if(vspd > gravMax){
 	vspd = gravMax;
 }
 //Collisions
-vertical_collision();
+vertical_collision_enemy();
 y += vspd;
 if(!keep_walking()){
 	horizontal_collision_enemy();

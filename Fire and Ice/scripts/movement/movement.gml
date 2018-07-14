@@ -69,13 +69,12 @@ else{
 	hspd = 0;
 }
 //Applies Gravity
-if !(grounded){
-		vspd += grav;
-		if(vspd > gravMax){
-			vspd = gravMax;
-		}
-		
+vspd += grav;
+if(vspd > gravMax){
+	vspd = gravMax;
 }
+		
+
 //Aerial Smash
 if(is_smashing && sprite_index != sword_air3_bs2){
 	hspd = 0;
@@ -123,7 +122,7 @@ if(place_meeting(x,y+2, obj_falling) && !key_jump && !obj_falling.falling){
 }
 else{		
 vplat = false;
-vTouch = vertical_collision();
+vertical_collision();
 y += vspd;
 hTouch = horizontal_collision();
 }

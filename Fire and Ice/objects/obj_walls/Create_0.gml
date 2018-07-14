@@ -1,7 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
-delta = 0;
+jump_thru = false;
 falling = false;
-reset = false;
-vspd = 0;

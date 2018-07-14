@@ -16,3 +16,4 @@ player_seen = false;
 dirc = 1;
 attacking = false;
 depth = 0;
+triggred = false;

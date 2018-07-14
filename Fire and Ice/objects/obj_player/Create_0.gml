@@ -21,16 +21,19 @@ hspd = 0;
 true_color = image_blend;
 vspd = 0;
 movespeed = 3;
+inside_wall = false;
 dirc = 1;
 grav = 0.3;
 gravMax = 15;
 grounded = true;
+on_ground = true;
 //stuck = false;
 dead = false;
 depth = -1;
 
 //Platforms
 vplat = false;
+
 hplat = false;
 //Jumping
 number_of_jumps = 0;
@@ -42,7 +45,7 @@ jumpspeed = 8;
 maxHealth = 100;
 currentHealth = maxHealth;
 var i = 0;
-NumHealthUps = 6;
+NumHealthUps = 7;
 repeat(NumHealthUps){
 	healthUp[i] = false;
 	i++;

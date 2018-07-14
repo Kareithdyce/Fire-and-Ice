@@ -1,11 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-event_inherited();
-//draw_self();
+//event_inherited();
+draw_self();
 
 
 
-draw_set_color(c_blue);
 //draw_text(x,y, hp);
 //draw_text(x,y-20, xDist);
 /*

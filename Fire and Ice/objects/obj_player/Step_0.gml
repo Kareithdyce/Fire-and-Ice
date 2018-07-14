@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(!pause && !dead){
 	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
-	grounded = place_meeting(x,y+1,obj_walls) || place_meeting(x,y+2,obj_falling) ;
+	grounded = on_ground || place_meeting(x,y+2,obj_falling) ;
 	if(hascontrol){
 		getInput();	
 	}
@@ -118,13 +118,14 @@ if(aerial && image_index >= image_number-1){
 
 //Prevents player from being to low.
 var tempY = instance_place(x,y+1, obj_walls);
-if(tempY != noone){
-	diffY = (y-tempY.y)+1;
-	if(diffY >= 1.5 && !vplat){
-	y-= .1;	
+	if(tempY != noone){
+		diffY = (y-tempY.y)+1;
+		if(diffY >= 1.5 && !vplat){
+			y-= .1;	
 	//image_blend = c_red;
+		}
 	}
-}
+//}
 /*
 else{
 	diffY = -1;

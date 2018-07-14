@@ -16,3 +16,5 @@ key_crouch = keyboard_check(vk_down) || keyboard_check(ord("S"))
 
 key_action = keyboard_check_pressed(ord("X")) 
             /*|| keyboard_check_pressed(vk_up)*/ || (gamepad_button_check_pressed(0,gp_face2));
+
+key_fall_thru = keyboard_check(ord("C")) && key_crouch;
