@@ -164,4 +164,8 @@ if(dead){
 
 if(dead && image_index >= image_number-1){
 	image_speed = 0;
+	if(!gameOver){
+		alarm[4] = room_speed * 1.5;
+		gameOver = true;
+	}
 }

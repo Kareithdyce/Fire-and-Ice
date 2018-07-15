@@ -3,6 +3,7 @@
 with(obj_player){
 	maxHealth += 20;
 	currentHealth = maxHealth;
+	powerUpColl++;
 }
 obj_player.healthUp[num] = true;
 paused = !paused;

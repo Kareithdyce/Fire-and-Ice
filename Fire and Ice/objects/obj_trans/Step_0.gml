@@ -25,7 +25,15 @@ if(mode != TRANS_MODE.OFF){
 				break;
 		
 			case TRANS_MODE.RESTART:
-				game_restart();
+				//game_restart();
+				mode = TRANS_MODE.GOTO;
+				if(instance_exists(obj_player)){
+					instance_destroy(obj_player);
+				}
+				instance_create_depth(-100,-100,-1,obj_player);
+				newX = 128;
+				newY = 865;
+				target = rm_demo1;
 				break;
 			
 		}

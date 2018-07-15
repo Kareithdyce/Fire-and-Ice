@@ -2,16 +2,16 @@
 // You can write your code in this editor
 //global.game_stop = true;
 	//image_blend = true_color;
-debug = !debug;
-saveGame();
+//debug = !debug;
+//saveGame();
 /*
 if(!instance_exists(idk)){
 	instance_create_depth(x,y,-1001,idk);
 }
 */
-//currentHealth -= 50;
+//currentHealth = 0;
 
-jumps_max++;
+//jumps_max++;
 /*
 if(form == 1){
 	form = 0;

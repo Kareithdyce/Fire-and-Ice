@@ -27,7 +27,7 @@ grav = 0.3;
 gravMax = 15;
 grounded = true;
 on_ground = true;
-//stuck = false;
+gameOver = false;
 dead = false;
 depth = -1;
 
@@ -82,7 +82,9 @@ is_smashing = false;
 
 hascontrol = true;
 sliding = false;
+crouching = false;
 hit = false;
+move = 0;
 invincible = false;
 //Fire Variables
 //form 2 is fire
@@ -96,5 +98,10 @@ hTouch = false;
 //Wall Jump
 can_wall_jump = false;
 wall_jump = false;
+
+//For stats
+powerUpColl = 6;
+
+
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);
