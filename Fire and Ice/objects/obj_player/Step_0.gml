@@ -1,5 +1,9 @@
 /// @description Movement
 // You can write your code in this editor
+if(room == rm_gameOver){
+	hascontrol = false;
+	visible = false;
+}
 if(!pause && !dead){
 	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
 	grounded = on_ground || place_meeting(x,y+2,obj_falling) ;

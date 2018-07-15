@@ -17,7 +17,6 @@ if(instance_exists(obj_player)){
 	else{
 		message = "You're almost there keep going!";
 	}
-	instance_destroy(obj_player);
 }
 if(death){
 	text = "No!!! It can't end here! Don't lose hope!";	

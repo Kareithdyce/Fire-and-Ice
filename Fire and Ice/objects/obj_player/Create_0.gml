@@ -100,7 +100,7 @@ can_wall_jump = false;
 wall_jump = false;
 
 //For stats
-powerUpColl = 6;
+powerUpColl = 0;
 
 
 //Gamepad Configuration

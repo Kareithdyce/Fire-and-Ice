@@ -8,7 +8,9 @@ if(dead && image_index >= image_number -1){
 if(attacking){
 	if(!triggered){
 		triggered = true;
-		instance_create_depth(x, y, depth, obj_slime_hitbox);
+		with(instance_create_layer(x, y, layer, obj_slime_hitbox)){
+			user = other;
+		}
 	}
 	if(image_index <= 3){
 		image_xscale *= sizeMod;

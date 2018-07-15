@@ -1,0 +1,1 @@
+text = "Sometimes there are passages inside walls.\nKeep a look out for them!";
