@@ -3,7 +3,7 @@
 //global.game_stop = true;
 	//image_blend = true_color;
 //debug = !debug;
-//saveGame();
+saveGame();
 /*
 if(!instance_exists(idk)){
 	instance_create_depth(x,y,-1001,idk);

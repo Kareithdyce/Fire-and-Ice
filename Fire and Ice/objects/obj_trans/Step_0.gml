@@ -17,11 +17,13 @@ if(mode != TRANS_MODE.OFF){
 				mode = TRANS_MODE.INTRO;
 				with(obj_player){
 					idleForm();
+					x = other.newX;
+					y = other.newY;
+					alarm[3] = room_speed/4;
+				
 				}
-				obj_player.x = newX;
-				obj_player.y = newY;
-				obj_player.alarm[3] = room_speed/4;
 				room_goto(target);
+				obj_player.visible = 1;
 				break;
 		
 			case TRANS_MODE.RESTART:
@@ -31,9 +33,13 @@ if(mode != TRANS_MODE.OFF){
 					instance_destroy(obj_player);
 				}
 				instance_create_depth(-100,-100,-1,obj_player);
-				newX = 128;
-				newY = 865;
-				target = rm_demo1;
+				if(file_exists(SAVEFILE)){
+					loadGame();
+				}else{
+					newX = 128;
+					newY = 865;
+					target = rm_demo1;
+				}
 				break;
 			
 		}
