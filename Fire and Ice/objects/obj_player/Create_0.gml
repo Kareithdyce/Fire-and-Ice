@@ -1,6 +1,6 @@
 	///@description Creation
 
-#macro SAVEFILE "save.ini"
+
 getInput();
 
 //demo

@@ -1,4 +1,6 @@
 /// @description Size variables and mode setup
+#macro SAVEFILE "save.ini"
+
 w = display_get_gui_width();
 h = display_get_gui_height();
 h_half = h * .5;
