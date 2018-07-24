@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "04d24095-13d4-486d-a958-24d945fb6f56",
+            "Value": {
+                "id": "191e2d55-7e80-4df5-b2c9-b4e91bf485f5",
+                "resourcePath": "sprites\\cave_background1\\cave_background1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06d2f0aa-9c82-4860-bc0e-2d6e6514549b",
             "Value": {
                 "id": "38d61961-6442-437f-818b-0d124946eb48",
@@ -308,6 +316,14 @@
                 "id": "f257a406-41df-492c-a078-5c3afc9425f1",
                 "resourcePath": "objects\\obj_sword_hitbox\\obj_sword_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "349ef966-8637-4ef7-8d4b-19322b9a6b16",
+            "Value": {
+                "id": "db68681e-045e-4139-bf45-9b5fca186bdd",
+                "resourcePath": "rooms\\rm_cave2\\rm_cave2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -943,6 +959,14 @@
             }
         },
         {
+            "Key": "9642a88b-2f79-4e92-a293-8c5914d64b43",
+            "Value": {
+                "id": "9430ed7e-21f3-46de-a1b4-4c64c886863a",
+                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "97ac7a03-2216-4227-9d35-95d242a47149",
             "Value": {
                 "id": "6e660784-d8ec-4f09-b8b0-fb208a3c543e",
@@ -1500,6 +1524,14 @@
                 "id": "f97914d3-331f-4632-b67d-066302bccb6b",
                 "resourcePath": "scripts\\enemy_atk\\enemy_atk.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "db75940d-6f1e-40b6-9c6a-1a83a20bacc7",
+            "Value": {
+                "id": "d59e1598-cf47-489d-82cd-abc80f85ca96",
+                "resourcePath": "objects\\obj_lavafall\\obj_lavafall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
