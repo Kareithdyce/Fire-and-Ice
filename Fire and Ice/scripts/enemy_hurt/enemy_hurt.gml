@@ -11,7 +11,11 @@ if(!invincible){
 		}
 	}
 	if(argument[0] == "slime"){
-		sprite_index = spr_slime_hit;
+		if(mode == 1){
+			sprite_index = spr_slime_hit;
+		}else if(mode == 2){
+			sprite_index = spr_slime_fire_hit;
+		}
 		hp -= obj_player.atkpower;
 		image_speed = 1;
 		image_index = 0;
@@ -19,6 +23,7 @@ if(!invincible){
 		player_seen = true;
 		alarm[0] = room_speed*.4;
 	}
+	
 	hspd = obj_player.dirc*(hitspeed + obj_player.knockback); 
 	horizontal_collision();
 	x+= hspd;

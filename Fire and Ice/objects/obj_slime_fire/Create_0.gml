@@ -1,10 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+// Inherit the parent event
 event_inherited();
-mode = 1;
 hp = 20;
 atk = 5;
-enemy = "slime";
+mode = 2;
 run_speed = -4;
 //range = 20;
 dirc = 1;

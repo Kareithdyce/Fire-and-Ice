@@ -4,7 +4,12 @@ if(argument[0] == "skeleton"){
 	image_speed = 1;
 }
 if(argument[0] == "slime"){
-	sprite_index = spr_slime_dead;
+	if(mode == 1){
+			sprite_index = spr_slime_dead;
+	}else if(mode == 2){
+			sprite_index = spr_slime_fire_dead;
+	}		
 	image_index = 0; 
 	image_speed = 1;
 }
+

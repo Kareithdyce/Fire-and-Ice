@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0b974b00-1e2a-4c1d-b8f5-db6d6f3081e6",
+            "Value": {
+                "id": "1e029eb0-395b-4778-9b3c-07759d3106c2",
+                "resourcePath": "views\\0b974b00-1e2a-4c1d-b8f5-db6d6f3081e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0ddcbe8b-17b5-4f6d-915a-b08e237ed5ed",
             "Value": {
                 "id": "f43be9a9-07ec-4391-8306-6e7495a33e8f",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "24ab9989-e47a-485c-8f92-a01d9348d84f",
+            "Value": {
+                "id": "2b194ce5-3c92-4812-86be-5b485d87bf06",
+                "resourcePath": "sprites\\spr_slime_fire_dead\\spr_slime_fire_dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24da9297-e976-4b34-a1aa-e35a6ecf04fa",
             "Value": {
                 "id": "3b45cc87-0055-461d-bfdd-457c0a39367e",
@@ -228,6 +244,14 @@
                 "id": "e5d5d40f-ebad-41e7-99b0-4200741bf0ac",
                 "resourcePath": "objects\\obj_skeleton_hitbox\\obj_skeleton_hitbox.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "25d8dc0c-1835-472e-b9bc-8731dbaf3db3",
+            "Value": {
+                "id": "5c8487f7-ada6-4340-9e1f-fd34c3b4e9d0",
+                "resourcePath": "sprites\\spr_slime_fire_move\\spr_slime_fire_move.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "68961e14-fd0c-41a8-aca3-2bce622d0f01",
+            "Value": {
+                "id": "f71f1de6-73b4-46e6-b77a-92d5f5cc924b",
+                "resourcePath": "sprites\\spr_slime_fire_hit\\spr_slime_fire_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "693993a5-34a6-422d-a3e7-a70006307d48",
             "Value": {
                 "id": "59197c31-8386-48fe-85ad-20d5b5038f89",
@@ -767,6 +799,14 @@
             }
         },
         {
+            "Key": "7d6e54c0-2f52-4db6-9e06-82b74dea3820",
+            "Value": {
+                "id": "c466f6cc-df84-4997-8c33-6729728f3d4f",
+                "resourcePath": "sprites\\spr_slime_fire_attack\\spr_slime_fire_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f05731f-e096-4aa7-932f-63a105e1f060",
             "Value": {
                 "id": "0f9af343-6c31-4245-9d70-c88f03b9fca8",
@@ -860,6 +900,14 @@
                 "id": "a0400b6d-1e11-4311-b556-5e222dbd4f47",
                 "resourcePath": "objects\\obj_Camera\\obj_Camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8763f927-7029-4490-9f66-0b8a60991936",
+            "Value": {
+                "id": "40d14240-fb4d-4872-a412-f1621e233991",
+                "resourcePath": "views\\8763f927-7029-4490-9f66-0b8a60991936.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1103,6 +1151,14 @@
             }
         },
         {
+            "Key": "a3c79120-088b-4298-867e-6eebd465445e",
+            "Value": {
+                "id": "11097941-3bd0-43ad-8965-be1f03c8b29e",
+                "resourcePath": "sprites\\spr_slime_fire_idle\\spr_slime_fire_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a410fcdc-62b4-433b-9f0a-8d7fb6c5f9bd",
             "Value": {
                 "id": "7d211756-09e1-49b8-a04f-1c3a8e1e7d34",
@@ -1228,6 +1284,14 @@
                 "id": "c9cabfb0-2d27-4428-9ca1-fe6bf2d64705",
                 "resourcePath": "scripts\\enemy_hurt\\enemy_hurt.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b3c8732b-04b2-4da2-8c9d-910f3421c379",
+            "Value": {
+                "id": "0e519ab2-f885-4e93-a455-73d27c0c5f6b",
+                "resourcePath": "objects\\obj_slime_fire\\obj_slime_fire.yy",
+                "resourceType": "GMObject"
             }
         },
         {

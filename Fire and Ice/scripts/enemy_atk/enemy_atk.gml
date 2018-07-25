@@ -8,11 +8,17 @@ if(argument[0] == "skeleton"){
 		}
 }
 if(argument[0] == "slime"){
-	sprite_index = spr_slime_attack;
+	if(mode == 1){
+		sprite_index = spr_slime_attack;
+	}else if(mode == 2){
+		sprite_index = spr_slime_fire_attack;
+	}
+		
 	image_index = 0;
 	image_speed = 1;
 	attacking = true;
 	//attack_speed = 0;
 }
 
-	
+
+

@@ -6,6 +6,11 @@ if(argument[0] == "skeleton"){
 }
 
 if(argument[0] == "slime"){
-		sprite_index = spr_slime_move;;
-		image_speed = 1;
+	if(mode == 1){
+		sprite_index = spr_slime_move;
+	}
+	else if(mode == 2){
+		sprite_index = spr_slime_fire_move;
+	}
+	image_speed = 1;
 }
