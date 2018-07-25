@@ -7,7 +7,7 @@ if(!dead){
 	if(attacking){
 		if(!triggered && image_index >= 7){
 			triggered = true;
-			with(instance_create_layer(x, y, layer, obj_skeleton_hitbox)){
+			with(instance_create_layer(x, y, layer_create(-1000), obj_skeleton_hitbox)){
 				user = other;
 			}
 		}

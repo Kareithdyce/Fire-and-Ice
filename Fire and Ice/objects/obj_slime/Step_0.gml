@@ -8,7 +8,9 @@ if(dead && image_index >= image_number -1){
 if(attacking){
 	if(!triggered){
 		triggered = true;
-		with(instance_create_layer(x, y, layer, obj_slime_hitbox)){
+		//hp = 100;
+		
+		with(instance_create_layer(x, y, layer_create(-1000), obj_slime_hitbox)){
 			user = other;
 		}
 	}
