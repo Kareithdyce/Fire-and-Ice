@@ -1,7 +1,7 @@
 /// Checks vertical collision
 //var wall = ;
-if (place_meeting(x, y + vspd, obj_walls)) {
-	while (!place_meeting(x, y + sign(vspd), obj_walls)) {
+if (place_meeting(x, y + vspd, obj_wall)) {
+	while (!place_meeting(x, y + sign(vspd), obj_wall)) {
         y += sign(vspd);
     }
 	vspd = 0;

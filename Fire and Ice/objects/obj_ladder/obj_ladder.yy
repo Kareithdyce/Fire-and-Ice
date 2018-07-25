@@ -1,23 +1,14 @@
 {
-    "id": "7f05731f-e096-4aa7-932f-63a105e1f060",
+    "id": "5a78a556-5955-4757-b347-04dcc97c2bff",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_jumpthru_wall",
+    "name": "obj_ladder",
     "eventList": [
-        {
-            "id": "3969f191-b645-4160-9953-7f7163203f8a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "7f05731f-e096-4aa7-932f-63a105e1f060"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "083d8bbe-3743-4e57-bba1-28ff9aac00d7",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "60be1f98-c35a-47dd-b00b-40a73418c147",
-    "visible": false
+    "spriteId": "6381db91-d5d9-4066-96f2-e0a0151aa209",
+    "visible": true
 }
