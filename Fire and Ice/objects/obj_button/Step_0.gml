@@ -10,9 +10,10 @@ if(place_meeting(x, y, obj_player)){
 }
 
 if(instance_exists(obj_falling)){
-	if(obj_falling.falling){
-		with(obj_falling){
-			if(!place_meeting(x,y+2,obj_walls)){
+	if(obj_falling.falling || obj_falling.reset){
+		instance_destroy(self)
+		/*with(obj_falling){
+			if(!place_meeting(x,y+2,obj_wall)){
 				if(!reset){
 				y = ystart;
 				reset = true;
@@ -20,7 +21,7 @@ if(instance_exists(obj_falling)){
 				
 				
 			}
-		}
+		}*/
 	}
 }
 else{

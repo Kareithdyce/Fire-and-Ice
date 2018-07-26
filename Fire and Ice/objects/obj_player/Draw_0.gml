@@ -23,7 +23,6 @@ if(atk){
 
 
 draw_set_color(c_blue);
-draw_text(x+50 ,y-100, hit);
 }
 if(instance_exists(obj_jumpthru_wall)){
 	draw_text(x,y, place_meeting(x,y+1,obj_jumpthru_wall));
@@ -33,3 +32,4 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
+//draw_text(x+50 ,y-100, number_of_jumps);

@@ -112,11 +112,12 @@ if(atk && !aerial){
 }
 
 //Collisions
-if(place_meeting(x,y+2, obj_falling) && !key_jump && !obj_falling.falling){
+var float = instance_place(x,y+1, obj_falling)
+if(float != noone && !key_jump && !float.falling){
 	vplat = true;
-	y += obj_falling.vspd;	
+	y += float.vspd;	
 	vspd = 0;
-	if(!place_meeting(x,y+1, obj_falling)){
+	if(!place_meeting(x,y, obj_falling)){
 		y+= 1;
 	}
 }
