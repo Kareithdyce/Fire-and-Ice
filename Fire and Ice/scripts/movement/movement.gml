@@ -93,6 +93,8 @@ if(sprite_index == sword_air3_bs2){
 	if(image_index >= image_number-1){
 	hascontrol = true;
 	is_smashing = false;
+	invincible = true;
+	alarm[2] = room_speed * .5;
 	atkpower = normpower;
 	idleForm();
 	}

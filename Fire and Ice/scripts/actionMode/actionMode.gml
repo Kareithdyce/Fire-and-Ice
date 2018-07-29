@@ -1,11 +1,11 @@
 /// @desc actionMode(sprite)
 /// @arg sprite
 
-if(can_smash && key_crouch && key_action && !grounded){
+if(can_smash && key_crouch && key_action && !grounded && !atk){
 	smashMode(sprite_index);
 }
 else{
-if(argument[0] == idle_bs || argument[0] == walk_bs){
+if((argument[0] == idle_bs || argument[0] == walk_bs) && grounded){
 	image_speed = 1.5;
 	image_index = 0;
 	key_action = false;

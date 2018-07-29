@@ -11,7 +11,9 @@
         "b6dbde46-d3b0-4fd8-bad6-c671e4847a90",
         "60be1f98-c35a-47dd-b00b-40a73418c147",
         "6381db91-d5d9-4066-96f2-e0a0151aa209",
-        "46a45a1b-be0f-489f-adaa-6d881ec4976c"
+        "46a45a1b-be0f-489f-adaa-6d881ec4976c",
+        "245b02ba-44a2-4b83-aaf0-178d234f6ce0",
+        "ebf46895-aefc-4336-8d76-4ea5d262353c"
     ],
     "filterType": "GMSprite",
     "folderName": "Walls and Floors",

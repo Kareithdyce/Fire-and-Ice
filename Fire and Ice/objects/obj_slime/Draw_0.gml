@@ -14,6 +14,6 @@ draw_set_color(c_red);
 draw_rectangle(x-(15*dirc),y-20,x+(5*dirc),y,false);
 */
 draw_set_color(c_fuchsia);
-draw_text(x,y-20,vertical_collision_enemy());
+//draw_text(x,y-20,vertical_collision_enemy());
 draw_set_color(c_aqua);
-draw_text(x,y-40,horizontal_collision_enemy());
+//draw_text(x,y-40,horizontal_collision_enemy());

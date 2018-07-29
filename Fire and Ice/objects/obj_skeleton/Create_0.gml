@@ -3,7 +3,7 @@
 event_inherited();
 hp = 20;
 atk = 5;
-awake = (room == rm_cave1 && obj_player.form > 0);
+awake =  (obj_player.form > 0);
 revive = true;
 enemy = "skeleton";
 movespeed = 0;

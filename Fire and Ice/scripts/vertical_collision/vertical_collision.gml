@@ -9,9 +9,10 @@ if (wall != noone) {
 		while (!place_meeting(x, y + sign(vspd), obj_wall)) {
 			y += sign(vspd);
 		}
-	vspd = 0;
-	on_ground = true;
-    return true;
+	on_ground = vspd > 0;
+    vspd = 0;
+	
+	return true;
 	}
 	
 	if(wall.jump_thru && vspd > 0 && !key_fall_thru){

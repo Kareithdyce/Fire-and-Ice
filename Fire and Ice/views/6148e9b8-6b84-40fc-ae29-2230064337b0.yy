@@ -16,7 +16,8 @@
         "75de418a-731d-4cc4-9391-81f70833292d",
         "7f05731f-e096-4aa7-932f-63a105e1f060",
         "083d8bbe-3743-4e57-bba1-28ff9aac00d7",
-        "5a78a556-5955-4757-b347-04dcc97c2bff"
+        "5a78a556-5955-4757-b347-04dcc97c2bff",
+        "1e880e45-7c1d-4360-af28-571638b2ed46"
     ],
     "filterType": "GMObject",
     "folderName": "walls and floors",

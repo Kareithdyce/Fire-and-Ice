@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0f573502-6a70-4848-bbf9-537979f3551b",
+            "Value": {
+                "id": "d146378e-763c-45b6-af67-47433b59834b",
+                "resourcePath": "scripts\\press_any_key\\press_any_key.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0fc4803d-eac0-493f-8cc2-77689bc4ef7c",
             "Value": {
                 "id": "0de78899-0679-4565-b97b-01c7f0585bfa",
@@ -132,6 +140,14 @@
                 "id": "4a08b620-9443-49e6-ac73-7185bf0cb834",
                 "resourcePath": "views\\106ee1b4-8b31-4706-a49b-9cfa4db97f34.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "10d7a503-6903-4b8e-a9fc-f8e56c526125",
+            "Value": {
+                "id": "1e3e32d0-dbdc-48ec-a9c5-ae95c6e2fedd",
+                "resourcePath": "sprites\\spr_sword_smash_hitbox\\spr_sword_smash_hitbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -199,6 +215,14 @@
             }
         },
         {
+            "Key": "1e880e45-7c1d-4360-af28-571638b2ed46",
+            "Value": {
+                "id": "5058fccc-4a38-4205-a8ea-6d4898265d0d",
+                "resourcePath": "objects\\obj_stairs_fire_temple_r\\obj_stairs_fire_temple_r.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2273e7bd-2673-411c-b6f2-b318ff1a2f4b",
             "Value": {
                 "id": "48c0953d-0f4c-4174-84bf-c33a5140770e",
@@ -220,6 +244,14 @@
                 "id": "c0e6063f-90b8-4969-8a3b-be84d0799e53",
                 "resourcePath": "scripts\\saveGame\\saveGame.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "245b02ba-44a2-4b83-aaf0-178d234f6ce0",
+            "Value": {
+                "id": "6b7a0c14-42ae-4b73-a000-a4a41172cc7f",
+                "resourcePath": "sprites\\spr_stairs_fire_temple_r\\spr_stairs_fire_temple_r.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -684,6 +716,14 @@
                 "id": "de28b74a-9025-48d6-a502-7c21448af565",
                 "resourcePath": "sprites\\Forest3\\Forest3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "644dbd14-cee8-41f3-9234-8296ffd98913",
+            "Value": {
+                "id": "907ef227-8ff2-4cd1-af98-4879903fc87c",
+                "resourcePath": "objects\\obj_sword_smashing_hitbox\\obj_sword_smashing_hitbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1735,6 +1775,14 @@
             }
         },
         {
+            "Key": "ebf46895-aefc-4336-8d76-4ea5d262353c",
+            "Value": {
+                "id": "5b7f80d9-7413-437f-9f55-bea417155321",
+                "resourcePath": "sprites\\spr_stairs_fire_temple_l\\spr_stairs_fire_temple_l.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed654f2d-3a14-4959-b41a-d9bb2bbfac78",
             "Value": {
                 "id": "641af28f-0791-47c2-9d49-b2a5d3b1302e",
@@ -1946,7 +1994,8 @@
         "d8dce65d-e387-4ea9-af1b-1a2c368f1932",
         "1515971e-da52-4839-b57e-50714da04bea",
         "4940eb9c-a815-47d0-9f58-d8b203aae516",
-        "928cb284-0edd-48af-9c45-505bd2501f17"
+        "928cb284-0edd-48af-9c45-505bd2501f17",
+        "0f573502-6a70-4848-bbf9-537979f3551b"
     ],
     "tutorial": ""
 }
