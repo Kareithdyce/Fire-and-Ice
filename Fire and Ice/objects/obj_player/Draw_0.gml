@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
+
 //draw_set_color(c_fuchsia);
 //draw_text(x,y-100, image_index);
 //draw_text(x+100,y-100, image_number);
@@ -32,4 +33,4 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, number_of_jumps);
+//draw_text(x+50 ,y-100, instance_exists(SwordGet));

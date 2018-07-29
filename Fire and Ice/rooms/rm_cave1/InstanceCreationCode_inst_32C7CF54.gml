@@ -1,1 +1,0 @@
-text = "Press X to Attack.\nYour third hit does the most damage!";

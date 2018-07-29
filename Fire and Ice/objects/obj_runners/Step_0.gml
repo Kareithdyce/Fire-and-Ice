@@ -7,6 +7,9 @@ yDist = y-obj_player.y;
 if(image_index >= image_number-1 && attacking){
 	image_xscale = dirc;
 	image_yscale = 1;
+	if(enemy == "slime"){
+		y-=1;
+	}
 	depth = 0;
 	enemy_idle(enemy)
 	alarm[2] = room_speed * cool_down;

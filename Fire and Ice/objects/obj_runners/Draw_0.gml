@@ -6,4 +6,3 @@ draw_set_alpha(.5)
 // Inherit the parent event
 event_inherited();
 draw_set_alpha(1);
-

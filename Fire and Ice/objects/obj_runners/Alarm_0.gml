@@ -2,14 +2,7 @@
 // You can write your code in this editor
 if(!dead){
 	hit = false;
-	switch(enemy){
-		case "skeleton":
-			sprite_index = spr_skeleton_idle;
-			break;
-		case "slime":
-			sprite_index = spr_slime_idle;
-			break;
-	}
+	enemy_idle(enemy);
 	attacking = false;
 	dirc = obj_player.dirc;
 	invincible = false;

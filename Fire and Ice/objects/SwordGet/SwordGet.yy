@@ -1,48 +1,38 @@
 {
-    "id": "feaa017d-10ec-4f12-8843-28bb1904a4eb",
+    "id": "af70b118-39c2-4e95-b71c-495d4055b906",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sword",
+    "name": "SwordGet",
     "eventList": [
         {
-            "id": "5d456f17-815b-4a44-8d25-1815ac1d759c",
+            "id": "620cc578-94cc-41b3-88ff-8e157a29102a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "693993a5-34a6-422d-a3e7-a70006307d48",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "feaa017d-10ec-4f12-8843-28bb1904a4eb"
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 9,
+            "m_owner": "af70b118-39c2-4e95-b71c-495d4055b906"
         },
         {
-            "id": "96e5f4e2-5051-4cf7-a969-3ada659079a8",
+            "id": "a152efa3-25a7-46f5-93aa-d91b314b463e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "feaa017d-10ec-4f12-8843-28bb1904a4eb"
+            "m_owner": "af70b118-39c2-4e95-b71c-495d4055b906"
         },
         {
-            "id": "c3fbb139-97bf-4ee2-96f4-192de17a4463",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "feaa017d-10ec-4f12-8843-28bb1904a4eb"
-        },
-        {
-            "id": "f327a281-4c60-43a0-8616-5504e1c57c08",
+            "id": "68c727c9-b628-4d5b-8a27-1797427f8544",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
-            "m_owner": "feaa017d-10ec-4f12-8843-28bb1904a4eb"
+            "m_owner": "af70b118-39c2-4e95-b71c-495d4055b906"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -63,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a1bf460e-f898-4844-9a70-ad99b24c1963",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

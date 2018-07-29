@@ -13,5 +13,7 @@ if(!sprite_exists(screenShot)){
 
 if(paused){
     instance_deactivate_all(true);
-	instance_create_depth(x,y,depth,StatusUp);
+	with(instance_create_layer(x,y,layer_create(-1000),StatusUp)){
+		stats = 0;	
+	}
 }

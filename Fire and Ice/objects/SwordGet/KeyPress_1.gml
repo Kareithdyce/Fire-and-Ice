@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-with(health_crystal){
+with(obj_sword){
 	pause = false;
 	
 	if(sprite_exists(screenShot)){

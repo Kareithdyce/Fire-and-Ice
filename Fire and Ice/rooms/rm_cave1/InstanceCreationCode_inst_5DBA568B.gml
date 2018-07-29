@@ -1,3 +1,3 @@
-target = rm_gameOver;
-setX = 50;
-setY = 348;
+target = rm_cave2;
+setY = 1472;
+setX = 3968;

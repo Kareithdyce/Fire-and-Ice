@@ -1151,14 +1151,6 @@
             }
         },
         {
-            "Key": "a15f4670-6350-4114-8134-3dfa056039c4",
-            "Value": {
-                "id": "e893106c-f313-4acd-a45b-67ad118990aa",
-                "resourcePath": "sprites\\sprite97\\sprite97.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a186f098-e586-485d-93e2-3410544a78de",
             "Value": {
                 "id": "6d3e911b-6f04-4151-b256-2f7c2256a6f7",
@@ -1307,6 +1299,14 @@
             "Value": {
                 "id": "9c2df8f8-0d83-49f5-b493-d9b7735c0f05",
                 "resourcePath": "objects\\obj_falling_bridge\\obj_falling_bridge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af70b118-39c2-4e95-b71c-495d4055b906",
+            "Value": {
+                "id": "9a5046f7-9761-447a-a356-42620d1255d4",
+                "resourcePath": "objects\\SwordGet\\SwordGet.yy",
                 "resourceType": "GMObject"
             }
         },
