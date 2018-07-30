@@ -101,6 +101,5 @@ wall_jump = false;
 //For stats
 powerUpColl = 0;
 
-
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);

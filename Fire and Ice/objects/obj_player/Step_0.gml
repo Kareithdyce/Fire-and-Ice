@@ -34,7 +34,7 @@ if(!pause && !dead){
 		image_alpha = 1;
 	}
 	
-	if(vspd > grav && !vplat){
+	if(vspd > 0  && !vplat && !grounded){
 		fallMode(sprite_index);
 	}
 	
