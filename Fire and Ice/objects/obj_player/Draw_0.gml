@@ -34,3 +34,6 @@ if(instance_exists(obj_jumpthru_wall)){
 
 draw_set_color(c_fuchsia);
 //draw_text(x+50 ,y-100, grounded);
+//draw_text(x+50 ,y-150, vspd);
+//draw_text(x+50 ,y-200, hspd);
+

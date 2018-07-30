@@ -121,7 +121,7 @@ if(aerial && image_index >= image_number-1){
 }
 
 //Prevents player from being to low.
-var tempY = instance_place(x,y+1, obj_wall);
+var tempY = instance_place(x,y+1, obj_walls);
 	if(tempY != noone){
 		diffY = (y-tempY.y)+1;
 		if(diffY >= 1.5 && !vplat){

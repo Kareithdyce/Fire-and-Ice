@@ -1,5 +1,5 @@
 	///@description Creation
-
+//raise = 0;
 
 getInput();
 
@@ -33,7 +33,6 @@ depth = -1;
 
 //Platforms
 vplat = false;
-
 hplat = false;
 //Jumping
 number_of_jumps = 0;

@@ -56,7 +56,7 @@ if(!hit){
 			}
 			else{
 				crouchMode(sprite_index);
-				//hspd = 0;
+				hspd = 0;
 			}
 		}
 		else if(key_action && hascontrol){
@@ -114,7 +114,7 @@ if(atk && !aerial){
 }
 
 //Collisions
-var float = instance_place(x,y+1, obj_falling)
+var float = instance_place(x,y+1, obj_falling);
 if(float != noone && !key_jump && !float.falling){
 	vplat = true;
 	y += float.vspd;	
@@ -125,12 +125,17 @@ if(float != noone && !key_jump && !float.falling){
 }
 else{		
 vplat = false;
-vertical_collision();
-y += vspd;
-hTouch = horizontal_collision();
 }
 	
+if(!vplat){
+	horizontal_collision();
+}
 if(sprite_index != crouch_b && sprite_index != crouch_bs){
 	x += hspd;
-}	
+}
+vertical_collision();
+y += vspd;
+
+	
+
 	
