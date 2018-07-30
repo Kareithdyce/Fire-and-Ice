@@ -6,7 +6,7 @@ if(room == rm_gameOver){
 }
 if(!pause && !dead){
 	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
-	grounded = on_ground || place_meeting(x,y+1,obj_falling) ;
+	grounded = on_ground || place_meeting(x,y+1,obj_falling) || place_meeting(x+hspd, y, obj_slope);
 	if(hascontrol){
 		getInput();	
 	}
@@ -34,7 +34,7 @@ if(!pause && !dead){
 		image_alpha = 1;
 	}
 	
-	if(vspd > 0 && !vplat){
+	if(vspd > grav && !vplat){
 		fallMode(sprite_index);
 	}
 	
