@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "0cae8c10-8ea6-4eff-8137-7a262f1c1ee1",
+            "Value": {
+                "id": "005daf06-bdfb-45d0-b40e-6af93811d43e",
+                "resourcePath": "objects\\obj_loseControl\\obj_loseControl.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0ddcbe8b-17b5-4f6d-915a-b08e237ed5ed",
             "Value": {
                 "id": "f43be9a9-07ec-4391-8306-6e7495a33e8f",
@@ -180,6 +188,14 @@
                 "id": "5a28b5c3-6033-4694-bb47-6aceb6fdb5f1",
                 "resourcePath": "scripts\\keep_walking\\keep_walking.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1597d967-fe91-4845-801f-8c2fe38d1c27",
+            "Value": {
+                "id": "fd885221-ab3f-4c61-8679-732bc65bbef4",
+                "resourcePath": "sprites\\getup_b\\getup_b.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -292,6 +308,14 @@
                 "id": "5c8487f7-ada6-4340-9e1f-fd34c3b4e9d0",
                 "resourcePath": "sprites\\spr_slime_fire_move\\spr_slime_fire_move.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "29761b2d-4ade-42e5-8916-8c59a1eedd22",
+            "Value": {
+                "id": "536730e0-6886-49de-84d3-7e7220949f7d",
+                "resourcePath": "objects\\obj_fallDown\\obj_fallDown.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -468,6 +492,14 @@
                 "id": "6b1893fd-2780-4d19-988b-185234338899",
                 "resourcePath": "views\\3f96ea4f-d3f0-465a-96f9-2dfb51672549.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "401f17b0-c421-41f6-acdc-007e934c2b0e",
+            "Value": {
+                "id": "1cb609ca-bc9f-4a28-bae1-d9cb9df18a5b",
+                "resourcePath": "sprites\\greatfall_b\\greatfall_b.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

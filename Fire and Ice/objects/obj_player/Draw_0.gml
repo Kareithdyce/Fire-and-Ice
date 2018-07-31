@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_self();
+if (shake > 0){
+    draw_sprite_ext( sprite_index, image_index, x + irandom_range(-shake, shake), y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	shake -= 5;
+}
+else{
+    draw_self();
+}
 
 //draw_set_color(c_fuchsia);
 //draw_text(x,y-100, image_index);
@@ -33,6 +39,6 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, grounded);
+//draw_text(x+50 ,y-100, count);
 draw_set_color(c_red);
 

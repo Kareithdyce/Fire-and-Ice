@@ -9,6 +9,9 @@ demo = true;
 debug = 0;
 diffX = -1;
 diffY = -1;
+trapped = false;
+count = 0;
+shake = 0;
 //Turn this off after clearing the last intro room
 
 //Basic
@@ -44,7 +47,7 @@ jumpspeed = 8;
 maxHealth = 100;
 currentHealth = maxHealth;
 var i = 0;
-NumHealthUps = 7;
+NumHealthUps = 6;
 repeat(NumHealthUps){
 	healthUp[i] = false;
 	i++;
@@ -60,6 +63,13 @@ repeat(NumManaUps){
 	i++;
 }
 
+//Switches
+var i = 0;
+NumSwitches = 1;
+repeat(NumSwitches){
+	switches[i] = false;
+	i++;
+}
 
 //Attacks
 has_sword = false;

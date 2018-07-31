@@ -115,7 +115,7 @@ if(atk && !aerial){
 
 //Collisions
 var float = instance_place(x,y+1, obj_falling);
-if(float != noone && !key_jump && !float.falling){
+if(float != noone && !key_jump && !float.falling) && !float.stable{
 	vplat = true;
 	y += float.vspd;	
 	vspd = 0;
@@ -129,6 +129,15 @@ vplat = false;
 	
 if(!vplat){
 	horizontal_collision();
+}
+
+else{
+	if(place_meeting(x+hspd, y, obj_walls)){			
+		while (!place_meeting(x + sign(hspd), y, obj_walls)) {
+			x += sign(hspd);
+		}
+		hspd = 0;
+	}
 }
 if(sprite_index != crouch_b && sprite_index != crouch_bs){
 	x += hspd;

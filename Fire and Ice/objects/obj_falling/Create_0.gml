@@ -7,3 +7,4 @@ reset = false;
 vspd = 0;
 grav = obj_player.grav;
 raise = 1.5;
+stable = false;

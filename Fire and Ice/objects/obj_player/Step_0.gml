@@ -4,6 +4,17 @@ if(room == rm_gameOver){
 	hascontrol = false;
 	visible = false;
 }
+if(trapped){
+	if(press_any_key()){
+		shake =  10;
+		count++;
+	}
+	if(count >= 3){
+		count = 0;
+		shake = 0;
+		image_speed = 1;
+	}
+}
 if(!pause && !dead){
 	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
 	grounded = on_ground || place_meeting(x,y+1,obj_falling) || place_meeting(x+hspd, y, obj_slope);
