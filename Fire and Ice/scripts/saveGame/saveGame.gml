@@ -46,6 +46,7 @@ with(obj_player){
 	//ManaUps
 	//ini_write_real("Mana","NumPowerups", obj_player.NumManaUps);
 	var i = 0;
+	ini_write_real("Mana","Crystals Collected", manaUpColl);
 	repeat(NumManaUps){
 		ini_write_real("Mana",string(i), manaUp[i]);
 		i++;
@@ -58,6 +59,15 @@ with(obj_player){
 		i++;
 	}
 
+	//Attacks
+	
+	var i = 0;
+	ini_write_real("Attack","Crystals Collected", atkUpColl);
+	ini_write_real("Attack","Power",atkpower);
+	repeat(NumAtkUps){
+		ini_write_real("Attack",string(i), atkUp[i]);
+		i++;
+	}
 
 }
 

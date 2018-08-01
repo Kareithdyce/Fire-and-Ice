@@ -58,6 +58,7 @@ repeat(NumHealthUps){
 //Mana
 maxMana = 0;
 currentMana = maxMana;
+manaUpColl = 0;
 var i = 0;
 NumManaUps = 0;
 repeat(NumManaUps){
@@ -82,6 +83,16 @@ atk = false;
 atkpower = 5;
 knockback = 0;
 knockback3 = 10;
+
+
+var i = 0;
+NumAtkUps = 1;
+atkUpColl = 0;
+repeat(NumAtkUps){
+	atkUp[i] = false;
+	i++;
+}
+
 
 //Aerials
 aerial = false;

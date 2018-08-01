@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "1cd82f48-58e3-4193-8627-83ed346873df",
+            "Value": {
+                "id": "56872554-1904-4056-9d1e-7f083b235fa9",
+                "resourcePath": "objects\\obj_atk_up\\obj_atk_up.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1e880e45-7c1d-4360-af28-571638b2ed46",
             "Value": {
                 "id": "5058fccc-4a38-4205-a8ea-6d4898265d0d",
@@ -375,6 +383,14 @@
             }
         },
         {
+            "Key": "2c45c037-10ff-4117-a231-4e4b0add9003",
+            "Value": {
+                "id": "32b38db8-6b1c-4063-9521-4709660e492b",
+                "resourcePath": "views\\2c45c037-10ff-4117-a231-4e4b0add9003.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "2e1c6e29-1fe0-4adc-8428-af253ca88707",
             "Value": {
                 "id": "cbb8b5c2-8325-4832-9e71-7e38a10f6990",
@@ -475,6 +491,14 @@
             "Value": {
                 "id": "2555af9e-cf67-4bcb-81b5-2f161d00dbc2",
                 "resourcePath": "views\\37f82b62-feda-4e03-a60d-a46c66f33935.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "395a1a4e-ffeb-4286-9a25-5df113138e20",
+            "Value": {
+                "id": "c196522e-5ffa-4534-9c05-4815e5d5c12e",
+                "resourcePath": "views\\395a1a4e-ffeb-4286-9a25-5df113138e20.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1948,6 +1972,14 @@
                 "id": "6207eadf-f77f-4188-a14d-b4e30e8a4f45",
                 "resourcePath": "sprites\\spr_water_bottom\\spr_water_bottom.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f09d7857-caef-4ee5-af52-5d1f37ba941d",
+            "Value": {
+                "id": "be08b268-6328-43ff-82dc-d2f4af9d4273",
+                "resourcePath": "objects\\StatusUpA\\StatusUpA.yy",
+                "resourceType": "GMObject"
             }
         },
         {

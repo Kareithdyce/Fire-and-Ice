@@ -24,11 +24,20 @@ if(file_exists(SAVEFILE)){
 		}
 	
 		var i = 0;
+		manaUpColl = ini_read_real("Mana","Crystals Collected", 0);
 		repeat(NumManaUps){
 			manaUp[i] = ini_read_real("Mana", string(i), 0);
 			i++;
 		}
 		
+		
+		var i = 0;
+		atkpower = ini_read_real("Attack", "Power", 5);
+		atkUpColl = ini_read_real("Attack","Crystals Collected", 0);
+		repeat(NumAtkUps){
+			atkUp[i] = ini_read_real("Attack", string(i), 0);
+			i++;
+		}
 		
 		var i = 0;
 		repeat(NumSwitches){

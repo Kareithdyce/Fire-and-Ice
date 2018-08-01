@@ -36,7 +36,7 @@ if(!pause && !dead){
 	}
 	
 	if(invincible){
-		image_alpha = blink % 2;
+		image_alpha = blink % 4;
 		blink++;
 	}
 	
