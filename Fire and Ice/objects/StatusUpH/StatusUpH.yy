@@ -2,7 +2,7 @@
     "id": "f68cdf09-f0ae-4486-be43-8971012b24d0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "StatusUp",
+    "name": "StatusUpH",
     "eventList": [
         {
             "id": "400b91a7-c677-4511-b7c7-420fef043fec",
@@ -32,6 +32,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
+            "m_owner": "f68cdf09-f0ae-4486-be43-8971012b24d0"
+        },
+        {
+            "id": "487fddcf-6222-4c11-8064-3f6a718ef47d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
             "m_owner": "f68cdf09-f0ae-4486-be43-8971012b24d0"
         }
     ],

@@ -2,7 +2,7 @@
     "id": "2e816759-6dcb-4a62-8a77-09dcd0034b07",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_heatlh",
+    "name": "spr_health",
     "For3D": false,
     "HTile": false,
     "VTile": false,

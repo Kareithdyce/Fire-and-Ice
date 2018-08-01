@@ -1,4 +1,7 @@
 /// @desc saveGame
+///@arg *Room
+///@arg *X
+///@arg *Y
 //overwrite the old file
 if(file_exists(SAVEFILE)) file_delete((SAVEFILE));
 
@@ -6,9 +9,16 @@ ini_open(SAVEFILE);
 
 //Create new File
 //Location
-ini_write_real("Location", "Room", room);
-ini_write_real("Location", "X", x);
-ini_write_real("Location", "Y", y);
+if(argument_count < 3){
+	ini_write_real("Location", "Room", room);
+	ini_write_real("Location", "X", x);
+	ini_write_real("Location", "Y", y);
+}
+else{
+	ini_write_real("Location", "Room", argument[0]);
+	ini_write_real("Location", "X", argument[1]);
+	ini_write_real("Location", "Y", argument[2]);
+}
 
 //Player Stats
 with(obj_player){
@@ -26,6 +36,7 @@ with(obj_player){
 	//HealthUps
 	//ini_write_real("Health","NumPowerups", obj_player.NumHealthUps);
 	var i = 0;
+	ini_write_real("Health","Crystals Collected", healthUpColl);
 	repeat(NumHealthUps){
 		ini_write_real("Health",string(i), healthUp[i]);
 		i++;

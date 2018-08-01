@@ -31,18 +31,15 @@ else if(place_meeting(x,y+1,obj_wall)){
 else{
 	vspd += grav;
 }
+if(falling && place_meeting(x,y, obj_player)){
+	with(obj_player){
+		x = (other.bbox_left + other.bbox_right)/2;
+		y = other.y;
+	}
+}
+
 vertical_collision();
 y += vspd;
 
-}
-with(obj_player){
-	var temp  = instance_place(x,y,other);
-	touch = (temp != noone);
-		
-	if(touch && other.falling){
-		if(!atk){
-			y = temp.y;
-			x = temp.x+16;
-		}
-	}	
+
 }

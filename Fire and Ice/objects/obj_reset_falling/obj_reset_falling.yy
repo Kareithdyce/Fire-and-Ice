@@ -5,16 +5,6 @@
     "name": "obj_reset_falling",
     "eventList": [
         {
-            "id": "c13a8249-62e9-4ccc-8a79-b3c7b4e0c929",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "693993a5-34a6-422d-a3e7-a70006307d48",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6229c68a-c211-4249-a792-0ad8beb2a12b"
-        },
-        {
             "id": "58135bd8-ad2c-478f-bd21-48740085fa65",
             "modelName": "GMEvent",
             "mvc": "1.0",

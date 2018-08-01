@@ -39,6 +39,6 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, count);
+//draw_text(x+50 ,y-100, debugger);
 draw_set_color(c_red);
 

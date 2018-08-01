@@ -15,3 +15,13 @@ WASD can be used to control the charcter also but I would not recommend that.
 There is no music yet. So don't worry about sound!
 Please give me your feedback and any bugs that you see!
 
+Credit to 
+
+Rvros - Main charcter sprites, Mob sprites, Boss sprites and tilesets.
+GDM Grotto Escape 2,Magic Cliffs Environment, Caverns  - Artwork created by Luis Zuno (@ansimuz)
+Pixel Art Forest Artwork created by Eder Muniz
+Glacial Mountains Pixel Art created by Vicente Nitti (@vnitti)
+Jesse M - Skeleton Sprites
+Adwit Rahman - Health UI	
+All artwork and sprites are used with owner permission however not all are endorsed.
+License - http://creativecommons.org/licenses/by/4.0/

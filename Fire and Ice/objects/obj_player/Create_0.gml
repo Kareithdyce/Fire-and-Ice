@@ -12,6 +12,7 @@ diffY = -1;
 trapped = false;
 count = 0;
 shake = 0;
+debugger = false;
 //Turn this off after clearing the last intro room
 
 //Basic
@@ -48,6 +49,7 @@ maxHealth = 100;
 currentHealth = maxHealth;
 var i = 0;
 NumHealthUps = 6;
+healthUpColl = 0;
 repeat(NumHealthUps){
 	healthUp[i] = false;
 	i++;

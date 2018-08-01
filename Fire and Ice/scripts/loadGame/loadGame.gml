@@ -17,6 +17,7 @@ if(file_exists(SAVEFILE)){
 		can_smash = ini_read_real("Abilities", "SmashAttack", false);
 		can_wall_jump = ini_read_real("Abilities", "WallJump", false);
 		var i = 0;
+		healthUpColl = ini_read_real("Health","Crystals Collected", 0);
 		repeat(NumHealthUps){
 			healthUp[i] = ini_read_real("Health", string(i), 0);
 			i++;
