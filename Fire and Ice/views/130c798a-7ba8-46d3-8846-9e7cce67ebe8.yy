@@ -8,7 +8,9 @@
         "feaa017d-10ec-4f12-8843-28bb1904a4eb",
         "3b96de0a-e137-42f9-8bde-9c9b4c585bba",
         "f68cdf09-f0ae-4486-be43-8971012b24d0",
-        "af70b118-39c2-4e95-b71c-495d4055b906"
+        "af70b118-39c2-4e95-b71c-495d4055b906",
+        "5302aef1-2dc4-44c7-b145-c02e6c1a59e3",
+        "e184f989-f31c-4f1a-a130-8a65d6255d60"
     ],
     "filterType": "GMObject",
     "folderName": "pickUps",
