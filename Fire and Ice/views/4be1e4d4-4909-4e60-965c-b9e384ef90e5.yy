@@ -12,7 +12,9 @@
         "02b08b31-e88b-4bf8-a820-9314cc492036",
         "644dbd14-cee8-41f3-9234-8296ffd98913",
         "0cae8c10-8ea6-4eff-8137-7a262f1c1ee1",
-        "29761b2d-4ade-42e5-8916-8c59a1eedd22"
+        "3f96ea4f-d3f0-465a-96f9-2dfb51672549",
+        "29761b2d-4ade-42e5-8916-8c59a1eedd22",
+        "31ffc3d4-99cc-4828-85a8-4fd7d9826869"
     ],
     "filterType": "GMObject",
     "folderName": "Player_Stuff",

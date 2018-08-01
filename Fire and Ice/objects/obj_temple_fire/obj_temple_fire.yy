@@ -1,14 +1,14 @@
 {
-    "id": "1e880e45-7c1d-4360-af28-571638b2ed46",
+    "id": "945913aa-478e-4e65-ade8-028a579ad7c3",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_stairs_fire_temple_r",
+    "name": "obj_temple_fire",
     "eventList": [
         
     ],
-    "maskSpriteId": "2acdc14c-206a-45d1-88d7-eef9de0211f1",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "f6a600d3-5c7c-4c3c-97d8-c619bc184cee",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "245b02ba-44a2-4b83-aaf0-178d234f6ce0",
+    "spriteId": "61381cd5-6306-44c9-b181-ceb35884d53f",
     "visible": true
 }

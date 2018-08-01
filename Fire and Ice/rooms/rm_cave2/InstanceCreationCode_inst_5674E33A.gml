@@ -1,3 +1,3 @@
 target = rm_cave3;
 setX = 944;
-setY = 1472;
+setY = 800;

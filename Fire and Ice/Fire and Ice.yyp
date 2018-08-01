@@ -242,7 +242,7 @@
             "Key": "1e880e45-7c1d-4360-af28-571638b2ed46",
             "Value": {
                 "id": "5058fccc-4a38-4205-a8ea-6d4898265d0d",
-                "resourcePath": "objects\\obj_stairs_fire_temple_r\\obj_stairs_fire_temple_r.yy",
+                "resourcePath": "objects\\obj_stairs_fire_temple\\obj_stairs_fire_temple.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -316,6 +316,14 @@
                 "id": "5c8487f7-ada6-4340-9e1f-fd34c3b4e9d0",
                 "resourcePath": "sprites\\spr_slime_fire_move\\spr_slime_fire_move.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "27ab6462-d672-4b23-8eea-71ac824cf8c4",
+            "Value": {
+                "id": "1151c56f-93b6-44c7-a5ab-cd00235b3f92",
+                "resourcePath": "rooms\\rm_cave3\\rm_cave3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -420,6 +428,14 @@
                 "id": "4beaaad5-1dee-440d-9aa5-9a27b9e9afd5",
                 "resourcePath": "sprites\\Forest8\\Forest8.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "31ffc3d4-99cc-4828-85a8-4fd7d9826869",
+            "Value": {
+                "id": "8deaf56c-22f6-4865-ad73-21ac437b2802",
+                "resourcePath": "objects\\obj_savepoint_fire\\obj_savepoint_fire.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -739,6 +755,14 @@
             "Value": {
                 "id": "6cdc9751-0a8a-4684-afe3-7fa9badaf42e",
                 "resourcePath": "sprites\\spr_falling_brige\\spr_falling_brige.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "61381cd5-6306-44c9-b181-ceb35884d53f",
+            "Value": {
+                "id": "4cb252b0-8170-4cd5-9688-2719f40ff784",
+                "resourcePath": "sprites\\spr_temple_fire\\spr_temple_fire.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1159,6 +1183,14 @@
             }
         },
         {
+            "Key": "945913aa-478e-4e65-ade8-028a579ad7c3",
+            "Value": {
+                "id": "8b172d51-072f-43b9-80be-f3246bf19b40",
+                "resourcePath": "objects\\obj_temple_fire\\obj_temple_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9642a88b-2f79-4e92-a293-8c5914d64b43",
             "Value": {
                 "id": "9430ed7e-21f3-46de-a1b4-4c64c886863a",
@@ -1292,6 +1324,14 @@
                 "id": "58589881-c16a-4d78-b0da-fd4b2db9ac07",
                 "resourcePath": "objects\\obj_shadow\\obj_shadow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a20ed05d-be12-4b60-aaea-d2cb24dd3269",
+            "Value": {
+                "id": "158b10d2-3fa4-481a-8a59-376f1a42bfc6",
+                "resourcePath": "sprites\\spr_save_fire\\spr_save_fire.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
