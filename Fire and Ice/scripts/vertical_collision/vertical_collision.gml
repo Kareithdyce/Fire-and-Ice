@@ -1,7 +1,7 @@
 /// Checks vertical collision
 var wall = instance_place(x, y + vspd, obj_wall);
 if (wall != noone) {
-	if(vspd == obj_player.gravMax){
+	if(vspd >= obj_player.gravMax){
 		ScreenShake(10, 60);
 	}
 	

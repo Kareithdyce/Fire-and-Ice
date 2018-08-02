@@ -48,7 +48,7 @@ jumpspeed = 8;
 maxHealth = 100;
 currentHealth = maxHealth;
 var i = 0;
-NumHealthUps = 6;
+NumHealthUps = 7;
 healthUpColl = 0;
 repeat(NumHealthUps){
 	healthUp[i] = false;
@@ -68,7 +68,7 @@ repeat(NumManaUps){
 
 //Switches
 var i = 0;
-NumSwitches = 1;
+NumSwitches = 3;
 repeat(NumSwitches){
 	switches[i] = false;
 	i++;

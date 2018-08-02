@@ -23,6 +23,13 @@ if(!invincible){
 		player_seen = true;
 		alarm[0] = room_speed*.4;
 	}
+	if(argument[0] == "mino"){
+		hp -= obj_player.atkpower;
+		sprite_index = spr_mino_hurt;
+		image_index = 0;
+		invincible = true;
+		alarm[0] = room_speed*.4;
+	}
 	
 	hspd = obj_player.dirc*(hitspeed + obj_player.knockback); 
 	horizontal_collision();

@@ -19,6 +19,10 @@ if(argument[0] == "slime"){
 	attacking = true;
 	//attack_speed = 0;
 }
+if(argument[0] == "mino"){
+	sprite_index = spr_mino_atk1;
+	sprite_index = spr_mino_atk2;
+}
 
 
 

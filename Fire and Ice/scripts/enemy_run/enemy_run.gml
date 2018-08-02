@@ -14,3 +14,9 @@ if(argument[0] == "slime"){
 	}
 	image_speed = 1;
 }
+
+if(argument[0] == "mino"){
+	sprite_index = spr_mino_run;
+	image_speed = 1;
+	
+}
