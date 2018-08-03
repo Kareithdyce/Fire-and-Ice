@@ -115,7 +115,7 @@ if(atk && !aerial){
 
 //Collisions
 var float = instance_place(x,y+1, obj_falling);
-if(float != noone && !key_jump && !float.falling) && !float.stable{
+if(float != noone && !key_jump && !float.falling && !float.stable){
 	vplat = true;
 	y += float.vspd;	
 	vspd = 0;
