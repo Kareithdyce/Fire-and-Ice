@@ -3,7 +3,6 @@
 
 // Inherit the parent event
 event_inherited();
-draw_text(x, y-20, hp);
-draw_text(x, y-40, dead);
-
-
+//draw_text(x, y-20, hp);
+//draw_text(x, y-40, intro);
+//draw_text(x, y-60, vspd);

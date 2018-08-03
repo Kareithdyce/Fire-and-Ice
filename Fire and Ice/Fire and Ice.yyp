@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "07993052-0fcb-4b11-b06b-07bcb065c687",
+            "Value": {
+                "id": "a6974de0-86d3-4047-bbfe-7baac90a7f90",
+                "resourcePath": "objects\\obj_boss_batte\\obj_boss_batte.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "083d8bbe-3743-4e57-bba1-28ff9aac00d7",
             "Value": {
                 "id": "fddeff1c-eb3e-438a-aaaf-ad368be2cddc",
@@ -2171,6 +2179,14 @@
             "Value": {
                 "id": "85c2c85b-46de-4bbf-b808-d7b8ccd3e154",
                 "resourcePath": "sprites\\sword_sheath_bs\\sword_sheath_bs.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef880c8d-ba47-4fb2-ac23-5daa0dee13e6",
+            "Value": {
+                "id": "464187e3-8865-4324-86c2-8aa0b24e097e",
+                "resourcePath": "sprites\\walk_bs2\\walk_bs2.yy",
                 "resourceType": "GMSprite"
             }
         },
