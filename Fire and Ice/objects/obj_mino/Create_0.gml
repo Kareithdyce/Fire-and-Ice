@@ -10,6 +10,6 @@ player_seen = true;
 grav = 1;
 gravMax = 15;
 jumpspeed = 5;
-movespeed = 0;
+movespeed = 2.5;
 ready = false;
 intro = true

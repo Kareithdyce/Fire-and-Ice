@@ -5,7 +5,7 @@ if(hp <= 0 && !dead){
 	enemy_dead(enemy);
 }
 
-if(!dead){
+if(!dead && !hit){
 
 	var tempY = instance_place(x,y+1, obj_walls);
 	if(tempY != noone){
@@ -23,20 +23,47 @@ if(!dead){
 		enemy_idle(enemy);
 	}
 	
+	if(!intro){
 	
-	//Movement
+		//Movement
+		if(!point_in_rectangle(obj_player.x, obj_player.y,x-50,sprite_height,x+50,y+10)){
+			hspd = movespeed;
+			enemy_run(enemy);
+		}
 	
-	//Attacks
+		//Attacks
 	
-	if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6)){
-		ScreenShake(10, 60);
-		//enemy_idle(enemy);
+		else if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6)){
+			ScreenShake(10, 60);
+			//enemy_idle(enemy);
+		}
+		
+		else{
+			enemy_idle(enemy);
+			hspd = 0;
+		}
 	}
 	
 }
 
 
 if(!dead && dirc != 0 && ready){
+	if(obj_player.x - x != 0){
+		dirc = sign(obj_player.x- x);
+	
+	}
 	image_xscale = -dirc * 2;
-	enemy_movement();
+	hspd *= dirc;
+	vspd += grav;
+	if(vspd > gravMax){
+		vspd = gravMax;
+	}
+	//Collisions
+	vertical_collision_enemy();
+	y += vspd;
+	if(!keep_walking()){
+		horizontal_collision_enemy();
+		x += hspd;
+	}
+
 }
