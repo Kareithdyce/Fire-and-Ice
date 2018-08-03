@@ -1415,6 +1415,14 @@
             }
         },
         {
+            "Key": "9cbee3a2-c753-4618-a813-2f34abb9414b",
+            "Value": {
+                "id": "6f735b69-d618-4072-bd69-694da35f6a02",
+                "resourcePath": "rooms\\rm_cave5\\rm_cave5.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9d7b2d80-84e1-4350-a5da-5a55cf104086",
             "Value": {
                 "id": "978401ef-2a60-4cd3-9480-b67176a546fe",

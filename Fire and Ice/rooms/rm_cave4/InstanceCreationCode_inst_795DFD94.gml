@@ -1,0 +1,1 @@
+hidden = layer_get_id("CoverLayer");

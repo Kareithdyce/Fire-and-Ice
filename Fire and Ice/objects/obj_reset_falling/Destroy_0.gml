@@ -5,5 +5,7 @@ if(instance_exists(obj_button)){
 		instance_destroy();
 	}
 }
-obj_falling.reset = true;
-obj_falling.falling = false;
+if(instance_exists(obj_falling)){
+	obj_falling.reset = true;
+	obj_falling.falling = false;
+}
