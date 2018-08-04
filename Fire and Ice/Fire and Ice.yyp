@@ -98,7 +98,7 @@
             "Key": "07993052-0fcb-4b11-b06b-07bcb065c687",
             "Value": {
                 "id": "a6974de0-86d3-4047-bbfe-7baac90a7f90",
-                "resourcePath": "objects\\obj_boss_batte\\obj_boss_batte.yy",
+                "resourcePath": "objects\\obj_boss_battle\\obj_boss_battle.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -799,6 +799,14 @@
             }
         },
         {
+            "Key": "5a2a572c-9aba-445c-97e0-9a43655f2475",
+            "Value": {
+                "id": "544e388e-2d1a-4c0c-a5b7-4a3981507d26",
+                "resourcePath": "objects\\obj_final_hit\\obj_final_hit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a50cd14-4508-4ca5-b4c5-d1be9d96a16a",
             "Value": {
                 "id": "bc0ac39b-b253-42a0-9cae-d4892523f9ec",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "78c17b46-dd29-4497-930a-3eb9f5cdcf70",
+            "Value": {
+                "id": "7d8d0a29-5b94-4c65-a009-834d05c05f77",
+                "resourcePath": "objects\\obj_smash\\obj_smash.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "798f6175-d726-4088-8a5a-f0e344e1515a",
             "Value": {
                 "id": "02967a53-3001-49e1-a0f2-b286e792df4a",
@@ -1287,6 +1303,14 @@
             }
         },
         {
+            "Key": "8af1174f-f1fe-42d7-be21-9e0febf003ab",
+            "Value": {
+                "id": "e2b8a037-af5a-4901-a937-127edf80404f",
+                "resourcePath": "sprites\\sword_skill_get\\sword_skill_get.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8b3eb48b-67f2-4c40-8441-f0c94ba4831f",
             "Value": {
                 "id": "7c3cbce1-3e47-4c2d-8372-17d321359a87",
@@ -1372,6 +1396,14 @@
                 "id": "8b172d51-072f-43b9-80be-f3246bf19b40",
                 "resourcePath": "objects\\obj_temple_fire\\obj_temple_fire.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "94f088d8-1eff-4cb9-8d32-135967b15828",
+            "Value": {
+                "id": "624bb7ae-05f3-4ac2-9267-3b9576a3b151",
+                "resourcePath": "sprites\\spr_final_hit\\spr_final_hit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2019,6 +2051,14 @@
             "Value": {
                 "id": "a5ac1d47-13ff-4f06-b2f1-6727bbaf0f13",
                 "resourcePath": "sprites\\clouds1\\clouds1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d4a4249d-98de-4e1c-ae97-6b780777bdb8",
+            "Value": {
+                "id": "068a319a-75e7-44d3-a639-2926b966200e",
+                "resourcePath": "sprites\\spr_smash\\spr_smash.yy",
                 "resourceType": "GMSprite"
             }
         },

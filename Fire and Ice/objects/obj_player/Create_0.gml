@@ -114,6 +114,9 @@ invincible = false;
 //Ice Variables
 //form 3 is ice
 
+//Animations
+boss_kill = false;
+sword_kill = false;
 
 vTouch = false;
 hTouch = false;

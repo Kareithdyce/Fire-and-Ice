@@ -4,6 +4,12 @@ if(room == rm_gameOver){
 	hascontrol = false;
 	visible = false;
 }
+if(boss_kill){
+	sprite_index = idle_bs2;
+	image_speed = 1;
+	//image_index = 0;
+	hascontrol = false;
+}
 if(trapped){
 	if(press_any_key()){
 		shake =  10;

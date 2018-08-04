@@ -3,8 +3,13 @@
 if(hp <= 0 && !dead){
 	dead = true;
 	image_blend = true_color;
+	with(obj_player){
+		loseControl();
+		boss_kill = true;
+	}
 	enemy_dead(enemy);
 }
+if(!dead){
 if(invincible){
 	image_alpha = blink % 4;
 	blink++;
@@ -12,6 +17,7 @@ if(invincible){
 	image_alpha = 1;
 }
 
+}
 if(!dead && !hit){
 
 	var tempY = instance_place(x,y+1, obj_walls);

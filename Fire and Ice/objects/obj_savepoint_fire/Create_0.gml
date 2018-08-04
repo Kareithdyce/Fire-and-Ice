@@ -4,3 +4,4 @@ depth = -1;
 saved = false;
 saveX = -1;
 saveY = -1;
+visible = false;

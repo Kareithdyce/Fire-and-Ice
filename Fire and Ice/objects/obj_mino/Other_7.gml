@@ -2,7 +2,10 @@
 // You can write your code in this editor
 if(ready){
 	if(sprite_index == spr_mino_die){
-		instance_destroy();
+		image_index = image_number-1;
+		image_speed = 0;
+		instance_create_depth(x+(20*dirc),y-(sprite_height/2-20), -2, obj_final_hit);
+		obj_final_hit.boss = self;
 	}
 	
 	else if(sprite_index == spr_mino_idle && resting){
@@ -24,7 +27,7 @@ if(ready){
 		intro = false;
 		obj_player.hascontrol = true;
 		obj_Camera.follow = obj_player;
-		with(obj_boss_batte){
+		with(obj_boss_battle){
 			instance_destroy();
 		}
 	}

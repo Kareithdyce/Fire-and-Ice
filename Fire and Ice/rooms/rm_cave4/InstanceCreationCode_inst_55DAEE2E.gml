@@ -3,7 +3,7 @@ if(obj_player.can_smash){
 		special = true;
 		y = 1248;
 	}
-	with(obj_boss_batte){
+	with(obj_boss_battle){
 		instance_destroy();
 	}
 	instance_destroy();

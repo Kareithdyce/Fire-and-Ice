@@ -8,6 +8,8 @@ if(place_meeting(x,y,obj_player)){
 	if(!saved){
 		saveGame(room, saveX, saveY);
 		saved = true;
+		visible = true;
+		image_index = 0;
 	}
 	
 }

@@ -11,3 +11,7 @@ else if(sprite_index == getup_b){
 	trapped = false;
 	hascontrol = true;
 }
+else if(sprite_index == sword_sheath_bs){
+	idleForm();
+	hascontrol = true;
+}
