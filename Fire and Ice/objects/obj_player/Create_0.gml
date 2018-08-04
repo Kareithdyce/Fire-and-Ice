@@ -68,7 +68,7 @@ repeat(NumManaUps){
 
 //Switches
 var i = 0;
-NumSwitches = 3;
+NumSwitches = 4;
 repeat(NumSwitches){
 	switches[i] = false;
 	i++;

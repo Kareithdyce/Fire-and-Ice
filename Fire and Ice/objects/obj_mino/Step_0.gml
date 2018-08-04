@@ -2,7 +2,14 @@
 // You can write your code in this editor
 if(hp <= 0 && !dead){
 	dead = true;
+	image_blend = true_color;
 	enemy_dead(enemy);
+}
+if(invincible){
+	image_alpha = blink % 4;
+	blink++;
+}else{
+	image_alpha = 1;
 }
 
 if(!dead && !hit){
@@ -23,32 +30,70 @@ if(!dead && !hit){
 		enemy_idle(enemy);
 	}
 	
-	if(!intro){
+	if(!intro && !attacking && !resting){
 	
-		//Movement
-		if(!point_in_rectangle(obj_player.x, obj_player.y,x-50,sprite_height,x+50,y+10)){
+		if(!point_in_rectangle(obj_player.x, obj_player.y,x-vrange,sprite_height,x+vrange,y+10) && point_in_rectangle(obj_player.x, obj_player.y,x-vrange-20,sprite_height,x+vrange+20,y+10)){
+			attacking = true;
+			hspd = 0;
+			sprite_index = spr_mino_atk1;
+			image_index = 0;	
+		}
+		
+		else if(!point_in_rectangle(obj_player.x, obj_player.y,x-(vrange*3),sprite_height,x+(vrange*3),y+10)){		
+			hspd = 0;
+			attacking = true;
+			sprite_index = spr_mino_atk1;
+			image_index = 0;
+			image_speed = .75;
+		}
+		
+		else if(!point_in_rectangle(obj_player.x, obj_player.y,x-vrange - 20,sprite_height,x+vrange+20,y+10)){
 			hspd = movespeed;
 			enemy_run(enemy);
 		}
-	
-		//Attacks
-	
-		else if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6)){
-			ScreenShake(10, 60);
-			//enemy_idle(enemy);
-		}
+		
 		
 		else{
-			enemy_idle(enemy);
+			sprite_index = spr_mino_atk2;
+			image_index = 0;
+			image_speed = .75;
+			attacking = true;
 			hspd = 0;
 		}
+		
+		
 	}
 	
+	//Shakes the screen
+	if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6)){
+		ScreenShake(10, 60);
+	}
+	//Hitboxes
+	if(attacking){
+		if(!triggered){
+			if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 8)){
+				triggered = true;
+				with(instance_create_layer(x + (75* dirc),y, layer_create(-1000), obj_hitbox_mino)){
+					user = other;
+					sprite_index = spr_mino_hitbox1;
+					damage = user.atk;
+				}
+			}
+			if(sprite_index == spr_mino_atk2 && (image_index >= 5 && image_index < 8)){
+				triggered = true;
+				with(instance_create_layer(x + (dirc * 29), y - 20, layer_create(-1000), obj_hitbox_mino)){
+					user = other;
+					sprite_index = spr_mino_hitbox2;
+					damage = other.atk;
+				}
+			}	
+		}
+		
+	}
 }
 
-
 if(!dead && dirc != 0 && ready){
-	if(obj_player.x - x != 0){
+	if(obj_player.x - x != 0 && !attacking){
 		dirc = sign(obj_player.x- x);
 	
 	}

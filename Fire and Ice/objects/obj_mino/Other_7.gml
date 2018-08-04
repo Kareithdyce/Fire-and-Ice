@@ -4,6 +4,12 @@ if(ready){
 	if(sprite_index == spr_mino_die){
 		instance_destroy();
 	}
+	
+	else if(sprite_index == spr_mino_idle && resting){
+		resting = false;
+		image_speed = 1;
+		enemy_idle(enemy);
+	}
 	else if(sprite_index == spr_mino_jumpR){
 		sprite_index = spr_mino_jump;
 		vspd = jumpspeed;
@@ -23,7 +29,13 @@ if(ready){
 		}
 	}
 	else if(sprite_index == spr_mino_atk1 || sprite_index == spr_mino_atk2){
-	//	ScreenShake(10, 60);
+		image_speed = 0.5;
+		resting = true;
+		attacking = false;
 		enemy_idle(enemy);
+	}
+	else if(sprite_index == spr_mino_hurt){
+		enemy_idle(enemy);
+		hit = false;
 	}
 }

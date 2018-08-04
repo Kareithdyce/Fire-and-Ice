@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "085ac72e-22d4-408d-a428-68231699ad3d",
+            "Value": {
+                "id": "92af439f-a271-4771-b467-1c6643f9ed65",
+                "resourcePath": "objects\\obj_hitbox_mino\\obj_hitbox_mino.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "097d81c8-484f-4be3-8378-426777fd2c35",
             "Value": {
                 "id": "371d3126-f48c-49c4-9a81-ec6004331d1c",
@@ -924,6 +932,14 @@
                 "id": "dd2e7f75-c7b5-4e51-b3ea-0a2b94d7f062",
                 "resourcePath": "objects\\obj_reset_falling\\obj_reset_falling.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "633bab0a-ac18-4d18-a183-e16a5e502422",
+            "Value": {
+                "id": "ba5674ea-fdfd-41c2-832a-e0237f799252",
+                "resourcePath": "sprites\\spr_mino_idle_slow\\spr_mino_idle_slow.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2063,6 +2079,14 @@
             }
         },
         {
+            "Key": "dec2b77d-c1f2-4573-b299-35c738291b98",
+            "Value": {
+                "id": "fa705ab5-c718-4de0-a012-6714a6e25d08",
+                "resourcePath": "sprites\\spr_mino_hitbox2\\spr_mino_hitbox2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "df13ab08-ec41-4364-b40e-c6e3676aa02e",
             "Value": {
                 "id": "331cf877-b37a-4fbe-bfed-344c3dd0833c",
@@ -2332,6 +2356,14 @@
                 "id": "58d034ad-292b-47d2-b973-4a81ed9a5bf1",
                 "resourcePath": "objects\\obj_gameOver\\obj_gameOver.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f971bf40-9a41-4b14-a2c9-1f2287ac331f",
+            "Value": {
+                "id": "da5451e0-ae50-46f9-8fe3-bb95f1d6eed8",
+                "resourcePath": "sprites\\spr_mino_hitbox1\\spr_mino_hitbox1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

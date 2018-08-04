@@ -6,5 +6,7 @@ if(!dead){
 	attacking = false;
 	dirc = -obj_player.dirc;
 	invincible = false;
-		
+	image_blend = true_color;	
+	image_speed = 1;
+	
 }

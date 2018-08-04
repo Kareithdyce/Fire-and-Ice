@@ -25,8 +25,20 @@ if(!invincible){
 	}
 	if(argument[0] == "mino"){
 		hp -= obj_player.atkpower;
-		sprite_index = spr_mino_hurt;
-		image_index = 0;
+		hits++;
+		if(hits % 5 == 0){
+			sprite_index = spr_mino_hurt;
+			hits = 0;
+			alarm[1] = -1;
+			image_index = 0;
+		
+		}
+		else{
+			hit = false;
+			alarm[1] = room_speed * 5;
+			image_blend = c_red;
+			
+		}
 		invincible = true;
 		alarm[0] = room_speed*.4;
 	}

@@ -23,5 +23,6 @@ Pixel Art Forest Artwork created by Eder Muniz
 Glacial Mountains Pixel Art created by Vicente Nitti (@vnitti)
 Jesse M - Skeleton Sprites
 Adwit Rahman - Health UI	
+Will Tice - Pixel Effects
 All artwork and sprites are used with owner permission however not all are endorsed.
 License - http://creativecommons.org/licenses/by/4.0/

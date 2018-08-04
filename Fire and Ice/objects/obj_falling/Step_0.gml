@@ -1,6 +1,6 @@
 /// @description Handles Collisions
 // You can write your code in this editor
-if(reset){
+if(reset && !special){
 	stable = false;
 	if(y == ystart){
 		reset = false;
