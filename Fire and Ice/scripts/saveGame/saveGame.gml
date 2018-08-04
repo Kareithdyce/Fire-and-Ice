@@ -6,7 +6,9 @@
 if(file_exists(SAVEFILE)) file_delete((SAVEFILE));
 
 ini_open(SAVEFILE);
-
+if(!instance_exists(obj_saving)){
+	instance_create_depth(x,y,-1001, obj_saving);
+}
 //Create new File
 //Location
 if(argument_count < 3){

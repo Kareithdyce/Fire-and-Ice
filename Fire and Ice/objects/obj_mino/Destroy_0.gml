@@ -4,7 +4,9 @@ with(obj_falling){
 	falling = true;
 }
 with(obj_player){
+	if(boss_kill){
 	boss_kill = false;
 	sprite_index = sword_sheath_bs;
 	image_index = 0;
+	}
 }

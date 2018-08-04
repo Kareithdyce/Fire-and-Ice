@@ -743,6 +743,14 @@
             }
         },
         {
+            "Key": "4e7e80b5-af90-4f3d-a710-86e26e630ef9",
+            "Value": {
+                "id": "577756d8-9ed3-414c-a9d5-ec4ef2fe6f08",
+                "resourcePath": "objects\\obj_saving\\obj_saving.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4fc73267-632b-42c8-80b4-c517e069f871",
             "Value": {
                 "id": "a05f65cc-f800-48ec-9bad-d6ace3613d96",
@@ -1407,6 +1415,22 @@
             }
         },
         {
+            "Key": "95585a26-eae4-4a8a-ace9-df5d9bb4a3aa",
+            "Value": {
+                "id": "2ab87e33-6d9b-4e8b-b4e0-e4953d65a711",
+                "resourcePath": "views\\95585a26-eae4-4a8a-ace9-df5d9bb4a3aa.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "956f1e79-e2ba-418f-a926-ea69b1902245",
+            "Value": {
+                "id": "b5ee70ae-7abe-45af-b519-d296a9edfd5c",
+                "resourcePath": "views\\956f1e79-e2ba-418f-a926-ea69b1902245.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9642a88b-2f79-4e92-a293-8c5914d64b43",
             "Value": {
                 "id": "9430ed7e-21f3-46de-a1b4-4c64c886863a",
@@ -1683,6 +1707,14 @@
             "Value": {
                 "id": "776a51eb-b1fa-4473-918c-90513848971d",
                 "resourcePath": "views\\ac5d5a9a-0226-4e7e-b959-ca69f6bb0793.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "acc8d617-2ecc-492e-9683-96a95c87f93a",
+            "Value": {
+                "id": "d1e5653f-66d6-4e62-8d3a-18187481e20e",
+                "resourcePath": "views\\acc8d617-2ecc-492e-9683-96a95c87f93a.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2204,6 +2236,14 @@
                 "id": "c6a88e45-0595-4e24-a224-3e4b28833e75",
                 "resourcePath": "sprites\\spr_slime_idle\\spr_slime_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ebb95528-f7ff-4d7f-85e2-41afc2a51c21",
+            "Value": {
+                "id": "6345f03c-c88f-4eb3-ac1b-0561528efd37",
+                "resourcePath": "views\\ebb95528-f7ff-4d7f-85e2-41afc2a51c21.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
