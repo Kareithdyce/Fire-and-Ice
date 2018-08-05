@@ -3,3 +3,5 @@
 
 // Inherit the parent event
 event_inherited();
+removed = false;
+smashed = false;

@@ -71,8 +71,14 @@ if(!dead && !hit){
 	}
 	
 	//Shakes the screen
-	if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6)){
+	if(sprite_index == spr_mino_atk1 && (image_index >= 5 && image_index < 6) && ! rocked){
+		rocked = true;
 		ScreenShake(10, 60);
+		with(obj_rockmaker){
+			if(!spawn){
+				spawn = true;
+			}
+		}
 	}
 	//Hitboxes
 	if(attacking){

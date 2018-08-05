@@ -18,3 +18,4 @@ hits = 0;
 true_color = image_blend;
 blink = 0;
 vrange = 50;
+rocked = false;

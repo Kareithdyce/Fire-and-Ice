@@ -39,6 +39,6 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, vplat);
+//draw_text(x+50 ,y-100, obj_rockmaker.count);
 draw_set_color(c_red);
 

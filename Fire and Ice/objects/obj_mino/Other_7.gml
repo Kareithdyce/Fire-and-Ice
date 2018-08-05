@@ -33,6 +33,7 @@ if(ready){
 	}
 	else if(sprite_index == spr_mino_atk1 || sprite_index == spr_mino_atk2){
 		image_speed = 0.5;
+		rocked = false;
 		resting = true;
 		attacking = false;
 		enemy_idle(enemy);

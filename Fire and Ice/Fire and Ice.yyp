@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "141ce84f-4c73-4441-9861-e86c23f74e9f",
+            "Value": {
+                "id": "8f2eaf1b-15c5-4d1e-95ec-7363fcd7c1fd",
+                "resourcePath": "sprites\\spr_falling_rock\\spr_falling_rock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1478a4c0-afe4-4ea1-8e89-f1f3a58cdf27",
             "Value": {
                 "id": "839630fc-e01a-4c63-8df8-ac3df45896a7",
@@ -307,6 +315,14 @@
             "Value": {
                 "id": "5058fccc-4a38-4205-a8ea-6d4898265d0d",
                 "resourcePath": "objects\\obj_stairs_fire_temple\\obj_stairs_fire_temple.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "214cbe1a-e689-42f0-a8aa-9fda5fe158da",
+            "Value": {
+                "id": "6a0bafe6-968e-49b7-9c8a-396dac9797d0",
+                "resourcePath": "objects\\obj_swordskill\\obj_swordskill.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -495,19 +511,19 @@
             }
         },
         {
-            "Key": "310c1b56-41d2-4603-9790-6be18d28ef4e",
-            "Value": {
-                "id": "c11b2caf-77ce-45fc-9a95-af61eadab68d",
-                "resourcePath": "sprites\\spr_breakable_wall\\spr_breakable_wall.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "31839b46-152b-4e45-9f35-2be99b1d5a9a",
             "Value": {
                 "id": "6a6f22ff-2800-4f7f-80e3-2c5df5bcd56f",
                 "resourcePath": "views\\31839b46-152b-4e45-9f35-2be99b1d5a9a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3194c0a8-ef3f-4294-ad2a-edb52297da88",
+            "Value": {
+                "id": "23135fdd-8525-4e48-994f-3eb114960626",
+                "resourcePath": "objects\\obj_falling_rock\\obj_falling_rock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -655,14 +671,6 @@
             }
         },
         {
-            "Key": "46a45a1b-be0f-489f-adaa-6d881ec4976c",
-            "Value": {
-                "id": "4a412f46-2fac-48ae-92ef-ea6fe1454902",
-                "resourcePath": "sprites\\spr_breakable_wall1\\spr_breakable_wall1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "47013d7a-e49b-4e8d-9d8c-0759a8e738dd",
             "Value": {
                 "id": "9cd14283-bb0f-461e-b309-deac9522bad7",
@@ -756,6 +764,14 @@
                 "id": "a05f65cc-f800-48ec-9bad-d6ace3613d96",
                 "resourcePath": "scripts\\hurtMode\\hurtMode.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "50aba9a2-b972-4800-a77c-4ee07f01ab81",
+            "Value": {
+                "id": "46d6b3c0-32da-41d9-9d5b-19503dc802c1",
+                "resourcePath": "objects\\obj_smashed_wall\\obj_smashed_wall.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1103,6 +1119,14 @@
             }
         },
         {
+            "Key": "745e4b89-38d1-4a34-9eaf-623671e608b1",
+            "Value": {
+                "id": "a737ceed-cb79-4896-b864-8e4926bbbc5d",
+                "resourcePath": "sprites\\spr_falling_rock1\\spr_falling_rock1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "75de418a-731d-4cc4-9391-81f70833292d",
             "Value": {
                 "id": "048b21c2-82df-4d34-88e5-af402576ba25",
@@ -1164,6 +1188,14 @@
                 "id": "773a15cc-adfc-456e-b1b4-45e5066f913f",
                 "resourcePath": "views\\7b28ce89-2214-4204-bf6a-e21c90ffe865.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7c3c8b3f-31c9-40d6-bab2-7c1569c6efc3",
+            "Value": {
+                "id": "19cdb364-1aa6-4103-a4a4-b77d0c6492b2",
+                "resourcePath": "objects\\obj_rockmaker\\obj_rockmaker.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1596,6 +1628,14 @@
                 "id": "44c940bf-f3bc-4552-a071-f3af8afe75e8",
                 "resourcePath": "sprites\\sky2\\sky2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a39d1994-ec76-4d60-8747-ab2b102a2a68",
+            "Value": {
+                "id": "1e80f1f7-8b3d-4b1e-9cad-a46ceea40b86",
+                "resourcePath": "objects\\obj_clean_up\\obj_clean_up.yy",
+                "resourceType": "GMObject"
             }
         },
         {

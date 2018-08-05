@@ -10,7 +10,8 @@
         "7a45b4eb-9df4-4074-8b6a-231011fb5a54",
         "bd3101ae-3e95-42e4-95cc-0a82c04f653f",
         "86ff39d9-716e-4c4a-a7ea-c53b966beaaf",
-        "db75940d-6f1e-40b6-9c6a-1a83a20bacc7"
+        "db75940d-6f1e-40b6-9c6a-1a83a20bacc7",
+        "3194c0a8-ef3f-4294-ad2a-edb52297da88"
     ],
     "filterType": "GMObject",
     "folderName": "hazards",
