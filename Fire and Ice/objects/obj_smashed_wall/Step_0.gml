@@ -26,3 +26,7 @@ if(vspd != 0){
 	horizontal_collision();
 	x += hspd;
 }
+
+if(place_meeting(x,y,obj_wall)){
+	instance_destroy();
+}

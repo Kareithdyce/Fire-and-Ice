@@ -3,7 +3,6 @@
 if(!paused){
 	with(obj_player){
 		healthUpColl++;
-		powerUpColl++;	
 		if(healthUpColl % 4 == 0){
 			maxHealth += 100;
 		}

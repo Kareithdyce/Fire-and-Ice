@@ -3,7 +3,10 @@
 ///*
 if(instance_exists(obj_player)){
 	death = obj_player.dead;
-	percent = obj_player.powerUpColl/(obj_player.NumHealthUps+obj_player.NumManaUps);
+	with(obj_player){
+		powerUpColl = healthUpColl + atkUpColl + manaUpColl;
+		other.percent = powerUpColl/(NumHealthUps + NumManaUps + NumAtkUps);
+	}
 	percent*=100;
 	if(percent < 50){
 	message = "Look around for power-ups next time.";

@@ -81,7 +81,7 @@ if(pAttack1){
 		getInput();
 	}
 	if(image_index >= image_number-4){
-		if(move != 0 && image_index >= image_number-3){
+		if(move != 0 && image_index >= image_number-3 && !key_crouch && !key_jump){
 			idleForm();
 			walkMode(sprite_index);
 			hascontrol = true;
@@ -104,7 +104,7 @@ if(pAttack2){
 		getInput();
 	}
 	if(image_index >= image_number-4){
-		if(move != 0 && image_index >= image_number-3){
+		if(move != 0 && image_index >= image_number-3 && !key_crouch && !key_jump){
 			idleForm();
 			walkMode(sprite_index);
 			hascontrol = true;

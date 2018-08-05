@@ -3,7 +3,6 @@
 if(!paused){
 	with(obj_player){
 		atkUpColl++;
-		powerUpColl++;	
 		if(atkUpColl % 3 == 0){
 			atkpower += 5;
 		}
