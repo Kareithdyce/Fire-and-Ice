@@ -8,17 +8,14 @@ else{
 if((argument[0] == idle_bs || argument[0] == walk_bs) && grounded){
 	image_speed = 1.5;
 	image_index = 0;
-	key_action = false;
-	hascontrol = false;
 	pAttack1 = true;
 	sprite_index = sword1_bs;
 	image_index = 0;
 }
 
 if(argument[0] == sword1_bs){
-	image_index = 0;
-	key_action = false;
-	hascontrol = false;
+	//image_index = 0;
+	pAttack1 = false;
 	pAttack2 = true;
 	sprite_index = sword2_bs;
 	image_index = 0;
@@ -26,19 +23,16 @@ if(argument[0] == sword1_bs){
 
 
 if(argument[0] == sword2_bs){
-	image_index = 0;
-	key_action = false;
+	//image_index = 0;
 	normpower = atkpower;
 	atkpower += round(atkpower/2);
-	hascontrol = false;
+	pAttack2 = false;
 	pAttack3 = true;
 	sprite_index = sword3_bs;
 	image_index = 0;
 }
 
 if(argument[0] == jump_bs1 || argument[0] == jump_bs2 ||  argument[0] == fall_bs){
-	key_action = false;
-	hascontrol = false;
 	aerial  = true;
 	if(fHit){
 		image_speed = 1.2;

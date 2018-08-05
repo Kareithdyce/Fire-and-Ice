@@ -3,7 +3,7 @@
 vspd += grav;
 
 if(vspd > gravMax){
-	grav = gravMax;
+	vspd = gravMax;
 }
 if(blinking){
 	image_alpha = blink % 4;

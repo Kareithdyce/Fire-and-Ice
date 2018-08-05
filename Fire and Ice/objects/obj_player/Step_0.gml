@@ -4,12 +4,16 @@ if(room == rm_gameOver){
 	hascontrol = false;
 	visible = false;
 }
+
+//Boss Killing animation
 if(boss_kill){
 	sprite_index = idle_bs2;
 	image_speed = 1;
 	//image_index = 0;
 	hascontrol = false;
 }
+
+//The animation of the falling into the cave.
 if(trapped){
 	if(press_any_key()){
 		shake =  10;
@@ -32,6 +36,9 @@ if(!pause && !dead){
 	if(place_meeting(x,y,obj_savepoint)){
 		key_action = false;
 	}
+	
+	//Attacking
+	player_atk();
 	movement();
 	
 	if(currentHealth > maxHealth) {  
@@ -70,77 +77,6 @@ if(!pause && !dead){
 	}
 }
 
-//Attacking
-
-if(atk && !instance_exists(obj_sword_hitbox) && !((pAttack1 || pAttack2) && image_index >= image_number-4)){
-	instance_create_depth(x, y, -2, obj_sword_hitbox);
-}
-
-if(pAttack1){
-	if(image_index != 0 && image_index < image_number && !key_action){
-		getInput();
-	}
-	if(image_index >= image_number-4){
-		if(move != 0 && image_index >= image_number-3 && !key_crouch && !key_jump){
-			idleForm();
-			walkMode(sprite_index);
-			hascontrol = true;
-			pAttack1 = false;
-		}
-		else if(key_action){
-			actionMode(sprite_index);
-			pAttack1 = false;
-		}
-	}
-	if (image_index >= image_number-1 && pAttack1){
-		idleForm();
-		pAttack1 = false;
-		hascontrol = true;
-	}
-}
-
-if(pAttack2){
-	if(image_index != 0 && image_index < image_number && !key_action){
-		getInput();
-	}
-	if(image_index >= image_number-4){
-		if(move != 0 && image_index >= image_number-3 && !key_crouch && !key_jump){
-			idleForm();
-			walkMode(sprite_index);
-			hascontrol = true;
-			pAttack2 = false;
-		}
-		else if(key_action){
-			actionMode(sprite_index);
-			pAttack2 = false;
-		}
-	}
-	if (image_index >= image_number-1 && pAttack2){
-		idleForm();
-		pAttack2 = false;
-		hascontrol = true;
-	}
-}
-
-
-if(pAttack3) {
-	knockback = knockback3;
-	if(image_index >= image_number-1){
-		atkpower = normpower;
-		idleForm();
-		pAttack3 = false;
-		hascontrol = true;
-	}
-}
-else{
-	knockback = 0;
-}
-
-if(aerial && image_index >= image_number-1){
-	idleForm();
-	aerial = false;
-	hascontrol = true;	
-}
 
 //Prevents player from being to low.
 var tempY = instance_place(x,y+1, obj_walls);

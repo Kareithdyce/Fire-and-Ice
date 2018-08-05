@@ -1999,6 +1999,14 @@
             }
         },
         {
+            "Key": "c2f79140-2eae-4170-bbbd-6392289c647e",
+            "Value": {
+                "id": "0b062c64-b8d2-43c9-b1c2-f7012765c2e4",
+                "resourcePath": "scripts\\player_atk\\player_atk.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c57d9f10-7c48-424e-a52d-95e25646bbe6",
             "Value": {
                 "id": "be5b4e09-17ac-477e-9ccb-1d17ba3afc61",
@@ -2567,6 +2575,7 @@
         "df13ab08-ec41-4364-b40e-c6e3676aa02e",
         "b10d898f-dabd-458a-ba4c-96e627763d4f",
         "a5b7d9a9-0ca9-4a12-8b6f-b0257ecd5833",
+        "c2f79140-2eae-4170-bbbd-6392289c647e",
         "2379ca74-81d1-43d0-af2c-a877314f10f7",
         "5de96c74-df85-46f7-b11d-efb71bfc6a70",
         "b147aed4-273e-45f7-b734-f7a7629b59a5",

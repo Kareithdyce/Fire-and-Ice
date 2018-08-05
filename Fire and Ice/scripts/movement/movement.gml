@@ -59,7 +59,7 @@ if(!hit){
 				hspd = 0;
 			}
 		}
-		else if(key_action && hascontrol){
+		else if(key_action && hascontrol && !atk){
 			actionMode(sprite_index);
 		}
 			
