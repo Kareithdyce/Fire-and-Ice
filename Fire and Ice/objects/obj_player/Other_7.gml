@@ -15,3 +15,19 @@ else if(sprite_index == sword_sheath_bs){
 	idleForm();
 	hascontrol = true;
 }
+
+
+/*
+else if(sprite_index == sword_draw_bs){
+	sprite_index = idle_bs2;
+	hascontrol = true;	
+}
+
+
+else if(sprite_index == sword_sheath_bs){
+	sprite_index = idle_bs;
+	hascontrol = true;
+	
+}
+
+*/

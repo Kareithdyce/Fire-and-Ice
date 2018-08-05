@@ -27,6 +27,11 @@ if(!pause && !dead){
 	if(hascontrol){
 		getInput();	
 	}
+	
+	//Saving
+	if(place_meeting(x,y,obj_savepoint)){
+		key_action = false;
+	}
 	movement();
 	
 	if(currentHealth > maxHealth) {  
@@ -165,20 +170,6 @@ if(form != 0){
 	demo = false;
 }
 
-/*
-if(sprite_index == sword_draw_bs && image_index >= 3){
-	sprite_index = idle_bs2;
-	hascontrol = true;	
-}
-
-
-if(sprite_index == sword_sheath_bs && image_index >= 3){
-	sprite_index = idle_bs;
-	hascontrol = true;
-	
-}
-
-*/
 if(dead){
 	image_alpha = 1;
 }

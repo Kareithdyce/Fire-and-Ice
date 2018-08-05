@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "18b5ab43-da78-4e8a-94d1-ae24f6c4715e",
+            "Value": {
+                "id": "2de107aa-0a8a-480c-a97a-37d605858ec0",
+                "resourcePath": "objects\\obj_savepoint\\obj_savepoint.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "18c00bdd-6893-4db3-8681-82acb734a260",
             "Value": {
                 "id": "53acdef6-fd0b-44c7-9de8-db2ad681e055",
