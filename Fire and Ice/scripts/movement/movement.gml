@@ -103,7 +103,7 @@ if(sprite_index == sword_air3_bs2){
 
 //Attacking Movement
 
-if(atk && !aerial){
+if(terrestrial){
 	if(pAttack3 && image_index == 2){
 		hspd = dirc*movespeed*4;
 	}

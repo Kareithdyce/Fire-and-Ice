@@ -34,15 +34,68 @@ on_ground = true;
 gameOver = false;
 dead = false;
 depth = -1;
+hascontrol = true;
+sliding = false;
+crouching = false;
+hit = false;
+move = 0;
+invincible = false;
+
 
 //Platforms
 vplat = false;
 hplat = false;
+
 //Jumping
 number_of_jumps = 0;
 jumps_max = 1;
 is_jumping = false;
 jumpspeed = 8;
+
+
+//Attacks
+has_sword = false;
+atk = false;
+atkpower = 5;
+knockback = 0;
+knockback3 = 10;
+
+
+//Terrestrial Attacks
+pAttack1 = false;
+pAttack2 = false;
+pAttack3 = false;
+terrestrial = false;
+
+//Aerials
+aerial = false;
+fHit = true;
+can_smash = false;
+is_smashing = false;
+
+//Magical Attacks
+magical = false;
+
+
+//Fire Variables
+//form 2 is fire
+
+//Ice Variables
+//form 3 is ice
+
+//Animations
+boss_kill = false;
+sword_kill = false;
+
+vTouch = false;
+hTouch = false;
+//Wall Jump
+can_wall_jump = false;
+wall_jump = false;
+
+//For stats
+powerUpColl = 0;
+
 
 //Health
 maxHealth = 100;
@@ -66,25 +119,8 @@ repeat(NumManaUps){
 	i++;
 }
 
-//Switches
-var i = 0;
-NumSwitches = 4;
-repeat(NumSwitches){
-	switches[i] = false;
-	i++;
-}
 
-//Attacks
-has_sword = false;
-pAttack1 = false;
-pAttack2 = false;
-pAttack3 = false;
-atk = false;
-atkpower = 5;
-knockback = 0;
-knockback3 = 10;
-
-
+//Attack ups
 var i = 0;
 NumAtkUps = 1;
 atkUpColl = 0;
@@ -93,39 +129,14 @@ repeat(NumAtkUps){
 	i++;
 }
 
+//Switches
+var i = 0;
+NumSwitches = 4;
+repeat(NumSwitches){
+	switches[i] = false;
+	i++;
+}
 
-//Aerials
-aerial = false;
-fHit = true;
-can_smash = false;
-is_smashing = false;
-	
-
-
-hascontrol = true;
-sliding = false;
-crouching = false;
-hit = false;
-move = 0;
-invincible = false;
-//Fire Variables
-//form 2 is fire
-
-//Ice Variables
-//form 3 is ice
-
-//Animations
-boss_kill = false;
-sword_kill = false;
-
-vTouch = false;
-hTouch = false;
-//Wall Jump
-can_wall_jump = false;
-wall_jump = false;
-
-//For stats
-powerUpColl = 0;
 
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);

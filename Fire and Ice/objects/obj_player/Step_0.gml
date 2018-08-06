@@ -26,7 +26,9 @@ if(trapped){
 	}
 }
 if(!pause && !dead){
-	atk = pAttack1 || pAttack2 || pAttack3 || aerial;
+	terrestrial =  (pAttack1 || pAttack2 || pAttack3);
+	atk = (terrestrial || aerial || magical);
+	
 	grounded = on_ground || place_meeting(x,y+1,obj_falling) || place_meeting(x+hspd, y, obj_slope);
 	if(hascontrol){
 		getInput();	
