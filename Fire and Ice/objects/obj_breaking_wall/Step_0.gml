@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+visible = true;
 vspd += grav;
 if(vspd >= gravMax){
 	vspd = gravMax;
@@ -19,7 +20,12 @@ if(vspd != 0){
 	}
 	image_angle++;
 	horizontal_collision();
-	x += hspd;
+	if(!hit_wall){
+		x += hspd;
+	}
+	if(hspd == 0){
+		hit_wall = true;
+	}
 }
 if(place_meeting(x,y,obj_wall)){
 	instance_destroy();

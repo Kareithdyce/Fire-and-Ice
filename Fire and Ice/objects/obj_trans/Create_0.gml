@@ -1,4 +1,5 @@
 /// @description Size variables and mode setup
+//#macro SAVEFILE "save.ini"
 #macro SAVEFILE "save.ini"
 
 w = display_get_gui_width();

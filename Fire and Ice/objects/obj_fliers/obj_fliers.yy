@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_fliers",
     "eventList": [
-        
+        {
+            "id": "3f271ed0-548e-4c36-bc2b-a145a28b9060",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "512d0366-b656-434f-b652-a50d59efa7ca"
+        },
+        {
+            "id": "8c0e9d12-84a9-44ef-a161-7794e1b07658",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "512d0366-b656-434f-b652-a50d59efa7ca"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

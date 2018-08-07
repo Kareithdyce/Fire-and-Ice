@@ -142,7 +142,10 @@ else{
 if(sprite_index != crouch_b && sprite_index != crouch_bs){
 	x += hspd;
 }
-vertical_collision();
+//If meeting a breakable wall go thru it unless also going thru a solid wall then don't
+if(!((place_meeting(x,y+vspd,obj_breakable_wall) && !place_meeting(x,y+vspd, obj_walls)) && is_smashing)){
+	vertical_collision();
+}
 y += vspd;
 
 	

@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "obj_wasp",
     "eventList": [
-        
+        {
+            "id": "5603f4c8-3d8d-4ba7-b684-46508b235f37",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "474166e6-4fbf-47ce-9198-878ec25969f8"
+        }
     ],
     "maskSpriteId": "e09bb6be-431f-47d3-a25d-a0d9978eabba",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "512d0366-b656-434f-b652-a50d59efa7ca",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
