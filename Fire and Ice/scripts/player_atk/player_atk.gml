@@ -1,3 +1,6 @@
+if(!atk){
+	can_turn = true;
+}
 
 if(atk && !instance_exists(obj_sword_hitbox) && !((pAttack1 || pAttack2) && image_index >= image_number-4)){
 	instance_create_depth(x, y, -2, obj_sword_hitbox);
@@ -5,7 +8,10 @@ if(atk && !instance_exists(obj_sword_hitbox) && !((pAttack1 || pAttack2) && imag
 
 if(pAttack1 || pAttack2){
 	knockback = 0;
+	
+	
 	if(image_index >= image_number-5){	
+		can_turn = true;
 		if(key_action && !key_crouch && !key_jump){
 			actionMode(sprite_index);
 		}
@@ -35,6 +41,9 @@ else if(pAttack3) {
 	}
 }
 
+if(aerial && image_index >= image_number-3){
+	can_turn = true;	
+}
 
 if(aerial && image_index >= image_number-1){
 	aerial = false;

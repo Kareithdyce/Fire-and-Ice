@@ -12,6 +12,14 @@ if(argument[0] == "slime"){
 	image_index = 0; 
 	image_speed = 1;
 }
+
+if(argument[0] == "wasp"){
+	sprite_index = spr_wasp_die;
+	image_index = 0; 
+	image_speed = 1;
+}
+
+
 if(argument[0] == "mino"){
 	sprite_index = spr_mino_die;
 	image_index = 0; 

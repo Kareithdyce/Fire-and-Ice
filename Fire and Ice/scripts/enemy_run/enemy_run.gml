@@ -20,3 +20,9 @@ if(argument[0] == "mino"){
 	image_speed = 1;
 	
 }
+
+if(argument[0] == "wasp"){
+	sprite_index = spr_wasp_move;
+	image_speed = 1;
+	
+}

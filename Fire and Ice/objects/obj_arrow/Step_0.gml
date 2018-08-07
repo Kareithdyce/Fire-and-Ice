@@ -25,8 +25,8 @@ else if(key_confirm){
 		case 0:
 			instance_create_depth(-100, y,-1,obj_player);
 			slideTrans(TRANS_MODE.GOTO,rm_demo1, 128,865);	
-			if(obj_menu.can_load){
-				//file_delete((SAVEFILE));
+			if(obj_menu.can_load && obj_trans.beta){
+				file_delete((SAVEFILE));
 			}
 			break;
 		case 1:

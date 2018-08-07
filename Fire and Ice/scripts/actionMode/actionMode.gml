@@ -10,6 +10,7 @@ else{
 		image_index = 0;
 		pAttack1 = true;
 		sprite_index = sword1_bs;
+		can_turn = false;
 		image_index = 0;
 	}
 
@@ -17,6 +18,7 @@ else{
 		//image_index = 0;
 		pAttack1 = false;
 		pAttack2 = true;
+		can_turn = false;
 		sprite_index = sword2_bs;
 		image_index = 0;
 	}
@@ -27,6 +29,7 @@ else{
 		normpower = atkpower;
 		atkpower += round(atkpower/2);
 		pAttack2 = false;
+		can_turn = false;
 		pAttack3 = true;
 		sprite_index = sword3_bs;
 		image_index = 0;
@@ -42,6 +45,7 @@ else{
 			sprite_index = sword_air2_bs;
 		}
 		fHit = !fHit;
+		can_turn = false;
 		image_index = 0;
 	}
 }

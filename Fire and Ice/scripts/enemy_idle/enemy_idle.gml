@@ -19,3 +19,8 @@ if(argument[0] == "mino"){
 	sprite_index = spr_mino_idle;
 }
 
+
+if(argument[0] == "wasp"){
+	sprite_index = spr_wasp_idle;
+}
+

@@ -31,6 +31,7 @@ grav = 0.3;
 gravMax = 15;
 grounded = true;
 on_ground = true;
+can_turn = true;
 gameOver = false;
 dead = false;
 depth = -1;

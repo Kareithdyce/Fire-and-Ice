@@ -23,6 +23,17 @@ if(!invincible){
 		player_seen = true;
 		alarm[0] = room_speed*.4;
 	}
+	
+	if(argument[0] == "wasp"){
+		sprite_index = spr_wasp_hurt;
+		hp -= obj_player.atkpower;
+		image_speed = 1;
+		image_index = 0;
+		invincible = true;
+		player_seen = true;
+		alarm[0] = room_speed*.4;
+	}
+	
 	if(argument[0] == "mino"){
 		hp -= obj_player.atkpower;
 		hits++;

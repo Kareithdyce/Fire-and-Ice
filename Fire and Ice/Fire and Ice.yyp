@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "4770615b-02eb-4717-9880-981da5c3c307",
+            "Value": {
+                "id": "9c51b230-6ce6-41f3-80a2-00a38804bfb7",
+                "resourcePath": "objects\\obj_mana\\obj_mana.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "47c9c299-90bd-4ec0-97ff-b37fca7618b0",
             "Value": {
                 "id": "ca90468b-cc7e-49ec-b602-861ec1cea40c",
