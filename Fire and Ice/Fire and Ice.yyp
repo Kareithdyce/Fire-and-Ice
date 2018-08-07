@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "1db417e9-9e07-4a11-826e-22ab31d35839",
+            "Value": {
+                "id": "29f2579d-ec03-433e-8692-789822c03215",
+                "resourcePath": "sprites\\cave_ramp\\cave_ramp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e7eaab3-1577-49dc-8381-c2602e841a21",
             "Value": {
                 "id": "d77cdcac-f616-4ed7-b13b-55fa8bf82e14",

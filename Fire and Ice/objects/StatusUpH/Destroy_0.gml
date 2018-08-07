@@ -5,5 +5,5 @@ if(file_exists(SAVEFILE)){
 	newX = ini_read_real("Location", "X", 128);
 	newY = ini_read_real("Location", "Y", 864);
 	newR = ini_read_real("Location", "Room", rm_demo1);
+	saveGame(newR,newX,newY);
 }
-saveGame(newR,newX,newY);
