@@ -8,10 +8,11 @@ if(!special){
 			vspd = 0;
 			delta = 0;
 		}
-		else if(abs(y - ystart) <= raise){
-			vspd = y-ystart;
+	
+		else if(y < ystart){
 			reset = false;
 			delta = 0;
+			vspd = ystart - y;
 		}
 		else{
 			vspd = -raise; 
