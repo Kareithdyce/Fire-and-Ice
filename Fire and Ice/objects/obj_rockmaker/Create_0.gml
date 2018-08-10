@@ -2,4 +2,4 @@
 // You can write your code in this editor
 spawn = false;
 count = 0;
-maxRocks = 7;
+//maxRocks = 7;

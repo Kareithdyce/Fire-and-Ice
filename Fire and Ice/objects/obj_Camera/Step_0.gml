@@ -2,7 +2,7 @@
 //Update destination
 if(instance_exists(follow)){
 	xTo = follow.x;
-	yTo = follow.y;
+	yTo = follow.y + follow.vspd;
 }else{
 	instance_destroy(self);
 }
@@ -12,8 +12,8 @@ if((xTo - x > view_h_half * 2 )|| (yTo - y > view_w_half * 2)){
 	y = yTo;
 }
 else{
-	x += (xTo - x) / 25;
-	y += (yTo - y) / 25;
+	x += (xTo - x) / 20;
+	y += (yTo - y) / 20;
 }
 x = clamp(x,view_w_half + buff,room_width - view_w_half - buff);
 y = clamp(y,view_h_half + buff,room_height - view_h_half - buff);

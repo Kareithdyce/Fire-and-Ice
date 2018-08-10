@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "0685bcf8-0023-48f5-9d37-839e65f094fb",
+            "Value": {
+                "id": "62a14441-e8aa-4823-b6f3-3ab6cae965f0",
+                "resourcePath": "sprites\\cave_background2\\cave_background2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "06d2f0aa-9c82-4860-bc0e-2d6e6514549b",
             "Value": {
                 "id": "38d61961-6442-437f-818b-0d124946eb48",
@@ -308,14 +316,6 @@
                 "id": "56872554-1904-4056-9d1e-7f083b235fa9",
                 "resourcePath": "objects\\obj_atk_up\\obj_atk_up.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "1db417e9-9e07-4a11-826e-22ab31d35839",
-            "Value": {
-                "id": "29f2579d-ec03-433e-8692-789822c03215",
-                "resourcePath": "sprites\\cave_ramp\\cave_ramp.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -556,6 +556,14 @@
                 "id": "8deaf56c-22f6-4865-ad73-21ac437b2802",
                 "resourcePath": "objects\\obj_savepoint_fire\\obj_savepoint_fire.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "32aece7d-246f-4667-9075-fe2095268d4d",
+            "Value": {
+                "id": "a32d9c9b-7728-446a-8399-3bee837034bf",
+                "resourcePath": "sprites\\spr_tile4\\spr_tile4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1380,6 +1388,14 @@
                 "id": "7c3cbce1-3e47-4c2d-8372-17d321359a87",
                 "resourcePath": "sprites\\spr_wasp_atk\\spr_wasp_atk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8cfee67e-7161-4ff5-8abd-6e0246cc521b",
+            "Value": {
+                "id": "0861b5fb-9b21-48fa-a5f8-e11b703f569e",
+                "resourcePath": "tilesets\\tileset3\\tileset3.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
