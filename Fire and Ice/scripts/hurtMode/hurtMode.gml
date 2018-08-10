@@ -7,6 +7,7 @@ switch(form){
 	sprite_index = hurt_bs;
 	break;
 	case 2:
+	sprite_index = hurt_f;
 	break;
 	case 3:
 	break;

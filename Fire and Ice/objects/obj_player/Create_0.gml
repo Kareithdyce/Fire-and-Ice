@@ -38,6 +38,7 @@ depth = -1;
 hascontrol = true;
 sliding = false;
 crouching = false;
+crouched = false;
 hit = false;
 move = 0;
 invincible = false;

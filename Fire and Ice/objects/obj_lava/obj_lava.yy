@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_lava",
     "eventList": [
-        
+        {
+            "id": "f984fc0a-1904-4248-ad99-bb1c49767483",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "693993a5-34a6-422d-a3e7-a70006307d48",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "2488d47e-fef1-46b7-8841-bf0996e6928c"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

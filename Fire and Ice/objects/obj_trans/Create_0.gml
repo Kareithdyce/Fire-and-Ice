@@ -1,8 +1,8 @@
 /// @description Size variables and mode setup
 //#macro SAVEFILE "save.ini"
-beta = false;
-#macro SAVEFILE "save.ini"
-//#macro SAVEFILE "betasave.ini"
+beta = !false;
+//#macro SAVEFILE "save.ini"
+#macro SAVEFILE "betasave.ini"
 
 w = display_get_gui_width();
 h = display_get_gui_height();

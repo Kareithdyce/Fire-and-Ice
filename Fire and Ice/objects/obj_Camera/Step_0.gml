@@ -2,7 +2,7 @@
 //Update destination
 if(instance_exists(follow)){
 	xTo = follow.x;
-	yTo = follow.y + follow.vspd;
+	yTo = follow.y;
 }else{
 	instance_destroy(self);
 }

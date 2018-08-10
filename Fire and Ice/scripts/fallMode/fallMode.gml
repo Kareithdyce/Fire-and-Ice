@@ -10,3 +10,8 @@ if (argument[0] == jump_bs1 || argument[0] == jump_bs2 || argument[0] == slide_b
     sprite_index = fall_bs; 
     image_speed = .6;   
 }
+
+if (argument[0] == jump_f1 || argument[0] == jump_f2 || argument[0] == slide_f || argument[0] == walk_f || argument[0] == crouch_f || argument[0] == idle_f){
+    sprite_index = fall_f; 
+    image_speed = .6;   
+}

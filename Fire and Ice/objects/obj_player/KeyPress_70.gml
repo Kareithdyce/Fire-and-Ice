@@ -6,6 +6,8 @@
 //jumps_max += 100;
 if(!obj_trans.beta){
 	saveGame();
+	form = 2;
+	idleForm();
 }
 /*
 if(!instance_exists(idk)){

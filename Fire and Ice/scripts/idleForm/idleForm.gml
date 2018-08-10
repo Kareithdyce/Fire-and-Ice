@@ -9,6 +9,7 @@ switch(form){
 	sprite_index = idle_bs;
 	break;
 	case 2:
+	sprite_index = idle_f;
 	break;
 	case 3:
 	break;
@@ -21,8 +22,16 @@ if(vspd > 0){
 else if(vspd < 0 ){
 	jumpMode(sprite_index);
 }
-else if(is_smashing && sprite_index != sword_air3_bs2){
-	sprite_index = sword_air3_bs2;
+else if(is_smashing && (sprite_index != sword_air3_bs2 && sprite_index != sword_air3_f2)){
+	switch(form){
+		case 1:
+		sprite_index = sword_air3_bs2;
+		break;
+		case 2:
+		sprite_index = sword_air3_f2;
+		break;
+	
+	}
 	image_speed = 1;
 	image_index = 0;
 }

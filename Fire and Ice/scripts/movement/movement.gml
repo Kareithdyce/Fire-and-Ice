@@ -3,7 +3,7 @@
 if(!hit){
 	if(!sliding){
 	move = key_left + key_right;
-	crouching  = (key_crouch || (sprite_index == crouch_b || sprite_index == crouch_bs));
+	crouching  = (key_crouch || crouched);
 	if(move != 0 && can_turn){
 		dirc = move;
 		image_xscale = dirc;
@@ -11,17 +11,14 @@ if(!hit){
 		if ((grounded) && !key_crouch){
 			if(move == 0){
 				idleMode(sprite_index);
-				}
+			}
 			else{
 				walkMode(sprite_index);
-				}
-			if(sprite_index != crouch_b && sprite_index != crouch_bs){
+			}
+			if(sprite_index != crouch_b && sprite_index != crouch_bs && sprite_index != crouch_f){
 				 crouching = false;
 			}
 		}
-
-
-	   
 		hspd = move * movespeed;
 
 		//Vertical Movement
@@ -76,7 +73,7 @@ if(vspd > gravMax){
 		
 
 //Aerial Smash
-if(is_smashing && sprite_index != sword_air3_bs2){
+if(is_smashing && (sprite_index != sword_air3_bs2 && sprite_index != sword_air3_f2)){
 	hspd = 0;
 	if(image_index >= image_number-1){
 		image_index = 2;
@@ -89,7 +86,7 @@ if(is_smashing && sprite_index != sword_air3_bs2){
 	idleForm();
 	}
 }
-if(sprite_index == sword_air3_bs2){
+if(sprite_index == sword_air3_bs2 || sprite_index == sword_air3_f2){
 	if(image_index >= image_number-1){
 	hascontrol = true;
 	is_smashing = false;
@@ -99,6 +96,8 @@ if(sprite_index == sword_air3_bs2){
 	idleForm();
 	}
 }
+
+
 
 
 //Attacking Movement
@@ -139,7 +138,7 @@ else{
 		hspd = 0;
 	}
 }
-if(sprite_index != crouch_b && sprite_index != crouch_bs){
+if(sprite_index != crouch_b && sprite_index != crouch_bs && sprite_index != crouch_f){
 	x += hspd;
 }
 //If meeting a breakable wall go thru it unless also going thru a solid wall then don't

@@ -19,3 +19,14 @@ if (argument[0] == idle_bs || argument[0] == fall_bs || argument[0] == crouch_bs
 	    image_speed = 1;   
 	}
 }
+
+
+if (argument[0] == idle_f || argument[0] == fall_f || argument[0] == crouch_f || argument[0] == slide_f || argument[0] == jump_f1 || argument[0] == jump_f2){
+    if((argument[0] == crouch_f || argument[0] == slide_f) && place_meeting(x,y-8,obj_walls)){
+		sprite_index = crouch_f;
+	}
+	else{
+		sprite_index = walk_f; 
+	    image_speed = 1;   
+	}
+}
