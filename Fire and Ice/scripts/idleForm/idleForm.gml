@@ -1,6 +1,6 @@
 /// @desc idleForm()
 image_speed = 1;
-	
+var image = sprite_index;
 switch(form){
 	case 0:
 	sprite_index = idle_b;
@@ -15,7 +15,10 @@ switch(form){
 	break;
 
 }
-if(vspd > 0){
+if(image == sword_air3_bs2 || image == sword_air3_f2){
+
+}
+else if(vspd > 0){
 	fallMode(sprite_index);
 }
 
@@ -40,4 +43,9 @@ else if(crouching){
 }
 else if(move!= 0){
 	walkMode(sprite_index);
+}
+else{
+	if(image == sword_air1_f || image == sword_air2_f || image == sword_air1_bs || image == sword_air2_bs ){
+		audio_play_sound(s_land,100,false);
+	}
 }

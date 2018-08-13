@@ -30,3 +30,9 @@ if (argument[0] == idle_f || argument[0] == fall_f || argument[0] == crouch_f ||
 	    image_speed = 1;   
 	}
 }
+
+
+//Playing landing sound
+if(argument[0] == fall_f || argument[0] == fall_b || argument[0] == fall_bs || argument[0] == jump_f1 || argument[0] == jump_b1 || argument[0] == jump_bs1 || argument[0] == jump_f2 || argument[0] == jump_b2 || argument[0] == jump_bs2){
+	audio_play_sound(s_land, 100, false);
+}

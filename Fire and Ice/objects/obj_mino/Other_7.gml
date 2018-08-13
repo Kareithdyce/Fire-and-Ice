@@ -20,6 +20,7 @@ if(ready){
 
 	else if(sprite_index == spr_mino_idle && intro){
 		sprite_index = spr_mino_atk2;
+		audio_play_sound(s_roar, 100,false);
 	}
 
 	else if(sprite_index == spr_mino_atk2 && intro){

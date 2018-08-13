@@ -39,10 +39,10 @@ if(instance_exists(obj_jumpthru_wall)){
 */
 
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, audio_sound_get_gain(m_cave));
+draw_text(x+50 ,y-100, move);
 draw_set_color(c_red);
-//draw_text(x+50 ,y-50, hspd);
+draw_text(x+50 ,y-50, number_of_jumps);
 draw_set_color(c_green);
-//draw_text(x+50 ,y, audio_is_playing(m_cave));
+draw_text(x+50 ,y, hspd);
 
 

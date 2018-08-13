@@ -120,3 +120,24 @@ if(dead && image_index >= image_number-1){
 		gameOver = true;
 	}
 }
+//Walking sound
+if(move != 0  && hspd != 0 && grounded && !sliding && !audio_is_playing(s_walk)){
+	audio_play_sound(s_walk, 50, true);	
+	audio_sound_pitch(s_walk, 2);
+}
+else if(!(move != 0 && grounded && hspd != 0 && !sliding)){
+	audio_stop_sound(s_walk);
+}
+
+//Sliding
+if(sliding && !audio_is_playing(s_slide)){
+		audio_play_sound(s_slide, 50, true);	
+}
+else if(!sliding){
+	audio_stop_sound(s_slide);
+}
+
+//Sheath
+if(sprite_index == sword_sheath_bs && image_index >= 0 && image_index <= 1 && !audio_is_playing(s_sheath)){
+	audio_play_sound(s_sheath,100,false);
+}

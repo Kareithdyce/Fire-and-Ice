@@ -13,6 +13,7 @@ else{
 		sprite_index = sword1_bs;
 		can_turn = false;
 		image_index = 0;
+		audio_play_sound(s_sword1, 100, false);
 	}
 
 	if(argument[0] == sword1_bs){
@@ -22,6 +23,7 @@ else{
 		can_turn = false;
 		sprite_index = sword2_bs;
 		image_index = 0;
+		audio_play_sound(s_sword2, 100, false);
 	}
 
 	if(argument[0] == sword2_bs){
@@ -33,6 +35,7 @@ else{
 		pAttack3 = true;
 		sprite_index = sword3_bs;
 		image_index = 0;
+		audio_play_sound(s_sword3, 100, false);
 	}
 
 	if(argument[0] == jump_bs1 || argument[0] == jump_bs2 ||  argument[0] == fall_bs){
@@ -40,9 +43,11 @@ else{
 		if(fHit){
 			image_speed = 1.2;
 			sprite_index = sword_air1_bs;
+			audio_play_sound(s_sword1, 100, false);
 		}else{
 			image_speed = 1;
 			sprite_index = sword_air2_bs;
+			audio_play_sound(s_sword2, 100, false);
 		}
 		fHit = !fHit;
 		can_turn = false;
@@ -57,6 +62,7 @@ else{
 		sprite_index = sword1_f;
 		can_turn = false;
 		image_index = 0;
+		audio_play_sound(s_sword1, 100, false);
 	}
 
 	if(argument[0] == sword1_f){
@@ -66,6 +72,7 @@ else{
 		can_turn = false;
 		sprite_index = sword2_f;
 		image_index = 0;
+		audio_play_sound(s_sword2, 100, false);
 	}
 
 	if(argument[0] == sword2_f){
@@ -77,6 +84,7 @@ else{
 		pAttack3 = true;
 		sprite_index = sword3_f;
 		image_index = 0;
+		audio_play_sound(s_sword3, 100, false);
 	}
 
 	if(argument[0] == jump_f1 || argument[0] == jump_f2 ||  argument[0] == fall_f){
@@ -84,9 +92,11 @@ else{
 		if(fHit){
 			image_speed = 1.2;
 			sprite_index = sword_air1_f;
+			audio_play_sound(s_sword1, 100, false);
 		}else{
 			image_speed = 1;
 			sprite_index = sword_air2_f;
+			audio_play_sound(s_sword2, 100, false);
 		}
 		fHit = !fHit;
 		can_turn = false;
