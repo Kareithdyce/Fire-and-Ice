@@ -37,14 +37,14 @@ if(!dead && !hit){
 	}
 	
 	if(!intro && !attacking && !resting){
-	
+		//slam
 		if(!point_in_rectangle(obj_player.x, obj_player.y,x-vrange,sprite_height,x+vrange,y+10) && point_in_rectangle(obj_player.x, obj_player.y,x-vrange-20,sprite_height,x+vrange+20,y+10)){
 			attacking = true;
 			hspd = 0;
 			sprite_index = spr_mino_atk1;
 			image_index = 0;	
 		}
-		
+		//slam bc too far
 		else if(!point_in_rectangle(obj_player.x, obj_player.y,x-(vrange*3),sprite_height,x+(vrange*3),y+10)){		
 			hspd = 0;
 			attacking = true;
@@ -52,8 +52,8 @@ if(!dead && !hit){
 			image_index = 0;
 			image_speed = .75;
 		}
-		
-		else if(!point_in_rectangle(obj_player.x, obj_player.y,x-vrange - 20,sprite_height,x+vrange+20,y+10)){
+		//Run at player
+		else if(!point_in_rectangle(obj_player.x, obj_player.y,x-vrange,sprite_height,x+vrange,y+10) && point_in_rectangle(obj_player.x, obj_player.y,x-(vrange*3),sprite_height,x+(vrange*3),y+10)){
 			hspd = movespeed;
 			enemy_run(enemy);
 		}
