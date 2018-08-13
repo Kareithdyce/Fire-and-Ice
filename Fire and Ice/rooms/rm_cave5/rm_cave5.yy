@@ -23,7 +23,7 @@
     "layers": [
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Ground",
             "id": "eae482d3-5d51-445d-bf2f-b83b44e4ad43",
             "depth": 0,
             "grid_x": 32,
@@ -106,7 +106,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_2",
+            "name": "Temple",
             "id": "704b44a2-c4fc-41b2-bd3a-57ac1a259837",
             "depth": 100,
             "grid_x": 32,

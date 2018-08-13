@@ -196,7 +196,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Ground",
             "id": "7f16566b-a54d-4e93-accf-13648e7e45a5",
             "depth": 100,
             "grid_x": 32,
@@ -327,7 +327,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_2",
+            "name": "Temple",
             "id": "21af3f90-69cd-4052-a952-4c5baf3ee6f4",
             "depth": 200,
             "grid_x": 32,

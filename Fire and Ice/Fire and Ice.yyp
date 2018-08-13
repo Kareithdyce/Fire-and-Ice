@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "363e0a75-cf1b-4e94-9132-f302dcbd1d17",
+            "Value": {
+                "id": "59d79f37-cad8-43e4-9832-26004a651684",
+                "resourcePath": "sounds\\m_fire_temple\\m_fire_temple.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "36955b3c-4b35-4155-995b-f3aeaf732179",
             "Value": {
                 "id": "147fcfbf-947b-48dd-a840-ca4260051650",
@@ -684,6 +692,14 @@
                 "id": "85248e6f-4088-4f0d-a50e-235a18fd7116",
                 "resourcePath": "views\\3c40606b-1b43-411b-a991-b8be5f7508a6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d2b3de2-3b38-48a5-9692-5cf5eaf0073f",
+            "Value": {
+                "id": "12973fcd-bf42-471b-b06d-15ddab526c35",
+                "resourcePath": "sounds\\m_forest\\m_forest.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -908,6 +924,14 @@
                 "id": "9bca10db-3c7c-483f-a02e-784d3821c0c3",
                 "resourcePath": "sprites\\spr_skeleton_react\\spr_skeleton_react.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5834b5ec-b910-4537-83e8-2cb803c818a7",
+            "Value": {
+                "id": "83776eb8-9f05-4877-840c-7e0819c895f8",
+                "resourcePath": "objects\\obj_music\\obj_music.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1364,6 +1388,14 @@
                 "id": "f58cd019-c338-4099-a169-5a3eeb37f9be",
                 "resourcePath": "scripts\\enemy_idle\\enemy_idle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "80cf52be-cd8c-4433-bffb-2e400c2184c3",
+            "Value": {
+                "id": "edaf5491-3ac1-483e-934f-b836e7de091f",
+                "resourcePath": "sounds\\m_cave\\m_cave.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -2463,6 +2495,14 @@
             }
         },
         {
+            "Key": "e5b74b1b-7688-4aca-b0a7-376a9e45895c",
+            "Value": {
+                "id": "575655ad-509e-4559-9623-1051d3136deb",
+                "resourcePath": "sounds\\m_boss\\m_boss.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e837771f-8141-4d86-b9f8-9358d6f9fd5f",
             "Value": {
                 "id": "37a0dd75-b6c4-4c52-bcbc-8ed2d52a1ec7",
@@ -2684,6 +2724,14 @@
                 "id": "5acdfcab-97ce-4ca1-8c7b-ddae14f77d2b",
                 "resourcePath": "sprites\\Forest6\\Forest6.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8e1c7bd-c58e-47b3-892d-3bc53be840f4",
+            "Value": {
+                "id": "f776abf0-5f65-4b71-a30c-19f06beb3381",
+                "resourcePath": "sounds\\m_boss_intro\\m_boss_intro.yy",
+                "resourceType": "GMSound"
             }
         },
         {

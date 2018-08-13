@@ -8,7 +8,7 @@ if(!attacking){
 }
 
 if(!hit && !dead){
-	if(!point_in_circle(obj_player.x, obj_player.y,x, y, radius)){
+	if(!point_in_circle(obj_player.x, obj_player.y,x, y, radius) && point_in_circle(obj_player.x, obj_player.y,x, y, radius*4)){
 		enemy_run(enemy);
 	}else{
 		enemy_idle(enemy);

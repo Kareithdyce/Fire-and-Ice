@@ -287,7 +287,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Temple",
             "id": "2e188528-dc74-4475-b510-b94f511a0e96",
             "depth": 100,
             "grid_x": 32,

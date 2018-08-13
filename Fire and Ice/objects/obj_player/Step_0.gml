@@ -53,6 +53,7 @@ if(!pause && !dead){
 	}else if (currentHealth <= 0) {
 		sprite_index = death_bs;
 		dead = true;
+		currentHealth = 0;
 	}
 	
 	if(invincible){

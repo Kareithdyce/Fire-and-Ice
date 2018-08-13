@@ -27,7 +27,7 @@
     "layers": [
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Ground",
             "id": "44dde195-648d-496b-9de6-41eac8caaf27",
             "depth": 0,
             "grid_x": 32,

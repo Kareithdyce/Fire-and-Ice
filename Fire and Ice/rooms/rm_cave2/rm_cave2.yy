@@ -348,7 +348,7 @@
     "layers": [
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_1",
+            "name": "Ground",
             "id": "3b82a96e-4556-4454-875f-542952fddcf8",
             "depth": 0,
             "grid_x": 32,
@@ -479,7 +479,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_2",
+            "name": "Temple",
             "id": "f894748a-4a0c-4aa0-a750-784f5dc9928f",
             "depth": 100,
             "grid_x": 32,
@@ -996,7 +996,7 @@
         },
         {
             "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Tiles_3",
+            "name": "Temple_Back",
             "id": "6968980b-0fc7-4a4b-b41d-52fe4ed4e0c9",
             "depth": 400,
             "grid_x": 32,

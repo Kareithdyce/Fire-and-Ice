@@ -1,5 +1,4 @@
 Controls
-Press R to Restart the game. 
 Right Arrow Key makes the charcter go right. 
 Left Arrow Key makes the charcter go left. 
 Up Arrow Key makes the charcter jump.
@@ -26,6 +25,7 @@ Adwit Rahman - Health UI
 Will Tice - Pixel Effects
 
 Music by Pascal Belisle
+Music by YouFulca (ttps://wingless-seraph.net)
 
 All artwork and sprites are used with owner permission however not all are endorsed.
 License - http://creativecommons.org/licenses/by/4.0/
