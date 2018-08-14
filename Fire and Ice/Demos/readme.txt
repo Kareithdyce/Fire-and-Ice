@@ -26,6 +26,8 @@ Will Tice - Pixel Effects
 
 Music by Pascal Belisle
 Music by YouFulca (ttps://wingless-seraph.net)
+Sound Effects from http://www.freesfx.co.uk
+Sound Effects from http://en.soundeffect-lab.info/
 
 All artwork and sprites are used with owner permission however not all are endorsed.
 License - http://creativecommons.org/licenses/by/4.0/

@@ -124,3 +124,19 @@ if(!dead && dirc != 0 && ready){
 	}
 
 }
+
+if(sprite_index == spr_mino_atk1 && image_index >= 4  && image_index < 5 && !play){
+		audio_play_sound(s_sword1, 100,false);
+		play = true;
+}
+else if(image_index >= 5){
+	play = false;
+}
+if(sprite_index == spr_mino_atk2 && image_index >= 4  && image_index < 5 && !play){
+		audio_play_sound(s_sword2, 100,false);
+		play = true;
+}
+
+else if(image_index >= 5){
+	play = false;
+}

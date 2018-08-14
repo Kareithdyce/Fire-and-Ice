@@ -13,7 +13,7 @@ if(file_exists(SAVEFILE)){
 		currentHealth = maxHealth;
 		maxMana = ini_read_real("Player", "MaxMana", 0);	
 		currentMana = maxMana;
-		atkpower = ini_read_real("Abilities", "AttackPower", 5);
+		//atkpower = ini_read_real("Abilities", "AttackPower", 5);
 		can_smash = ini_read_real("Abilities", "SmashAttack", false);
 		can_wall_jump = ini_read_real("Abilities", "WallJump", false);
 		var i = 0;

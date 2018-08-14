@@ -32,7 +32,7 @@ with(obj_player){
 
 	//Abilities
 	ini_write_real("Abilities", "WallJump", can_wall_jump);
-	ini_write_real("Abilities", "AttackPower", atkpower);
+	//ini_write_real("Abilities", "AttackPower", atkpower);
 	ini_write_real("Abilities", "SmashAttack", can_smash);
 
 	//HealthUps

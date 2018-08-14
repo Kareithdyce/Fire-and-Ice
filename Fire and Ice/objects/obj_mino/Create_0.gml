@@ -1,3 +1,4 @@
+
 /// @description Insert description here
 // You can write your code in this editor
 
@@ -19,3 +20,4 @@ true_color = image_blend;
 blink = 0;
 vrange = 50;
 rocked = false;
+play = false;

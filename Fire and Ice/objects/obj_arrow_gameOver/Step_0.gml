@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
-key_up = keyboard_check_pressed(ord("W")) 
-            || keyboard_check_pressed(vk_up) ||  gamepad_button_check_pressed(0,gp_padu);
+key_up = /*keyboard_check_pressed(ord("W")) 
+            ||*/ keyboard_check_pressed(vk_up) ||  gamepad_button_check_pressed(0,gp_padu);
         
-key_down = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S")) 
-            || gamepad_button_check_pressed(0,gp_padd);
+key_down = keyboard_check_pressed(vk_down) || /*keyboard_check_pressed(ord("S")) 
+            || */gamepad_button_check_pressed(0,gp_padd);
 
 key_confirm = keyboard_check_pressed(ord("X")) || (gamepad_button_check_pressed(0,gp_face2));
 
