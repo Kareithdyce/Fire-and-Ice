@@ -5,8 +5,13 @@ if(!revive){
 }
 if(!dead){
 	if(attacking){
+		if(image_index >= 5 && image_index <= 7 && !play){
+			audio_play_sound(s_sword2,100,false);
+			play = true;
+		}
 		if(!triggered && image_index >= 7){
 			triggered = true;
+			play = false;
 			with(instance_create_layer(x, y, layer_create(-1000), obj_skeleton_hitbox)){
 				user = other;
 			}

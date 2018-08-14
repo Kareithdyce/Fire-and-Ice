@@ -3,7 +3,7 @@
 if(!hit){
 	if(!sliding){
 	move = key_left + key_right;
-	crouching  = (key_crouch || crouched);
+	crouching  = ((key_crouch && grounded) || (sprite_index == crouch_b || sprite_index == crouch_bs || sprite_index == crouch_f));
 	if(move != 0 && can_turn){
 		dirc = move;
 		image_xscale = dirc;

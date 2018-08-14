@@ -9,3 +9,4 @@ enemy = "skeleton";
 movespeed = 0;
 run_speed = -3.5;
 dirc = 1;
+play = false;

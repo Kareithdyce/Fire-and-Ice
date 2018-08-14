@@ -13,7 +13,7 @@ if(argument[0] == "slime"){
 	}else if(mode == 2){
 		sprite_index = spr_slime_fire_attack;
 	}
-		
+	audio_play_sound(s_slime_atk,100,false);
 	image_index = 0;
 	image_speed = 1;
 	attacking = true;

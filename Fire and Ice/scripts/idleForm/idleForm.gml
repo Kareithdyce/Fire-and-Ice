@@ -23,7 +23,15 @@ else if(vspd > 0){
 }
 
 else if(vspd < 0 ){
-	jumpMode(sprite_index);
+	if(image == sword_air1_bs || image == sword_air2_bs){
+		sprite_index = jump_bs1;
+	}
+	else if(image == sword_air1_f || image == sword_air2_f){
+		sprite_index = jump_f1;
+	}
+	else{
+		jumpMode(sprite_index);
+	}
 }
 else if(is_smashing && (sprite_index != sword_air3_bs2 && sprite_index != sword_air3_f2)){
 	switch(form){

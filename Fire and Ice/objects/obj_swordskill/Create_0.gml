@@ -7,3 +7,4 @@ init = false;
 text = "You learned the downward slash!";
 text += "\nWhile in the air hold down and then attack";
 text += "\nPress any button to continue";
+audio_play_sound(s_skill_learn,100,false);

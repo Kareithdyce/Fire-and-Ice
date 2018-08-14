@@ -5,6 +5,7 @@ if(!paused){
 	y = obj_player.y+6;
 }
 else{
+	audio_stop_sound(s_skill_learn);
 	if(press_any_key()){
 	with(obj_atk_up){
 		pause = false;

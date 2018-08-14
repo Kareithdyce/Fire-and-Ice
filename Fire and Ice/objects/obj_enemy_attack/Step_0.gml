@@ -6,3 +6,4 @@ image_xscale = user.dirc;
 if(user.hp <= 0 || user.dead){
 	instance_destroy(self);	
 }
+can_hurt = true;

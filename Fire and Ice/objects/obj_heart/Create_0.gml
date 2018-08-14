@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-getInput();
+key_fall_thru = false;
 grav = obj_player.grav/2;
 healing = 25;
 alarm[0] = room_speed* 5;

@@ -14,16 +14,19 @@ key_back  = keyboard_check_pressed(ord("C")) || (gamepad_button_check_pressed(0,
 if(key_up && choice != 0){
 	y-= 75;
 	choice--;
+	audio_play_sound(s_cursor, 100, false);
 }
 else if(key_down && choice != 1){
 	y+= 75;
 	choice++;
+	audio_play_sound(s_cursor, 100, false);
 }
 
 else if(key_confirm){
 	switch(choice){
 		case 0:
-			slideTrans(TRANS_MODE.RESTART);	
+			slideTrans(TRANS_MODE.RESTART);
+			audio_play_sound(s_cont, 100, false);
 			break;
 		case 1:
 			game_end();
