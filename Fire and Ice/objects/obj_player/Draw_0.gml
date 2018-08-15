@@ -37,12 +37,9 @@ if(instance_exists(obj_jumpthru_wall)){
 
 }
 */
-
 draw_set_color(c_fuchsia);
-//draw_text(x+50 ,y-100, crouching);
+//draw_text(x+50 ,y-100, obj_wasp.is_waiting);
 draw_set_color(c_red);
-//draw_text(x+50 ,y-50, number_of_jumps);
+//draw_text(x+50 ,y-50, obj_wasp.alarm[1]);
 draw_set_color(c_green);
-//draw_text(x+50 ,y, crouching);
-
-
+//draw_text(x+50 ,y, obj_wasp.mover);

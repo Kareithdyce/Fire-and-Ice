@@ -3,14 +3,25 @@
 if(!hit && !attacking){
 	hspd = dirc * movespeed;
 }
-vspd += grav;
-if(vspd > gravMax){
-	vspd = gravMax;
-}
+
 //Collisions
-vertical_collision_enemy();
+if(flying && !dead){
+	vspd = hoverspeed;
+	vertical_collision()
+}
+else{
+	vspd += grav;
+	if(vspd > gravMax){
+		vspd = gravMax;
+	}
+	vertical_collision_enemy();
+}
 y += vspd;
 if(!keep_walking()){
 	horizontal_collision_enemy();
 	x += hspd;
+}
+else if(flying){
+		horizontal_collision();
+		x += hspd;
 }

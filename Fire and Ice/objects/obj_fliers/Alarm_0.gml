@@ -4,7 +4,7 @@ if(!dead){
 	hit = false;
 	enemy_idle(enemy);
 	attacking = false;
-	dirc = obj_player.dirc;
+	dirc = sign(x - obj_player.x);
 	invincible = false;
 		
 }

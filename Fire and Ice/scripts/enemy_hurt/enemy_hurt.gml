@@ -1,4 +1,4 @@
-if(!invincible){
+if(!invincible && !dead){
 	if(argument[0] == "skeleton"){
 		if(awake && !revive){
 			invincible = true;
@@ -25,6 +25,7 @@ if(!invincible){
 	}
 	
 	if(argument[0] == "wasp"){
+		temp = y;
 		sprite_index = spr_wasp_hurt;
 		hp -= obj_player.atkpower;
 		image_speed = 1;
@@ -32,6 +33,7 @@ if(!invincible){
 		invincible = true;
 		player_seen = true;
 		alarm[0] = room_speed*.4;
+		hoverspeed = 0;
 	}
 	
 	if(argument[0] == "mino"){
@@ -55,7 +57,12 @@ if(!invincible){
 	}
 	
 	hspd = obj_player.dirc*(hitspeed + obj_player.knockback); 
+	if(flying){
+		flying_hit_collision();	
+	}
+	else{
 	horizontal_collision();
+	}
 	x+= hspd;
 	hspd = 0;
 }

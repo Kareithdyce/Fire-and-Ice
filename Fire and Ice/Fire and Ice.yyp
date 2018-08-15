@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "17d169dd-e3b7-4562-ac99-d5714795e422",
+            "Value": {
+                "id": "2c6841ee-c31b-4aa9-96cb-d11d2039d18a",
+                "resourcePath": "sounds\\s_lava\\s_lava.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "185811b1-4710-4603-b03d-68ae5e58b5b0",
             "Value": {
                 "id": "1d249f74-3872-4fd4-ba0a-9f717c22efcb",
@@ -340,6 +348,14 @@
                 "id": "ddf1a5df-36e0-4805-9c8e-e3edd0ed9be6",
                 "resourcePath": "sounds\\m_gameover\\m_gameover.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "1b67ac27-fb12-425b-9da5-4aa1153afbbc",
+            "Value": {
+                "id": "b921f01b-bafe-4a1c-8943-16512caa1e0f",
+                "resourcePath": "scripts\\fly_cycle\\fly_cycle.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1663,6 +1679,14 @@
             }
         },
         {
+            "Key": "8e8277ee-4864-4419-86f4-f93715313e26",
+            "Value": {
+                "id": "454c8389-38e6-416d-b19d-89466c2c1f3d",
+                "resourcePath": "scripts\\flying_hit_collision\\flying_hit_collision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8eb968ad-945f-45d0-a299-67dd3fcae443",
             "Value": {
                 "id": "322dd737-efee-43c1-a6ae-b9196ba569da",
@@ -2076,6 +2100,14 @@
                 "id": "d1e5653f-66d6-4e62-8d3a-18187481e20e",
                 "resourcePath": "views\\acc8d617-2ecc-492e-9683-96a95c87f93a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad50c4ae-7889-4dbc-bf1f-d08e5cb25108",
+            "Value": {
+                "id": "7c644772-6504-47ce-9354-912de577d33f",
+                "resourcePath": "sounds\\s_skele_die\\s_skele_die.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -3000,6 +3032,7 @@
         "df13ab08-ec41-4364-b40e-c6e3676aa02e",
         "a5b7d9a9-0ca9-4a12-8b6f-b0257ecd5833",
         "c2f79140-2eae-4170-bbbd-6392289c647e",
+        "8e8277ee-4864-4419-86f4-f93715313e26",
         "2379ca74-81d1-43d0-af2c-a877314f10f7",
         "5de96c74-df85-46f7-b11d-efb71bfc6a70",
         "b147aed4-273e-45f7-b734-f7a7629b59a5",
@@ -3012,6 +3045,7 @@
         "d8dce65d-e387-4ea9-af1b-1a2c368f1932",
         "1515971e-da52-4839-b57e-50714da04bea",
         "4940eb9c-a815-47d0-9f58-d8b203aae516",
+        "1b67ac27-fb12-425b-9da5-4aa1153afbbc",
         "928cb284-0edd-48af-9c45-505bd2501f17",
         "0f573502-6a70-4848-bbf9-537979f3551b"
     ],

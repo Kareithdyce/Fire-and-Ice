@@ -1,15 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(obj_trans.beta){
-	instance_destroy();
-}
 // Inherit the parent event
 event_inherited();
 enemy = "wasp";
 hp = 15;
 atk = 3;
-movespeed = 0;
+fly_speed = 2.5;
+float_speed = 2.5;
+movespeed = 2;
 hitspeed = 15;
 grav = 0;
 player_seen = false;
 dirc = 1;
+ready = false;

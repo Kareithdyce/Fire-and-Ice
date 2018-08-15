@@ -54,3 +54,9 @@ if(dead && !vertical_collision()){
 	hspd += grav;
 	vertical_collision();
 }
+
+if(dead && image_index >= 6 && !play){
+	audio_play_sound(s_skele_die,50,false);
+	audio_sound_pitch(s_skele_die, 3);
+	play = true;	
+}

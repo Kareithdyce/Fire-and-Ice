@@ -142,3 +142,7 @@ repeat(NumSwitches){
 
 //Gamepad Configuration
 gamepad_set_axis_deadzone(0,0.7);
+
+//SFX 
+raising = false;
+lowering = false;

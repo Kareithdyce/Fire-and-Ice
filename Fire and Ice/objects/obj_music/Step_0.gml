@@ -46,18 +46,18 @@ if(room == rm_cave4 && instance_exists(obj_mino)){
 	if(!audio_is_playing(m_boss_intro) && !audio_is_playing(m_boss) && obj_mino.ready && intro){
 		audio_sound_gain(m_cave, 0, 2000);
 		audio_play_sound(m_boss_intro, 1000, false);
-		audio_sound_gain(m_boss_intro, 1, 1000);
+		audio_sound_gain(m_boss_intro, .75, 1000);
 		
 		intro = false;
 	}
 	else if(!audio_is_playing(m_boss_intro) && !audio_is_playing(m_boss) && !intro){
 		audio_play_sound(m_boss, 1000, true);
-		audio_sound_gain(m_boss, 1, 0);
+		audio_sound_gain(m_boss, .75, 0);
 		
 		//intro = true;
 	}
 }
-else if(!instance_exists(obj_mino) && audio_is_playing(m_boss) && audio_sound_get_gain(m_boss) == 1){
+else if(!instance_exists(obj_mino) && audio_is_playing(m_boss) && audio_sound_get_gain(m_boss) == .75){
 	audio_sound_gain(m_boss, 0, 2000);
 	audio_sound_gain(m_cave, 1, 2000);
 	intro = true;
