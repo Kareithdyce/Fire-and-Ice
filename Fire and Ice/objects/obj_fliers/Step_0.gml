@@ -61,6 +61,6 @@ if(!hit && !dead && !attacking){
 
 if(attacking && !point_in_circle(obj_player.x, obj_player.y,x, y, radius)){
 	attacking = false;
-	player_seen = true;
+	player_seen = false;
 }
 event_inherited();

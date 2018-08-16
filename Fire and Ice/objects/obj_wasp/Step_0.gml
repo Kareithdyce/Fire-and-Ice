@@ -24,3 +24,14 @@ if(ready){
 	y += vspd;
 
 }
+if(attacking){
+	if(!triggered){
+		triggered = true;
+		with(instance_create_layer(x,y,layer_create(-1000),obj_wasp_hitbox)){
+			user = other;
+		}
+	}
+}
+else{
+	triggered = false;
+}

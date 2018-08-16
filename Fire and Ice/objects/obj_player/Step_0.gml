@@ -145,7 +145,7 @@ if(sprite_index == sword_sheath_bs && image_index >= 0 && image_index <= 1 && !a
 //Lava
 if(instance_exists(obj_lava)){
 	if(point_in_circle(x, obj_lava.y, x, y, 200) &&  (audio_sound_get_gain(s_lava) != 1 || !audio_is_playing(s_lava)) && !raising){
-		audio_play_sound(s_lava,10,false);
+		audio_play_sound(s_lava,10,true);
 		audio_sound_gain(s_lava, 1, 2000);
 		raising = true;
 		lowering = false;
@@ -157,4 +157,7 @@ if(instance_exists(obj_lava)){
 		lowering = true;
 	
 	}
+}
+else if(audio_is_playing(s_lava)){
+	audio_stop_sound(s_lava);
 }
