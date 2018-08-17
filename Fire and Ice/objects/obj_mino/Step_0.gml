@@ -88,7 +88,8 @@ if(!dead && !hit){
 				with(instance_create_layer(x + (75* dirc),y, layer_create(-1000), obj_hitbox_mino)){
 					user = other;
 					sprite_index = spr_mino_hitbox1;
-					damage = user.atk;
+					damage = other.atk;
+					can_hurt = true;
 				}
 			}
 			if(sprite_index == spr_mino_atk2 && (image_index >= 5 && image_index < 8)){
@@ -97,6 +98,7 @@ if(!dead && !hit){
 					user = other;
 					sprite_index = spr_mino_hitbox2;
 					damage = other.atk;
+					can_hurt = true;
 				}
 			}	
 		}
