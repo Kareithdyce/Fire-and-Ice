@@ -15,7 +15,7 @@ if (wall != noone) {
 	return true;
 	}
 	
-	if(wall.jump_thru && vspd > 0 && !key_fall_thru){
+	if(wall.jump_thru && vspd > 0 && !key_fall_thru)	{
 		if(!place_meeting(x,y,obj_wall)){
 			while (!place_meeting(x, y + sign(vspd), obj_wall)){
 			    y += 1;
