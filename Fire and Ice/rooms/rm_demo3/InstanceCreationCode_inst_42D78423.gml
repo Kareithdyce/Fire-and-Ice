@@ -1,6 +1,6 @@
-target = rm_gameOver;
-setX = 50;
-setY = 348;
+target = rm_temple1;
+setX = 72;
+setY = 1472;
 
 
 

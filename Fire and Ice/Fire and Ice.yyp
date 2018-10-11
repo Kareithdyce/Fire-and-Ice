@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "149be466-9483-49a9-a82b-0b615f8095be",
+            "Value": {
+                "id": "36074f91-9b7d-4259-ae13-43b79347e805",
+                "resourcePath": "rooms\\rm_temple2\\rm_temple2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1515971e-da52-4839-b57e-50714da04bea",
             "Value": {
                 "id": "5a28b5c3-6033-4694-bb47-6aceb6fdb5f1",
@@ -2020,6 +2028,14 @@
                 "id": "f8db5477-756c-4d2b-8f19-8b07a5010a78",
                 "resourcePath": "scripts\\loseControl\\loseControl.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a699ff83-d3f1-4a8b-9423-6afaf4fc4962",
+            "Value": {
+                "id": "1c704ab1-3c8c-49da-af96-680eb4c03a09",
+                "resourcePath": "rooms\\rm_temple1\\rm_temple1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
